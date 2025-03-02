@@ -1,0 +1,286 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9;
+struct Exception_t;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct MethodInfo_t;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct String_t;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct CommandBuilder_tA2E5D7A513FE45173EA395D67B25DB94E42CCA84;
+
+IL2CPP_EXTERN_C RuntimeClass* BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EarlyInitHelpers_tA67F29CEEF85CD33340F1A46E13686C44F97695A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IContactsJobExtensions_EarlyJobInit_TisDisableCharacterDynamicContactsJob_t61179B7D0B977BFB9E92A6FB9E24C14301E477FD_m467EE56F5D2D35164048658D83BEE6CF5336A733_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationJob_tDECB7C1031431DF4472D07079899608C4A6FCB7C_m77868D85F310110A44788FCC48FC1A5711226B92_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationRememberTransformJob_t5F022C19614EE2B97D3B8FB5E74C8E58CEAAFDDB_mFC41709CBEC9814FFB9C985A9A7BCEBE211651CE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JobChunkExtensions_EarlyJobInit_TisKinematicCharacterDeferredImpulsesJob_t48D3A73395B2EBACAE02C0AD466394A8D13B3002_mE2A17FEE4E18AF516FAE1674D504494179473517_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JobChunkExtensions_EarlyJobInit_TisStoreKinematicCharacterBodyPropertiesJob_tDBD0D2673223AB3A027DD3B106BF54301F289C5C_mAEF4B5D1914FC7CF83D5363857B00AD828A025A5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JobChunkExtensions_EarlyJobInit_TisTrackedTransformFixedSimulationJob_t1FA91FB77B717FB49E73F7854EBB24A61E37B0F6_mC09151CC35A2EFC0A5D9AAEC990358B926EA8CEA_RuntimeMethod_var;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U24BurstDirectCallInitializer_t7D891701E0321DA93586C3D7E68F5212A544A257  : public RuntimeObject
+{
+};
+struct BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8  : public RuntimeObject
+{
+};
+struct BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9  : public RuntimeObject
+{
+	bool ____enableBurstCompilation;
+	bool ____enableBurstCompileSynchronously;
+	bool ____enableBurstSafetyChecks;
+	bool ____enableBurstTimings;
+	bool ____enableBurstDebug;
+	bool ____forceEnableBurstSafetyChecks;
+	bool ___U3CIsGlobalU3Ek__BackingField;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___U3COptionsChangedU3Ek__BackingField;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct __JobReflectionRegistrationOutput__5407208100875375915_tD4974593CD06E42D4AEE5FFFE1CF405DB1A8356B  : public RuntimeObject
+{
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_StaticFields
+{
+	bool ____IsEnabled;
+	BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9* ___Options;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnCompileILPPMethod2;
+	MethodInfo_t* ___DummyMethodInfo;
+};
+struct BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_ThreadStaticFields
+{
+	CommandBuilder_tA2E5D7A513FE45173EA395D67B25DB94E42CCA84* ____cmdBuilder;
+};
+struct BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9_StaticFields
+{
+	bool ___ForceDisableBurstCompilation;
+	bool ___ForceBurstCompilationSynchronously;
+	bool ___IsSecondaryUnityProcess;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationRememberTransformJob_t5F022C19614EE2B97D3B8FB5E74C8E58CEAAFDDB_mFC41709CBEC9814FFB9C985A9A7BCEBE211651CE_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationJob_tDECB7C1031431DF4472D07079899608C4A6FCB7C_m77868D85F310110A44788FCC48FC1A5711226B92_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IContactsJobExtensions_EarlyJobInit_TisDisableCharacterDynamicContactsJob_t61179B7D0B977BFB9E92A6FB9E24C14301E477FD_m467EE56F5D2D35164048658D83BEE6CF5336A733_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkExtensions_EarlyJobInit_TisKinematicCharacterDeferredImpulsesJob_t48D3A73395B2EBACAE02C0AD466394A8D13B3002_mE2A17FEE4E18AF516FAE1674D504494179473517_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkExtensions_EarlyJobInit_TisStoreKinematicCharacterBodyPropertiesJob_tDBD0D2673223AB3A027DD3B106BF54301F289C5C_mAEF4B5D1914FC7CF83D5363857B00AD828A025A5_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobChunkExtensions_EarlyJobInit_TisTrackedTransformFixedSimulationJob_t1FA91FB77B717FB49E73F7854EBB24A61E37B0F6_mC09151CC35A2EFC0A5D9AAEC990358B926EA8CEA_gshared (const RuntimeMethod* method) ;
+
+inline void JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationRememberTransformJob_t5F022C19614EE2B97D3B8FB5E74C8E58CEAAFDDB_mFC41709CBEC9814FFB9C985A9A7BCEBE211651CE (const RuntimeMethod* method)
+{
+	((  void (*) (const RuntimeMethod*))JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationRememberTransformJob_t5F022C19614EE2B97D3B8FB5E74C8E58CEAAFDDB_mFC41709CBEC9814FFB9C985A9A7BCEBE211651CE_gshared)(method);
+}
+inline void JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationJob_tDECB7C1031431DF4472D07079899608C4A6FCB7C_m77868D85F310110A44788FCC48FC1A5711226B92 (const RuntimeMethod* method)
+{
+	((  void (*) (const RuntimeMethod*))JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationJob_tDECB7C1031431DF4472D07079899608C4A6FCB7C_m77868D85F310110A44788FCC48FC1A5711226B92_gshared)(method);
+}
+inline void IContactsJobExtensions_EarlyJobInit_TisDisableCharacterDynamicContactsJob_t61179B7D0B977BFB9E92A6FB9E24C14301E477FD_m467EE56F5D2D35164048658D83BEE6CF5336A733 (const RuntimeMethod* method)
+{
+	((  void (*) (const RuntimeMethod*))IContactsJobExtensions_EarlyJobInit_TisDisableCharacterDynamicContactsJob_t61179B7D0B977BFB9E92A6FB9E24C14301E477FD_m467EE56F5D2D35164048658D83BEE6CF5336A733_gshared)(method);
+}
+inline void JobChunkExtensions_EarlyJobInit_TisKinematicCharacterDeferredImpulsesJob_t48D3A73395B2EBACAE02C0AD466394A8D13B3002_mE2A17FEE4E18AF516FAE1674D504494179473517 (const RuntimeMethod* method)
+{
+	((  void (*) (const RuntimeMethod*))JobChunkExtensions_EarlyJobInit_TisKinematicCharacterDeferredImpulsesJob_t48D3A73395B2EBACAE02C0AD466394A8D13B3002_mE2A17FEE4E18AF516FAE1674D504494179473517_gshared)(method);
+}
+inline void JobChunkExtensions_EarlyJobInit_TisStoreKinematicCharacterBodyPropertiesJob_tDBD0D2673223AB3A027DD3B106BF54301F289C5C_mAEF4B5D1914FC7CF83D5363857B00AD828A025A5 (const RuntimeMethod* method)
+{
+	((  void (*) (const RuntimeMethod*))JobChunkExtensions_EarlyJobInit_TisStoreKinematicCharacterBodyPropertiesJob_tDBD0D2673223AB3A027DD3B106BF54301F289C5C_mAEF4B5D1914FC7CF83D5363857B00AD828A025A5_gshared)(method);
+}
+inline void JobChunkExtensions_EarlyJobInit_TisTrackedTransformFixedSimulationJob_t1FA91FB77B717FB49E73F7854EBB24A61E37B0F6_mC09151CC35A2EFC0A5D9AAEC990358B926EA8CEA (const RuntimeMethod* method)
+{
+	((  void (*) (const RuntimeMethod*))JobChunkExtensions_EarlyJobInit_TisTrackedTransformFixedSimulationJob_t1FA91FB77B717FB49E73F7854EBB24A61E37B0F6_mC09151CC35A2EFC0A5D9AAEC990358B926EA8CEA_gshared)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EarlyInitHelpers_JobReflectionDataCreationFailed_mD6AB08D5BB411CCE38A87793C3C7062EC91FD1EC (Exception_t* ___0_ex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void __JobReflectionRegistrationOutput__5407208100875375915_CreateJobReflectionData_m0D578ED306FF2866A17EC76DF8545E278D371ADD (const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void __JobReflectionRegistrationOutput__5407208100875375915_CreateJobReflectionData_m0D578ED306FF2866A17EC76DF8545E278D371ADD (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IContactsJobExtensions_EarlyJobInit_TisDisableCharacterDynamicContactsJob_t61179B7D0B977BFB9E92A6FB9E24C14301E477FD_m467EE56F5D2D35164048658D83BEE6CF5336A733_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationJob_tDECB7C1031431DF4472D07079899608C4A6FCB7C_m77868D85F310110A44788FCC48FC1A5711226B92_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationRememberTransformJob_t5F022C19614EE2B97D3B8FB5E74C8E58CEAAFDDB_mFC41709CBEC9814FFB9C985A9A7BCEBE211651CE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JobChunkExtensions_EarlyJobInit_TisKinematicCharacterDeferredImpulsesJob_t48D3A73395B2EBACAE02C0AD466394A8D13B3002_mE2A17FEE4E18AF516FAE1674D504494179473517_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JobChunkExtensions_EarlyJobInit_TisStoreKinematicCharacterBodyPropertiesJob_tDBD0D2673223AB3A027DD3B106BF54301F289C5C_mAEF4B5D1914FC7CF83D5363857B00AD828A025A5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JobChunkExtensions_EarlyJobInit_TisTrackedTransformFixedSimulationJob_t1FA91FB77B717FB49E73F7854EBB24A61E37B0F6_mC09151CC35A2EFC0A5D9AAEC990358B926EA8CEA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	try
+	{
+		JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationRememberTransformJob_t5F022C19614EE2B97D3B8FB5E74C8E58CEAAFDDB_mFC41709CBEC9814FFB9C985A9A7BCEBE211651CE(JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationRememberTransformJob_t5F022C19614EE2B97D3B8FB5E74C8E58CEAAFDDB_mFC41709CBEC9814FFB9C985A9A7BCEBE211651CE_RuntimeMethod_var);
+		JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationJob_tDECB7C1031431DF4472D07079899608C4A6FCB7C_m77868D85F310110A44788FCC48FC1A5711226B92(JobChunkExtensions_EarlyJobInit_TisCharacterInterpolationJob_tDECB7C1031431DF4472D07079899608C4A6FCB7C_m77868D85F310110A44788FCC48FC1A5711226B92_RuntimeMethod_var);
+		IContactsJobExtensions_EarlyJobInit_TisDisableCharacterDynamicContactsJob_t61179B7D0B977BFB9E92A6FB9E24C14301E477FD_m467EE56F5D2D35164048658D83BEE6CF5336A733(IContactsJobExtensions_EarlyJobInit_TisDisableCharacterDynamicContactsJob_t61179B7D0B977BFB9E92A6FB9E24C14301E477FD_m467EE56F5D2D35164048658D83BEE6CF5336A733_RuntimeMethod_var);
+		JobChunkExtensions_EarlyJobInit_TisKinematicCharacterDeferredImpulsesJob_t48D3A73395B2EBACAE02C0AD466394A8D13B3002_mE2A17FEE4E18AF516FAE1674D504494179473517(JobChunkExtensions_EarlyJobInit_TisKinematicCharacterDeferredImpulsesJob_t48D3A73395B2EBACAE02C0AD466394A8D13B3002_mE2A17FEE4E18AF516FAE1674D504494179473517_RuntimeMethod_var);
+		JobChunkExtensions_EarlyJobInit_TisStoreKinematicCharacterBodyPropertiesJob_tDBD0D2673223AB3A027DD3B106BF54301F289C5C_mAEF4B5D1914FC7CF83D5363857B00AD828A025A5(JobChunkExtensions_EarlyJobInit_TisStoreKinematicCharacterBodyPropertiesJob_tDBD0D2673223AB3A027DD3B106BF54301F289C5C_mAEF4B5D1914FC7CF83D5363857B00AD828A025A5_RuntimeMethod_var);
+		JobChunkExtensions_EarlyJobInit_TisTrackedTransformFixedSimulationJob_t1FA91FB77B717FB49E73F7854EBB24A61E37B0F6_mC09151CC35A2EFC0A5D9AAEC990358B926EA8CEA(JobChunkExtensions_EarlyJobInit_TisTrackedTransformFixedSimulationJob_t1FA91FB77B717FB49E73F7854EBB24A61E37B0F6_mC09151CC35A2EFC0A5D9AAEC990358B926EA8CEA_RuntimeMethod_var);
+		goto IL_002f;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0024;
+		}
+		throw e;
+	}
+
+CATCH_0024:
+	{
+		Exception_t* L_0 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&EarlyInitHelpers_tA67F29CEEF85CD33340F1A46E13686C44F97695A_il2cpp_TypeInfo_var)));
+		EarlyInitHelpers_JobReflectionDataCreationFailed_mD6AB08D5BB411CCE38A87793C3C7062EC91FD1EC(L_0, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_002f;
+	}
+
+IL_002f:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void __JobReflectionRegistrationOutput__5407208100875375915_EarlyInit_m596B04720425E255C3674B875376E139F8D05741 (const RuntimeMethod* method) 
+{
+	{
+		__JobReflectionRegistrationOutput__5407208100875375915_CreateJobReflectionData_m0D578ED306FF2866A17EC76DF8545E278D371ADD(NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U24BurstDirectCallInitializer_Initialize_mE1945A7D42034726A22878231968E479BEBFD07F (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9* V_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var);
+		BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9* L_0 = ((BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_StaticFields*)il2cpp_codegen_static_fields_for(BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var))->___Options;
+		V_0 = L_0;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif

@@ -1,0 +1,20 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/GameUIStyle.uss?fileID=7433441132597879392&amp;guid=0db2e0309ecb979449fbac6e0eb78559&amp;type=3#GameUIStyle[UNSUPPORTED_IN_UI_BUILDER]" />
+    <engine:VisualElement name="Canvas" class="canvas canvas-transparent-background" style="flex-grow: 1;">
+        <engine:VisualElement name="Container" class="container" style="flex-grow: 1;">
+            <engine:VisualElement name="UIWrapper" style="flex-grow: 1;">
+                <engine:VisualElement name="InGamePanel" style="flex-grow: 1;">
+                    <engine:VisualElement class="input-container" style="flex-grow: 1;">
+                        <engine:Slider label="Look Sensitivity" value="3" high-value="8" name="LookSensitivitySlider" low-value="0.1" tabindex="1" />
+                    </engine:VisualElement>
+                    <engine:VisualElement class="input-container section-separator" style="flex-grow: 1;">
+                        <engine:Toggle label="Invert Y axis" name="InvertYAxis" tabindex="2" />
+                    </engine:VisualElement>
+                    <engine:Button text="Resume" name="ResumeButton" tabindex="3" />
+                    <engine:Button text="Main Menu" name="MainMenuButton" tabindex="4" />
+                    <engine:Button text="Quit To Desktop" name="QuitButton" tabindex="5" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

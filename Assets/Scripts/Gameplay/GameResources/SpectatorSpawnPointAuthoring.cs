@@ -1,0 +1,20 @@
+using Unity.Entities;
+using UnityEngine;
+
+public class SpectatorSpawnPointAuthoring : MonoBehaviour
+{
+    public class Baker: Baker<SpectatorSpawnPointAuthoring>
+    {
+        public override void Bake(SpectatorSpawnPointAuthoring authoring)
+        {
+            Entity entity = GetEntity(TransformUsageFlags.Dynamic);
+            AddComponent(entity, new SpectatorSpawnPoint());
+        }
+    }
+}
+
+public struct SpectatorSpawnPoint : IComponentData
+{
+
+}
+

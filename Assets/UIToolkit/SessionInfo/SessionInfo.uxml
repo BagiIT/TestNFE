@@ -1,0 +1,19 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/SessionInfo/SessionInfoStyle.uss?fileID=7433441132597879392&amp;guid=83b6470f0c8b0924884641ccc0a85e02&amp;type=3#SessionInfoStyle" />
+    <engine:VisualElement name="Canvas" picking-mode="Ignore" class="session-info-canvas" style="flex-grow: 1;">
+        <engine:VisualElement name="SessionInfoContainer" class="session-info-container" style="flex-grow: 0;">
+            <engine:VisualElement class="horizontal-container" style="flex-grow: 1;">
+                <engine:VisualElement name="container-top-line" class="container-top-line" style="flex-grow: 1;">
+                    <engine:Label text="BinaryInfo" name="BinaryInfo" picking-mode="Ignore" class="binary-info" />
+                    <engine:Label text="RightInfo" name="RightInfo" picking-mode="Ignore" class="right-info" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:Label text="BuildInfo - Args" name="ArgsInfo" picking-mode="Ignore" class="args-info" />
+            <engine:Label text="HardwareInfo" name="HardwareInfo" picking-mode="Ignore" class="hardware-info" />
+            <engine:VisualElement name="container-bottom-line" class="container-top-line" style="flex-grow: 1;">
+                <engine:Label text="ConnectionStatus" name="ConnectionInfo" class="connection-info horizontal-grow" />
+                <engine:Label text="Hide/Show" name="ShowSessionInfo" picking-mode="Ignore" class="session-info-lable" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

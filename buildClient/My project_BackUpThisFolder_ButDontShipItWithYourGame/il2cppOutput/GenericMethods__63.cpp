@@ -1,0 +1,16698 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+struct ConstrainedActionInvoker0
+{
+	static inline void Invoke (RuntimeClass* type, const RuntimeMethod* constrainedMethod, void* boxBuffer, void* obj)
+	{
+		il2cpp_codegen_runtime_constrained_call(type, constrainedMethod, boxBuffer, obj, NULL, NULL);
+	}
+};
+template <typename T1, typename T2, typename T3>
+struct ConstrainedActionInvoker3
+{
+	static inline void Invoke (RuntimeClass* type, const RuntimeMethod* constrainedMethod, void* boxBuffer, void* obj, T1 p1, T2 p2, T3 p3)
+	{
+		void* params[3] = { &p1, &p2, &p3 };
+		il2cpp_codegen_runtime_constrained_call(type, constrainedMethod, boxBuffer, obj, params, params[2]);
+	}
+};
+template <typename T1, typename T2, typename T3, typename T4>
+struct ConstrainedActionInvoker4
+{
+	static inline void Invoke (RuntimeClass* type, const RuntimeMethod* constrainedMethod, void* boxBuffer, void* obj, T1 p1, T2 p2, T3 p3, T4 p4)
+	{
+		void* params[4] = { &p1, &p2, &p3, &p4 };
+		il2cpp_codegen_runtime_constrained_call(type, constrainedMethod, boxBuffer, obj, params, params[3]);
+	}
+};
+template <typename R>
+struct ConstrainedFuncInvoker0
+{
+	static inline R Invoke (RuntimeClass* type, const RuntimeMethod* constrainedMethod, void* boxBuffer, void* obj)
+	{
+		R ret;
+		il2cpp_codegen_runtime_constrained_call(type, constrainedMethod, boxBuffer, obj, NULL, &ret);
+		return ret;
+	}
+};
+template <typename R, typename T1, typename T2, typename T3>
+struct ConstrainedFuncInvoker3;
+template <typename R, typename T1, typename T2, typename T3>
+struct ConstrainedFuncInvoker3<R, T1, T2, T3*>
+{
+	static inline R Invoke (RuntimeClass* type, const RuntimeMethod* constrainedMethod, void* boxBuffer, void* obj, T1 p1, T2 p2, T3* p3)
+	{
+		R ret;
+		void* params[3] = { &p1, &p2, p3 };
+		il2cpp_codegen_runtime_constrained_call(type, constrainedMethod, boxBuffer, obj, params, &ret);
+		return ret;
+	}
+};
+
+struct UnsafeList_1_tCBC139E2EDB3C2FAD6548EBC48F7588302527263;
+struct UnsafeList_1_t01F63DF0FAEC1F049C346A8DE04B0510B7C79084;
+struct UnsafeList_1_tD862182C55A7D6ECCFF4F0AF2AA2CD7B3F5BF172;
+struct UnsafeList_1_t9F46E019694A395ED071EADACC8171CF3C80A561;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22;
+struct Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31;
+struct CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A;
+struct CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028;
+struct Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A;
+struct String_t;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD;
+struct Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F;
+
+IL2CPP_EXTERN_C RuntimeClass* Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* int4_tBA77D4945786DE82C3A487B33955EA1004996052_il2cpp_TypeInfo_var;
+struct Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+};
+struct AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+};
+struct ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F 
+{
+	Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* ___m_Mesh;
+	uint32_t ___m_NumColliderKeyBits;
+};
+struct ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618 
+{
+	Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* ___m_Mesh;
+	uint32_t ___m_NumColliderKeyBits;
+};
+struct ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879 
+{
+	Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* ___m_Mesh;
+	uint32_t ___m_NumColliderKeyBits;
+};
+struct NativeList_1_t7B5673D7D43011DD8BF892715CCF73BC89700283 
+{
+	UnsafeList_1_t01F63DF0FAEC1F049C346A8DE04B0510B7C79084* ___m_ListData;
+};
+struct NativeList_1_t9A623DEB9B3834E1FE9126D46127B8C965F49AF1 
+{
+	UnsafeList_1_tD862182C55A7D6ECCFF4F0AF2AA2CD7B3F5BF172* ___m_ListData;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 
+{
+	UnsafeList_1_t9F46E019694A395ED071EADACC8171CF3C80A561* ___m_NodesList;
+	UnsafeList_1_tCBC139E2EDB3C2FAD6548EBC48F7588302527263* ___m_NodeFiltersList;
+	alignas(IL2CPP_SIZEOF_VOID_P) Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* ___m_Nodes;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A* ___m_NodeFilters;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 
+{
+	uint32_t ___U3CValueU3Ek__BackingField;
+};
+struct CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A 
+{
+	uint32_t ___BelongsTo;
+	uint32_t ___CollidesWith;
+	int32_t ___GroupIndex;
+};
+struct Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD 
+{
+	int32_t ___Index;
+	int32_t ___Version;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
+{
+	uint32_t ___m_value;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 
+{
+	bool ___x;
+	bool ___y;
+	bool ___z;
+	bool ___w;
+};
+struct float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct float4_t89D9A294E7A79BD81BFBDD18654508532958555E 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF 
+{
+	int32_t ___x;
+	int32_t ___y;
+	int32_t ___z;
+};
+struct int4_tBA77D4945786DE82C3A487B33955EA1004996052 
+{
+	int32_t ___x;
+	int32_t ___y;
+	int32_t ___z;
+	int32_t ___w;
+};
+struct ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917 
+{
+	CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___m_CompoundCollider;
+};
+struct ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769 
+{
+	Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* ___m_Mesh;
+	uint32_t ___m_NumColliderKeyBits;
+};
+struct RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E 
+{
+	CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___m_CompoundCollider;
+};
+struct U3CNumFreeLeafSlotsU3Ee__FixedBuffer_t6E2719E8945D405AC5268B620578ECECF7618831 
+{
+	union
+	{
+		struct
+		{
+			uint16_t ___FixedElementField;
+		};
+		uint8_t U3CNumFreeLeafSlotsU3Ee__FixedBuffer_t6E2719E8945D405AC5268B620578ECECF7618831__padding[8];
+	};
+};
+struct U3Cm_PairsLeftU3Ee__FixedBuffer_tE8DEA62B5C8F8095510C91F30B2ADE9D5670C4BE 
+{
+	union
+	{
+		struct
+		{
+			int32_t ___FixedElementField;
+		};
+		uint8_t U3Cm_PairsLeftU3Ee__FixedBuffer_tE8DEA62B5C8F8095510C91F30B2ADE9D5670C4BE__padding[1024];
+	};
+};
+struct U3Cm_PairsRightU3Ee__FixedBuffer_t98991BD2A37CC20B3E09AB228344EC6F4BCEA409 
+{
+	union
+	{
+		struct
+		{
+			int32_t ___FixedElementField;
+		};
+		uint8_t U3Cm_PairsRightU3Ee__FixedBuffer_t98991BD2A37CC20B3E09AB228344EC6F4BCEA409__padding[1024];
+	};
+};
+struct AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+	NativeList_1_t7B5673D7D43011DD8BF892715CCF73BC89700283 ___AllHits;
+};
+struct AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+	NativeList_1_t9A623DEB9B3834E1FE9126D46127B8C965F49AF1 ___AllHits;
+};
+struct QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77 
+{
+	void* ___m_CollectorPtr;
+	bool ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+struct QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E 
+{
+	void* ___m_CollectorPtr;
+	bool ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+struct QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32 
+{
+	void* ___m_CollectorPtr;
+	bool ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_pinvoke
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+#ifndef QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+#define QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com_define
+struct QueryInteractionCollector_2_t51B6EB84E28FC76165C10B6D7E17AAA54494B635_marshaled_com
+{
+	void* ___m_CollectorPtr;
+	int32_t ___m_IgnoreTriggers;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___m_EntityToIgnore;
+};
+#endif
+struct Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Min;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Max;
+};
+struct Allocator_t996642592271AAD9EE688F142741D512C07B5824 
+{
+	int32_t ___value__;
+};
+struct ColliderType_t05432742B7C1C85770E165353B7AC9781EBA531A 
+{
+	uint8_t ___value__;
+};
+struct CollisionType_t6275C2BE859F424F31C0DF2898B5E09DA46783EC 
+{
+	uint8_t ___value__;
+};
+struct FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 
+{
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Lx;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Hx;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Ly;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Hy;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Lz;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Hz;
+};
+struct Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Origin;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___m_Displacement;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CReciprocalDisplacementU3Ek__BackingField;
+};
+struct float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c1;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c2;
+};
+struct float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC 
+{
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c0;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c1;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c2;
+};
+struct quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 
+{
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value;
+};
+struct BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446 
+{
+	U3Cm_PairsLeftU3Ee__FixedBuffer_tE8DEA62B5C8F8095510C91F30B2ADE9D5670C4BE ___m_PairsLeft;
+	U3Cm_PairsRightU3Ee__FixedBuffer_t98991BD2A37CC20B3E09AB228344EC6F4BCEA409 ___m_PairsRight;
+	Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F* ___m_CollidingPairs;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A* ___m_BodyFiltersLeft;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A* ___m_BodyFiltersRight;
+	bool* ___m_BodyRespondsToCollisionLeft;
+	bool* ___m_BodyRespondsToCollisionRight;
+	int32_t ___m_BodyIndexABase;
+	int32_t ___m_BodyIndexBBase;
+	int32_t ___m_Count;
+};
+struct CombinePolicy_tE4E765B3EA711C02D7384972FC4F39D710A47D35 
+{
+	uint8_t ___value__;
+};
+struct MaterialFlags_t39DD5F916491200F9D407024468B7A37808F24C6 
+{
+	uint8_t ___value__;
+};
+struct NativeArray_1_t58ABDF1D70E02E1C5137BE1E64B0D5064B968645 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct ColliderHeader_t02773740D4FD32942FC0FFA46DC6EA5032DDE3FC 
+{
+	uint8_t ___Type;
+	uint8_t ___CollisionType;
+	uint8_t ___Version;
+	uint8_t ___Magic;
+	uint32_t ___ForceUniqueBlobID;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+};
+struct Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 
+{
+	uint8_t ___Flags;
+	uint8_t ___FrictionCombinePolicy;
+	uint8_t ___RestitutionCombinePolicy;
+	uint8_t ___CustomTags;
+	float ___Friction;
+	float ___Restitution;
+};
+struct RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD 
+{
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___rot;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___pos;
+};
+#pragma pack(push, tp, 1)
+struct Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 ___Bounds;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 ___Bounds_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___Data_OffsetPadding[96];
+					int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___Data;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___Data_OffsetPadding_forAlignmentOnly[96];
+					int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___Data_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___m_NodeData_OffsetPadding[112];
+					uint32_t ___m_NodeData;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___m_NodeData_OffsetPadding_forAlignmentOnly[112];
+					uint32_t ___m_NodeData_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___NumFreeLeafSlots_OffsetPadding[116];
+					U3CNumFreeLeafSlotsU3Ee__FixedBuffer_t6E2719E8945D405AC5268B620578ECECF7618831 ___NumFreeLeafSlots;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___NumFreeLeafSlots_OffsetPadding_forAlignmentOnly[116];
+					U3CNumFreeLeafSlotsU3Ee__FixedBuffer_t6E2719E8945D405AC5268B620578ECECF7618831 ___NumFreeLeafSlots_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___NumElements_OffsetPadding[124];
+					uint32_t ___NumElements;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___NumElements_OffsetPadding_forAlignmentOnly[124];
+					uint32_t ___NumElements_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD__padding[128];
+	};
+};
+#pragma pack(pop, tp)
+struct FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 
+{
+	float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___m_TransposedPoints;
+};
+struct MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC 
+{
+	float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___Rotation;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Translation;
+};
+struct FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_TargetColliderKey;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___m_TargetMaterial;
+	void* ___m_CollectorPtr;
+};
+struct FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_TargetColliderKey;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___m_TargetMaterial;
+	void* ___m_CollectorPtr;
+};
+struct FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_TargetColliderKey;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___m_TargetMaterial;
+	void* ___m_CollectorPtr;
+};
+struct FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_TargetColliderKey;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___m_TargetMaterial;
+	void* ___m_CollectorPtr;
+};
+struct FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_TargetColliderKey;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___m_TargetMaterial;
+	void* ___m_CollectorPtr;
+};
+struct FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_TargetColliderKey;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___m_TargetMaterial;
+	void* ___m_CollectorPtr;
+};
+struct Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31 
+{
+	ColliderHeader_t02773740D4FD32942FC0FFA46DC6EA5032DDE3FC ___m_Header;
+};
+struct DistanceHit_t24623CA3232004563796E8AA41E409369C35643E 
+{
+	float ___U3CFractionU3Ek__BackingField;
+	int32_t ___U3CRigidBodyIndexU3Ek__BackingField;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___U3CColliderKeyU3Ek__BackingField;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___U3CMaterialU3Ek__BackingField;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___U3CEntityU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CPositionU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CSurfaceNormalU3Ek__BackingField;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___QueryColliderKey;
+};
+struct RaycastHit_tE3537BC5FE6F1F4DBEE4843517092CBCDF0B5D56 
+{
+	float ___U3CFractionU3Ek__BackingField;
+	int32_t ___U3CRigidBodyIndexU3Ek__BackingField;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___U3CColliderKeyU3Ek__BackingField;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___U3CMaterialU3Ek__BackingField;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___U3CEntityU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CPositionU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CSurfaceNormalU3Ek__BackingField;
+};
+struct BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B 
+{
+	NativeArray_1_t58ABDF1D70E02E1C5137BE1E64B0D5064B968645 ___m_Bodies;
+	int32_t ___BaseRigidBodyIndex;
+};
+struct ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D 
+{
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___Transform;
+	float ___m_Scale;
+};
+struct ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+	int32_t ___U3CNumHitsU3Ek__BackingField;
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___m_ClosestHit;
+};
+struct ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+	int32_t ___U3CNumHitsU3Ek__BackingField;
+	RaycastHit_tE3537BC5FE6F1F4DBEE4843517092CBCDF0B5D56 ___m_ClosestHit;
+};
+struct QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 
+{
+	int32_t ___RigidBodyIndex;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___ColliderKey;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
+	uint32_t ___NumColliderKeyBits;
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D ___WorldFromLocalTransform;
+	bool ___IsInitialized;
+	float ___InvTargetScale;
+	bool ___IsFlipped;
+};
+struct QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_pinvoke
+{
+	int32_t ___RigidBodyIndex;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___ColliderKey;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
+	uint32_t ___NumColliderKeyBits;
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D ___WorldFromLocalTransform;
+	int32_t ___IsInitialized;
+	float ___InvTargetScale;
+	int32_t ___IsFlipped;
+};
+struct QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_com
+{
+	int32_t ___RigidBodyIndex;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___ColliderKey;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
+	uint32_t ___NumColliderKeyBits;
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D ___WorldFromLocalTransform;
+	int32_t ___IsInitialized;
+	float ___InvTargetScale;
+	int32_t ___IsFlipped;
+};
+struct ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 
+{
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___Collider;
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___Transform;
+	float ___Scale;
+	float ___MaxDistance;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 ___QueryContext;
+};
+struct ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363_marshaled_pinvoke
+{
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___Collider;
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___Transform;
+	float ___Scale;
+	float ___MaxDistance;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_pinvoke ___QueryContext;
+};
+struct ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363_marshaled_com
+{
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___Collider;
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___Transform;
+	float ___Scale;
+	float ___MaxDistance;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_com ___QueryContext;
+};
+struct PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D 
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Position;
+	float ___MaxDistance;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 ___QueryContext;
+};
+struct PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D_marshaled_pinvoke
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Position;
+	float ___MaxDistance;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_pinvoke ___QueryContext;
+};
+struct PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D_marshaled_com
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Position;
+	float ___MaxDistance;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_com ___QueryContext;
+};
+struct RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 
+{
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 ___Ray;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 ___QueryContext;
+};
+struct RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5_marshaled_pinvoke
+{
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 ___Ray;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_pinvoke ___QueryContext;
+};
+struct RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5_marshaled_com
+{
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 ___Ray;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_com ___QueryContext;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_StaticFields
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___zero;
+};
+struct float4_t89D9A294E7A79BD81BFBDD18654508532958555E_StaticFields
+{
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___zero;
+};
+struct int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_StaticFields
+{
+	int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___zero;
+};
+struct int4_tBA77D4945786DE82C3A487B33955EA1004996052_StaticFields
+{
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___zero;
+};
+struct Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853_StaticFields
+{
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 ___Empty;
+};
+struct RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_StaticFields
+{
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___identity;
+};
+struct Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_StaticFields
+{
+	int32_t ___k_ParentShift;
+	uint32_t ___k_ParentMask;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5_gshared (FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD133BD033A25B0152A28C5F8806DC74B194E4431_gshared (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m55C2C8672AD85DD86CC6DE1F7E61E8A3392CE2F2_gshared (FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mF88DF320F1C91C39F204C71F0038825D02F1B2E5_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E_gshared (FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m7787A4B338029EF2120ACE509E5067E45CCC9577_gshared (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m8570C074BA6252DDE209EA50CDBA0F494ADA34F2_gshared (FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m9F2DC9507CC956D5B13708FEE4D997AD0C2208FF_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3_gshared (QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m1D199AFBEDB768ADA31237DE3954B1E8E15FF320_gshared (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m433A57B407C2FB8F8F50A9776A29B71338E24D5D_gshared (QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8C824A925EB0AD2387F170368625992DD47B5E5F_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158_gshared (QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m60F182A9061EE57936D1524A396E34897FE9E955_gshared (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m5EF1DEAE2BA0EBF307BFE92CB2357B2FDCEAFD94_gshared (QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mCBA01736CC3E6623DD16D5538C8017AF2BEA46D1_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A_gshared (QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mCD0F210A8FD041248EEF3439DF2106395A8B42BA_gshared (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m2A0B7E01FCF853CAA0735B87DD44B97582A602AB_gshared (QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m039902D3AA540CC80DE73E2F63242272AA7F990E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_gshared_inline (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mDD7970536059BBE90E4B93BCDAF5B3EF8375ED68_gshared (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AllHitsCollector_1_get_EarlyOutOnFirstHit_mE118AC7368F1012CF3E14D5CEEB833635AD20042_gshared (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC83934F57FC1772A8EE26CE6FB298E3037D7081C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_gshared_inline (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m9B917CEEA1948199F2C7C1D926EBBBB4AFEE6B62_gshared (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AnyHitCollector_1_get_EarlyOutOnFirstHit_mCBBE1104D278E4CAA04D9C7AEF522BEE98586701_gshared (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB6DFC5C7347BAAA287DB40C15749FD9D8DE03689_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_gshared_inline (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mE5CA41F1569378E1B18D08CC0E4058CA95AC5C0E_gshared (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClosestHitCollector_1_get_EarlyOutOnFirstHit_mFBA88A44AF24EC6FED94B5C04A92B2E5D52BA472_gshared (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m0E1EB741F435422E97C3EA73263ED5FC2E527948_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56_gshared (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mF7B04BD36E9139135F5C0A3A4DA75335C45A1EC1_gshared (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_mE63145247172310B8125BE704537F10093D39CA9_gshared (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA11FFBD6A9515FFF70DCB730AB5E6104FA60CEDD_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C_gshared (FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m3E4F24D428857CCE4E9C89157C3903310BEE03BE_gshared (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m2451077ECA1F3C90B1A85AE77E3C841656B407F4_gshared (FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA0F6DBA33B07553A0DB4ED9B68E61F1D3695BC8E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F_gshared (FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m9DBFDB478F6E5CB4D9901B473F382A738214AA86_gshared (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m2C78F290826B06D71AB81C5EF40ADC057E06E243_gshared (FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m0BF0C21DA7DE32B8993FF3AEFCB3EE3B35C45FAA_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3E56C15A208924DD14A28E4AAF4FB90E27E9B93B_gshared (FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m53A3BAFF43C233A7E9AEC3F7CAE5ADEF6274B5A2_gshared (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m78D5602E36BB46CFCBDB29238CB0BA261CB408AB_gshared (FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m4E3E7C9903E1116097A21FEC86B1AB8F0AB8EAC4_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m68051BB9601AED78B9DFE48A2637F9A63D9C6DA9_gshared (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD999F46C4DF17662A2BFCA021FB5963715287625_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m4B7CBA574392BBE8B4B055DB9D8378B5445CA904_gshared (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1449584AB24B956196900C6CEF6386DCBE762419_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mA9DF8447D11076F35D116C3C1561555D31F99DF1_gshared (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m5DDE2C717ACF397D394FA92F55067DCA0BF0C121_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m38C96944F4B8F64E0F059A3E39C2F88B11430421_gshared (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m21FE4A5ED669DEC861AEE67F2394FD9928D1E160_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m062EE0DD1CD8E277E3AFBCC9D85467D964269C5E_gshared (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m9636326E3E43DCE8F4F405295C407B19BF5A322C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mD6EB35E3A319298646EEF250D6AB22400C44140E_gshared (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E46D6A93215B13E40A75715F90A258257A86B8E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m82F6661ABD6E3037FAC2FABD2DDCB1272A36D9F1_gshared (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3271489534A92C048D159FEB613CF6EFC6882FED_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m53E639F402AF2EDC7BBA114B2DB1EF14B34A93D5_gshared (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA04C7DE37D4939B5B8325315411F1584E4C66214_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m35586065C0A67A0362CF91B96F92AA976224133F_gshared (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m0E7039B1AA3224F8FE7E04FD846BD18DE30BA5B4_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB1F117066EC106837D501BB7EAB5043F5FE9E88A_gshared (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m9C880D748649132365CED159EECD6F4DEA4F571C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m465C23FE1EFAD3B2AD26835C314FF5C407C805A2_gshared (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3AD8A17BE8D0E3B2F0B6DDAED7A2C966640A0F09_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m4C81D94AB7042C11D044A0AB9ADDF6076D529EF5_gshared (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m11141A2543E68C666FD85BF34514B2E1818DCDE0_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m514D89AD80B3A3B5FA3CB552F4402A2437F616AC_gshared (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m1E02DFB68AFDC764A206E98F030C30EB73D54701_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m8356677E42AC4807CF9C8B820952C30C61DD8A2B_gshared (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m9E01082B782DCE78397BE4B2A4154E31AD1A4E3A_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mFF2C0CCD2E628004B6F0C7C7A0BC78CFBF581337_gshared (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m423B8B301128A7B6D5B725E426943B4EB73FE14D_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m152B9349AC3A170FA2C643901B85B19665C72251_gshared (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m0630B38BDFBA4A8647C6285D85013ABA9C9AB564_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m2ED5AFA3365F3E8FCD1481CA943B71A63AECC007_gshared (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mCA73A2A594357B28300E1F0D0AC984B6A3FEC19F_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mE44D2D9B93F5E163A6B4C03C9BDB58FD975E81C8_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Il2CppFullySharedGenericStruct* ___1_leafProcessor, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_m182784A7D1DABD395F456F385466C944BAF4087E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Il2CppFullySharedGenericStruct* ___1_leafProcessor, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E3FA5CDEDD868A89248EDBBFAA24FBB2E68700B_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_rigidBodyIndex, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m330F97871B672A0456164ACD234642C5C5270096_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m6D5CBA6F0A9441503C9C64B9F8C9C539DDD8FB74_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_rigidBodyIndex, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m51A15B879333839018E07EC4D4FB18E4FEFAB544_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mA302FC9D90308246758F1D7E92A13F1329FC9244_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_rigidBodyIndex, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mEECC4C0F9277318CF18E2D4F0F1D222423461BA2_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE2A04E90A999A0A1D1F75791D96D77FF4B49B432_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_rigidBodyIndex, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m40C3013FB5FD1C1C2FA1CF3D6D8958491218088C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m9E756AD24754337A2F387D8266D9CE1FC086F947_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_rigidBodyIndex, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mE1D969EF687F7C46474485B72723D80D6FE1B79E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m3BBFAEB9FDDD799FF6570732E37A9CE00CAA250E_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_rigidBodyIndex, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA6D25CFED52BC34014EFA8FE76C7CCFB35CECCAD_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m0F72B051B5EBD86EECD8CDDD6199695595B8C25C_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_rigidBodyIndex, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m805678162A79E5E705BB83D56DC199231EE5D23B_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mA505E4F0FB3A3A041525AA5AB25DF5852AE04EFB_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_rigidBodyIndex, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mAC27DAAB4D403791989EE2F56DCDC56E224519B1_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mB60AB73428369DED096EFA34EB8BEDD641FBEA3C_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_rigidBodyIndex, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mA218D8B95E753B7A73442268E45796FB06F36E1C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mDFFFA42B69784D85F92470DEDA6AEEF4F6686E6C_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_rigidBodyIndex, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m95ECA013FCEED07904B452ACFF890D39ACC3EE6E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m0D3732C9D48D9E691D1FAC9382870294CBE7C27F_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_rigidBodyIndex, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mAB424A9D5E03C4836EEF3A32B254C21100249511_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexCompoundLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m09448E7CA7DCBF14C4EA994338667DF079CA9BF9_gshared (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_leafData, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mE2DA5AC7FE34857975276BB92626EFF177F84CE0_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexCompoundLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3B26B78FD92C413D80421CDBBAA79300B9D4F49B_gshared (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_leafData, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mDD122A0AD2DB05D70AE0903EBA6AD07BDD6BE0CD_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexCompoundLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m43C99E328F9BBC8DC638C444B85A45F6627E48D7_gshared (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_leafData, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m2238AFB75554D2D0251E95D4430C91E6E63F79D2_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexCompoundLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m183F65188D1B326563C72ADDB62762CCED1A6D13_gshared (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_leafData, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8DAD77BA41332EB366C7FE9948D6FC5130C0CC36_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexCompoundLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mCC667F3083E8B6C3BB40EF37CDFDA138D9C3D4E9_gshared (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_leafData, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m758F2D281C28F6428D91F3B5632A67E720803E0C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexMeshLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mB48BCA35011279B5F5AE9A973C8A18DE98F4364C_gshared (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_primitiveKey, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m477013BC0CDD5D28430FA4D819D18A79E226205C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexMeshLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m0DC14311297EE71A317C342EC3F1657C8B70ED11_gshared (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_primitiveKey, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m4E0DDD6CF33345EAB9B7568D70417B7A54F60527_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexMeshLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m1304979D55CA378945282465EDA7CDAE7087260D_gshared (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_primitiveKey, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m6C8795A0B978E49165276290516DB00A6FB5871D_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexMeshLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mD92D6BCC0AF0EDE2D3501DB7B5B3376D32EAF498_gshared (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m346EF414103FF5C26E0CEEA11181B3D1F4833913_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexMeshLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m33CB7760D72B991173469390DEA5738A5453BD4F_gshared (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m9286F529B62BB4599503DAE9086C7DDB53454C9F_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Raycast_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mB00405C4385D9A314BF81B745E12D1101B1ADB5A_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Il2CppFullySharedGenericStruct* ___1_leafProcessor, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AllHitsCollector_1_get_MaxFraction_m2FBAFEDF3EE34124C2BBCA0D8EB4ADA2DE7FB651_gshared_inline (AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_RayLeaf_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m13799C33BF1DC4248B6F62F44CF07451E1ACCE50_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, int32_t ___1_rigidBodyIndex, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AllHitsCollector_1_get_EarlyOutOnFirstHit_m8119BFFC6C56991CEEAFCA8297B1C5E7F0544D1A_gshared (AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m7724DBE63AD18FCB113CEB53C22D2BD1234191A5_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AnyHitCollector_1_get_MaxFraction_mD44814005A33CD3DFB8CD378A1F51620954AD0E9_gshared_inline (AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_RayLeaf_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m096364BD7317CC078E25B3760161A42A6AD4A96B_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, int32_t ___1_rigidBodyIndex, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AnyHitCollector_1_get_EarlyOutOnFirstHit_m88C708CFCD5D01ADF220D6247074B81FC94F3F33_gshared (AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m28BF4F4C457C74D2AB28E1B60FF18BA5B224AE3D_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ClosestHitCollector_1_get_MaxFraction_m7623F138A458334F43D57B424BC984705C2D835D_gshared_inline (ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BvhLeafProcessor_RayLeaf_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m3CE07E5569458957D9C0C6E523191CA21408278F_gshared (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, int32_t ___1_rigidBodyIndex, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClosestHitCollector_1_get_EarlyOutOnFirstHit_mB8A78FC6230B97E2B2007F7FE2EC03171D1C59C7_gshared (ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m7FE1B745007C526BA2D8DDC6065EC8DB83E7F399_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RayCompoundLeafProcessor_RayLeaf_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mDEDC632FC4AF6B626C86D0633359C2502C430C14_gshared (RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, int32_t ___1_leafData, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Raycast_TisRayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m37652A32901B6578541E926BAA1D3DA0849EB8FD_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* ___1_leafProcessor, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RayCompoundLeafProcessor_RayLeaf_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_mC04CF0ECFB37A56382DA85A61541BE4175055596_gshared (RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, int32_t ___1_leafData, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Raycast_TisRayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m493124B44DDF0B8BBB7BC6AFDC9C067CA2116B41_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* ___1_leafProcessor, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method) ;
+
+inline float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5 (FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663 (bool ___0_condition, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___0_transform, float ___1_uniformScale, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85 (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* __this, Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 ___0_aabb, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___0_v, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* __this, FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* ___0_tranposedAabb, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___0_lhs, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline (int32_t* ___0_output, int32_t ___1_index, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___2_val, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___3_mask, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline (Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284 (int4_tBA77D4945786DE82C3A487B33955EA1004996052* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD133BD033A25B0152A28C5F8806DC74B194E4431 (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD133BD033A25B0152A28C5F8806DC74B194E4431_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m55C2C8672AD85DD86CC6DE1F7E61E8A3392CE2F2 (FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m55C2C8672AD85DD86CC6DE1F7E61E8A3392CE2F2_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mF88DF320F1C91C39F204C71F0038825D02F1B2E5 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mF88DF320F1C91C39F204C71F0038825D02F1B2E5_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E (FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E_gshared)(__this, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m7787A4B338029EF2120ACE509E5067E45CCC9577 (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m7787A4B338029EF2120ACE509E5067E45CCC9577_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m8570C074BA6252DDE209EA50CDBA0F494ADA34F2 (FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m8570C074BA6252DDE209EA50CDBA0F494ADA34F2_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m9F2DC9507CC956D5B13708FEE4D997AD0C2208FF (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m9F2DC9507CC956D5B13708FEE4D997AD0C2208FF_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3 (QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3_gshared)(__this, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m1D199AFBEDB768ADA31237DE3954B1E8E15FF320 (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m1D199AFBEDB768ADA31237DE3954B1E8E15FF320_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m433A57B407C2FB8F8F50A9776A29B71338E24D5D (QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m433A57B407C2FB8F8F50A9776A29B71338E24D5D_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8C824A925EB0AD2387F170368625992DD47B5E5F (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8C824A925EB0AD2387F170368625992DD47B5E5F_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158 (QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158_gshared)(__this, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m60F182A9061EE57936D1524A396E34897FE9E955 (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m60F182A9061EE57936D1524A396E34897FE9E955_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m5EF1DEAE2BA0EBF307BFE92CB2357B2FDCEAFD94 (QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m5EF1DEAE2BA0EBF307BFE92CB2357B2FDCEAFD94_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mCBA01736CC3E6623DD16D5538C8017AF2BEA46D1 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mCBA01736CC3E6623DD16D5538C8017AF2BEA46D1_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A (QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, const RuntimeMethod*))QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A_gshared)(__this, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mCD0F210A8FD041248EEF3439DF2106395A8B42BA (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mCD0F210A8FD041248EEF3439DF2106395A8B42BA_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m2A0B7E01FCF853CAA0735B87DD44B97582A602AB (QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, const RuntimeMethod*))QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m2A0B7E01FCF853CAA0735B87DD44B97582A602AB_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m039902D3AA540CC80DE73E2F63242272AA7F990E (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m039902D3AA540CC80DE73E2F63242272AA7F990E_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_gshared_inline)(__this, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mDD7970536059BBE90E4B93BCDAF5B3EF8375ED68 (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mDD7970536059BBE90E4B93BCDAF5B3EF8375ED68_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool AllHitsCollector_1_get_EarlyOutOnFirstHit_mE118AC7368F1012CF3E14D5CEEB833635AD20042 (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))AllHitsCollector_1_get_EarlyOutOnFirstHit_mE118AC7368F1012CF3E14D5CEEB833635AD20042_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC83934F57FC1772A8EE26CE6FB298E3037D7081C (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC83934F57FC1772A8EE26CE6FB298E3037D7081C_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_gshared_inline)(__this, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m9B917CEEA1948199F2C7C1D926EBBBB4AFEE6B62 (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m9B917CEEA1948199F2C7C1D926EBBBB4AFEE6B62_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool AnyHitCollector_1_get_EarlyOutOnFirstHit_mCBBE1104D278E4CAA04D9C7AEF522BEE98586701 (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))AnyHitCollector_1_get_EarlyOutOnFirstHit_mCBBE1104D278E4CAA04D9C7AEF522BEE98586701_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB6DFC5C7347BAAA287DB40C15749FD9D8DE03689 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB6DFC5C7347BAAA287DB40C15749FD9D8DE03689_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_gshared_inline)(__this, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mE5CA41F1569378E1B18D08CC0E4058CA95AC5C0E (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mE5CA41F1569378E1B18D08CC0E4058CA95AC5C0E_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool ClosestHitCollector_1_get_EarlyOutOnFirstHit_mFBA88A44AF24EC6FED94B5C04A92B2E5D52BA472 (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))ClosestHitCollector_1_get_EarlyOutOnFirstHit_mFBA88A44AF24EC6FED94B5C04A92B2E5D52BA472_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m0E1EB741F435422E97C3EA73263ED5FC2E527948 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m0E1EB741F435422E97C3EA73263ED5FC2E527948_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56 (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56_gshared)(__this, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mF7B04BD36E9139135F5C0A3A4DA75335C45A1EC1 (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mF7B04BD36E9139135F5C0A3A4DA75335C45A1EC1_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_mE63145247172310B8125BE704537F10093D39CA9 (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_mE63145247172310B8125BE704537F10093D39CA9_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA11FFBD6A9515FFF70DCB730AB5E6104FA60CEDD (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA11FFBD6A9515FFF70DCB730AB5E6104FA60CEDD_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C (FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C_gshared)(__this, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m3E4F24D428857CCE4E9C89157C3903310BEE03BE (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m3E4F24D428857CCE4E9C89157C3903310BEE03BE_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m2451077ECA1F3C90B1A85AE77E3C841656B407F4 (FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m2451077ECA1F3C90B1A85AE77E3C841656B407F4_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA0F6DBA33B07553A0DB4ED9B68E61F1D3695BC8E (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA0F6DBA33B07553A0DB4ED9B68E61F1D3695BC8E_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F (FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F_gshared)(__this, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m9DBFDB478F6E5CB4D9901B473F382A738214AA86 (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m9DBFDB478F6E5CB4D9901B473F382A738214AA86_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m2C78F290826B06D71AB81C5EF40ADC057E06E243 (FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m2C78F290826B06D71AB81C5EF40ADC057E06E243_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m0BF0C21DA7DE32B8993FF3AEFCB3EE3B35C45FAA (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m0BF0C21DA7DE32B8993FF3AEFCB3EE3B35C45FAA_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3E56C15A208924DD14A28E4AAF4FB90E27E9B93B (FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3E56C15A208924DD14A28E4AAF4FB90E27E9B93B_gshared)(__this, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m53A3BAFF43C233A7E9AEC3F7CAE5ADEF6274B5A2 (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m53A3BAFF43C233A7E9AEC3F7CAE5ADEF6274B5A2_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m78D5602E36BB46CFCBDB29238CB0BA261CB408AB (FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m78D5602E36BB46CFCBDB29238CB0BA261CB408AB_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m4E3E7C9903E1116097A21FEC86B1AB8F0AB8EAC4 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m4E3E7C9903E1116097A21FEC86B1AB8F0AB8EAC4_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m68051BB9601AED78B9DFE48A2637F9A63D9C6DA9 (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m68051BB9601AED78B9DFE48A2637F9A63D9C6DA9_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD999F46C4DF17662A2BFCA021FB5963715287625 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD999F46C4DF17662A2BFCA021FB5963715287625_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m4B7CBA574392BBE8B4B055DB9D8378B5445CA904 (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m4B7CBA574392BBE8B4B055DB9D8378B5445CA904_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1449584AB24B956196900C6CEF6386DCBE762419 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1449584AB24B956196900C6CEF6386DCBE762419_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mA9DF8447D11076F35D116C3C1561555D31F99DF1 (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mA9DF8447D11076F35D116C3C1561555D31F99DF1_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m5DDE2C717ACF397D394FA92F55067DCA0BF0C121 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m5DDE2C717ACF397D394FA92F55067DCA0BF0C121_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m38C96944F4B8F64E0F059A3E39C2F88B11430421 (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m38C96944F4B8F64E0F059A3E39C2F88B11430421_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m21FE4A5ED669DEC861AEE67F2394FD9928D1E160 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m21FE4A5ED669DEC861AEE67F2394FD9928D1E160_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m062EE0DD1CD8E277E3AFBCC9D85467D964269C5E (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m062EE0DD1CD8E277E3AFBCC9D85467D964269C5E_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m9636326E3E43DCE8F4F405295C407B19BF5A322C (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m9636326E3E43DCE8F4F405295C407B19BF5A322C_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mD6EB35E3A319298646EEF250D6AB22400C44140E (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mD6EB35E3A319298646EEF250D6AB22400C44140E_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E46D6A93215B13E40A75715F90A258257A86B8E (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E46D6A93215B13E40A75715F90A258257A86B8E_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m82F6661ABD6E3037FAC2FABD2DDCB1272A36D9F1 (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m82F6661ABD6E3037FAC2FABD2DDCB1272A36D9F1_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3271489534A92C048D159FEB613CF6EFC6882FED (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3271489534A92C048D159FEB613CF6EFC6882FED_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m53E639F402AF2EDC7BBA114B2DB1EF14B34A93D5 (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m53E639F402AF2EDC7BBA114B2DB1EF14B34A93D5_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA04C7DE37D4939B5B8325315411F1584E4C66214 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA04C7DE37D4939B5B8325315411F1584E4C66214_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m35586065C0A67A0362CF91B96F92AA976224133F (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m35586065C0A67A0362CF91B96F92AA976224133F_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m0E7039B1AA3224F8FE7E04FD846BD18DE30BA5B4 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m0E7039B1AA3224F8FE7E04FD846BD18DE30BA5B4_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB1F117066EC106837D501BB7EAB5043F5FE9E88A (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB1F117066EC106837D501BB7EAB5043F5FE9E88A_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m9C880D748649132365CED159EECD6F4DEA4F571C (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m9C880D748649132365CED159EECD6F4DEA4F571C_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m465C23FE1EFAD3B2AD26835C314FF5C407C805A2 (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m465C23FE1EFAD3B2AD26835C314FF5C407C805A2_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3AD8A17BE8D0E3B2F0B6DDAED7A2C966640A0F09 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3AD8A17BE8D0E3B2F0B6DDAED7A2C966640A0F09_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m4C81D94AB7042C11D044A0AB9ADDF6076D529EF5 (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m4C81D94AB7042C11D044A0AB9ADDF6076D529EF5_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m11141A2543E68C666FD85BF34514B2E1818DCDE0 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m11141A2543E68C666FD85BF34514B2E1818DCDE0_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m514D89AD80B3A3B5FA3CB552F4402A2437F616AC (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m514D89AD80B3A3B5FA3CB552F4402A2437F616AC_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m1E02DFB68AFDC764A206E98F030C30EB73D54701 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m1E02DFB68AFDC764A206E98F030C30EB73D54701_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m8356677E42AC4807CF9C8B820952C30C61DD8A2B (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m8356677E42AC4807CF9C8B820952C30C61DD8A2B_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m9E01082B782DCE78397BE4B2A4154E31AD1A4E3A (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m9E01082B782DCE78397BE4B2A4154E31AD1A4E3A_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mFF2C0CCD2E628004B6F0C7C7A0BC78CFBF581337 (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mFF2C0CCD2E628004B6F0C7C7A0BC78CFBF581337_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m423B8B301128A7B6D5B725E426943B4EB73FE14D (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m423B8B301128A7B6D5B725E426943B4EB73FE14D_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m152B9349AC3A170FA2C643901B85B19665C72251 (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m152B9349AC3A170FA2C643901B85B19665C72251_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m0630B38BDFBA4A8647C6285D85013ABA9C9AB564 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m0630B38BDFBA4A8647C6285D85013ABA9C9AB564_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m2ED5AFA3365F3E8FCD1481CA943B71A63AECC007 (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, const RuntimeMethod*))ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m2ED5AFA3365F3E8FCD1481CA943B71A63AECC007_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mCA73A2A594357B28300E1F0D0AC984B6A3FEC19F (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mCA73A2A594357B28300E1F0D0AC984B6A3FEC19F_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mE44D2D9B93F5E163A6B4C03C9BDB58FD975E81C8 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Il2CppFullySharedGenericStruct* ___1_leafProcessor, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, Il2CppFullySharedGenericStruct*, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mE44D2D9B93F5E163A6B4C03C9BDB58FD975E81C8_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759 (FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18 (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* __this, FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792* ___0_tranposedPoint, const RuntimeMethod* method) ;
+inline bool BoundingVolumeHierarchy_Distance_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_m182784A7D1DABD395F456F385466C944BAF4087E (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Il2CppFullySharedGenericStruct* ___1_leafProcessor, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, Il2CppFullySharedGenericStruct*, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_m182784A7D1DABD395F456F385466C944BAF4087E_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BvhLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E3FA5CDEDD868A89248EDBBFAA24FBB2E68700B (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_rigidBodyIndex, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))BvhLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E3FA5CDEDD868A89248EDBBFAA24FBB2E68700B_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m330F97871B672A0456164ACD234642C5C5270096 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m330F97871B672A0456164ACD234642C5C5270096_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BvhLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m6D5CBA6F0A9441503C9C64B9F8C9C539DDD8FB74 (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_rigidBodyIndex, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))BvhLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m6D5CBA6F0A9441503C9C64B9F8C9C539DDD8FB74_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m51A15B879333839018E07EC4D4FB18E4FEFAB544 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m51A15B879333839018E07EC4D4FB18E4FEFAB544_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BvhLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mA302FC9D90308246758F1D7E92A13F1329FC9244 (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_rigidBodyIndex, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))BvhLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mA302FC9D90308246758F1D7E92A13F1329FC9244_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mEECC4C0F9277318CF18E2D4F0F1D222423461BA2 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mEECC4C0F9277318CF18E2D4F0F1D222423461BA2_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BvhLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE2A04E90A999A0A1D1F75791D96D77FF4B49B432 (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_rigidBodyIndex, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))BvhLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE2A04E90A999A0A1D1F75791D96D77FF4B49B432_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m40C3013FB5FD1C1C2FA1CF3D6D8958491218088C (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m40C3013FB5FD1C1C2FA1CF3D6D8958491218088C_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BvhLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m9E756AD24754337A2F387D8266D9CE1FC086F947 (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_rigidBodyIndex, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))BvhLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m9E756AD24754337A2F387D8266D9CE1FC086F947_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mE1D969EF687F7C46474485B72723D80D6FE1B79E (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mE1D969EF687F7C46474485B72723D80D6FE1B79E_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BvhLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m3BBFAEB9FDDD799FF6570732E37A9CE00CAA250E (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_rigidBodyIndex, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))BvhLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m3BBFAEB9FDDD799FF6570732E37A9CE00CAA250E_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA6D25CFED52BC34014EFA8FE76C7CCFB35CECCAD (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA6D25CFED52BC34014EFA8FE76C7CCFB35CECCAD_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m0F72B051B5EBD86EECD8CDDD6199695595B8C25C (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_rigidBodyIndex, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m0F72B051B5EBD86EECD8CDDD6199695595B8C25C_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m805678162A79E5E705BB83D56DC199231EE5D23B (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m805678162A79E5E705BB83D56DC199231EE5D23B_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mA505E4F0FB3A3A041525AA5AB25DF5852AE04EFB (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_rigidBodyIndex, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mA505E4F0FB3A3A041525AA5AB25DF5852AE04EFB_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mAC27DAAB4D403791989EE2F56DCDC56E224519B1 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mAC27DAAB4D403791989EE2F56DCDC56E224519B1_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mB60AB73428369DED096EFA34EB8BEDD641FBEA3C (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_rigidBodyIndex, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mB60AB73428369DED096EFA34EB8BEDD641FBEA3C_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mA218D8B95E753B7A73442268E45796FB06F36E1C (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mA218D8B95E753B7A73442268E45796FB06F36E1C_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mDFFFA42B69784D85F92470DEDA6AEEF4F6686E6C (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_rigidBodyIndex, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mDFFFA42B69784D85F92470DEDA6AEEF4F6686E6C_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m95ECA013FCEED07904B452ACFF890D39ACC3EE6E (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m95ECA013FCEED07904B452ACFF890D39ACC3EE6E_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m0D3732C9D48D9E691D1FAC9382870294CBE7C27F (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, int32_t ___1_rigidBodyIndex, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, const RuntimeMethod*))BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m0D3732C9D48D9E691D1FAC9382870294CBE7C27F_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mAB424A9D5E03C4836EEF3A32B254C21100249511 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mAB424A9D5E03C4836EEF3A32B254C21100249511_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ConvexCompoundLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m09448E7CA7DCBF14C4EA994338667DF079CA9BF9 (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_leafData, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))ConvexCompoundLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m09448E7CA7DCBF14C4EA994338667DF079CA9BF9_gshared)(__this, ___0_input, ___1_leafData, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mE2DA5AC7FE34857975276BB92626EFF177F84CE0 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mE2DA5AC7FE34857975276BB92626EFF177F84CE0_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ConvexCompoundLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3B26B78FD92C413D80421CDBBAA79300B9D4F49B (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_leafData, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))ConvexCompoundLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3B26B78FD92C413D80421CDBBAA79300B9D4F49B_gshared)(__this, ___0_input, ___1_leafData, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mDD122A0AD2DB05D70AE0903EBA6AD07BDD6BE0CD (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mDD122A0AD2DB05D70AE0903EBA6AD07BDD6BE0CD_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ConvexCompoundLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m43C99E328F9BBC8DC638C444B85A45F6627E48D7 (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_leafData, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))ConvexCompoundLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m43C99E328F9BBC8DC638C444B85A45F6627E48D7_gshared)(__this, ___0_input, ___1_leafData, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m2238AFB75554D2D0251E95D4430C91E6E63F79D2 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m2238AFB75554D2D0251E95D4430C91E6E63F79D2_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ConvexCompoundLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m183F65188D1B326563C72ADDB62762CCED1A6D13 (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_leafData, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))ConvexCompoundLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m183F65188D1B326563C72ADDB62762CCED1A6D13_gshared)(__this, ___0_input, ___1_leafData, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8DAD77BA41332EB366C7FE9948D6FC5130C0CC36 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917*, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8DAD77BA41332EB366C7FE9948D6FC5130C0CC36_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ConvexCompoundLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mCC667F3083E8B6C3BB40EF37CDFDA138D9C3D4E9 (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_leafData, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))ConvexCompoundLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mCC667F3083E8B6C3BB40EF37CDFDA138D9C3D4E9_gshared)(__this, ___0_input, ___1_leafData, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m758F2D281C28F6428D91F3B5632A67E720803E0C (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917*, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m758F2D281C28F6428D91F3B5632A67E720803E0C_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ConvexMeshLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mB48BCA35011279B5F5AE9A973C8A18DE98F4364C (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_primitiveKey, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))ConvexMeshLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mB48BCA35011279B5F5AE9A973C8A18DE98F4364C_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m477013BC0CDD5D28430FA4D819D18A79E226205C (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m477013BC0CDD5D28430FA4D819D18A79E226205C_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ConvexMeshLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m0DC14311297EE71A317C342EC3F1657C8B70ED11 (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_primitiveKey, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))ConvexMeshLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m0DC14311297EE71A317C342EC3F1657C8B70ED11_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m4E0DDD6CF33345EAB9B7568D70417B7A54F60527 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m4E0DDD6CF33345EAB9B7568D70417B7A54F60527_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ConvexMeshLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m1304979D55CA378945282465EDA7CDAE7087260D (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_primitiveKey, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))ConvexMeshLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m1304979D55CA378945282465EDA7CDAE7087260D_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m6C8795A0B978E49165276290516DB00A6FB5871D (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m6C8795A0B978E49165276290516DB00A6FB5871D_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ConvexMeshLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mD92D6BCC0AF0EDE2D3501DB7B5B3376D32EAF498 (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))ConvexMeshLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mD92D6BCC0AF0EDE2D3501DB7B5B3376D32EAF498_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m346EF414103FF5C26E0CEEA11181B3D1F4833913 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769*, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m346EF414103FF5C26E0CEEA11181B3D1F4833913_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool ConvexMeshLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m33CB7760D72B991173469390DEA5738A5453BD4F (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, int32_t ___1_primitiveKey, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))ConvexMeshLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m33CB7760D72B991173469390DEA5738A5453BD4F_gshared)(__this, ___0_input, ___1_primitiveKey, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m9286F529B62BB4599503DAE9086C7DDB53454C9F (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769*, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m9286F529B62BB4599503DAE9086C7DDB53454C9F_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8 (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* __this, bool ___0_x, bool ___1_y, bool ___2_z, bool ___3_w, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199 (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* __this, FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* ___0_aabbT, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void int3_set_Item_m319CD04A9CFB29D68C18A1E53AB6F8869637745E (int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* __this, int32_t ___0_index, int32_t ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t int3_get_Item_mAA1998D8ED9F62D701938F2F665599B0CE949672 (int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 Node_get_AreInternalsValid_mDEF4E6A974591EE363BAFE7132CA65A7D1696E12 (Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void int4__ctor_m48F9FB97F5956250E7BE7C6EB19B046CFBD37FE5_inline (int4_tBA77D4945786DE82C3A487B33955EA1004996052* __this, int32_t ___0_v, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BodyPairWriter_AddPairs_mC3C4AD3E2559C8E567E6D790F21DC5B44C22F431_inline (BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446* __this, int32_t ___0_pairLeft, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___1_pairsRight, int32_t ___2_countR, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Node_get_IsInternal_mC1D2E844649E12DE5EA0A2ACFA8A90344C1E3F3D_inline (Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void int4_set_Item_mD047433367F427614706033903727B2AFC119537 (int4_tBA77D4945786DE82C3A487B33955EA1004996052* __this, int32_t ___0_index, int32_t ___1_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BodyPairWriter_AddPairs_m089CA5DD589958E40D70D09584429C1D0C617EFA_inline (BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446* __this, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___0_pairsLeft, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___1_pairsRight, int32_t ___2_count, bool ___3_swapped, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BodyPairWriter_FlushIfNeeded_m9B6D142FEC2243F9BDBD693663A3E7069BC3562E_inline (BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 FourTransposedAabbs_Raycast_m3B953A66192B9DB1024079133E58047816EC7684 (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* __this, Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 ___0_ray, float ___1_maxFraction, float4_t89D9A294E7A79BD81BFBDD18654508532958555E* ___2_fractions, const RuntimeMethod* method) ;
+inline bool BoundingVolumeHierarchy_Raycast_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mB00405C4385D9A314BF81B745E12D1101B1ADB5A (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Il2CppFullySharedGenericStruct* ___1_leafProcessor, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, Il2CppFullySharedGenericStruct*, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))BoundingVolumeHierarchy_Raycast_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mB00405C4385D9A314BF81B745E12D1101B1ADB5A_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float AllHitsCollector_1_get_MaxFraction_m2FBAFEDF3EE34124C2BBCA0D8EB4ADA2DE7FB651_inline (AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7*, const RuntimeMethod*))AllHitsCollector_1_get_MaxFraction_m2FBAFEDF3EE34124C2BBCA0D8EB4ADA2DE7FB651_gshared_inline)(__this, method);
+}
+inline bool BvhLeafProcessor_RayLeaf_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m13799C33BF1DC4248B6F62F44CF07451E1ACCE50 (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, int32_t ___1_rigidBodyIndex, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, int32_t, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7*, const RuntimeMethod*))BvhLeafProcessor_RayLeaf_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m13799C33BF1DC4248B6F62F44CF07451E1ACCE50_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool AllHitsCollector_1_get_EarlyOutOnFirstHit_m8119BFFC6C56991CEEAFCA8297B1C5E7F0544D1A (AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7*, const RuntimeMethod*))AllHitsCollector_1_get_EarlyOutOnFirstHit_m8119BFFC6C56991CEEAFCA8297B1C5E7F0544D1A_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m7724DBE63AD18FCB113CEB53C22D2BD1234191A5 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7*, const RuntimeMethod*))BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m7724DBE63AD18FCB113CEB53C22D2BD1234191A5_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float AnyHitCollector_1_get_MaxFraction_mD44814005A33CD3DFB8CD378A1F51620954AD0E9_inline (AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3*, const RuntimeMethod*))AnyHitCollector_1_get_MaxFraction_mD44814005A33CD3DFB8CD378A1F51620954AD0E9_gshared_inline)(__this, method);
+}
+inline bool BvhLeafProcessor_RayLeaf_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m096364BD7317CC078E25B3760161A42A6AD4A96B (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, int32_t ___1_rigidBodyIndex, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, int32_t, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3*, const RuntimeMethod*))BvhLeafProcessor_RayLeaf_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m096364BD7317CC078E25B3760161A42A6AD4A96B_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool AnyHitCollector_1_get_EarlyOutOnFirstHit_m88C708CFCD5D01ADF220D6247074B81FC94F3F33 (AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3*, const RuntimeMethod*))AnyHitCollector_1_get_EarlyOutOnFirstHit_m88C708CFCD5D01ADF220D6247074B81FC94F3F33_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m28BF4F4C457C74D2AB28E1B60FF18BA5B224AE3D (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3*, const RuntimeMethod*))BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m28BF4F4C457C74D2AB28E1B60FF18BA5B224AE3D_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline float ClosestHitCollector_1_get_MaxFraction_m7623F138A458334F43D57B424BC984705C2D835D_inline (ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE*, const RuntimeMethod*))ClosestHitCollector_1_get_MaxFraction_m7623F138A458334F43D57B424BC984705C2D835D_gshared_inline)(__this, method);
+}
+inline bool BvhLeafProcessor_RayLeaf_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m3CE07E5569458957D9C0C6E523191CA21408278F (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, int32_t ___1_rigidBodyIndex, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, int32_t, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE*, const RuntimeMethod*))BvhLeafProcessor_RayLeaf_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m3CE07E5569458957D9C0C6E523191CA21408278F_gshared)(__this, ___0_input, ___1_rigidBodyIndex, ___2_collector, method);
+}
+inline bool ClosestHitCollector_1_get_EarlyOutOnFirstHit_mB8A78FC6230B97E2B2007F7FE2EC03171D1C59C7 (ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE*, const RuntimeMethod*))ClosestHitCollector_1_get_EarlyOutOnFirstHit_mB8A78FC6230B97E2B2007F7FE2EC03171D1C59C7_gshared)(__this, method);
+}
+inline bool BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m7FE1B745007C526BA2D8DDC6065EC8DB83E7F399 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B*, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE*, const RuntimeMethod*))BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m7FE1B745007C526BA2D8DDC6065EC8DB83E7F399_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool RayCompoundLeafProcessor_RayLeaf_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mDEDC632FC4AF6B626C86D0633359C2502C430C14 (RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, int32_t ___1_leafData, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, int32_t, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7*, const RuntimeMethod*))RayCompoundLeafProcessor_RayLeaf_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mDEDC632FC4AF6B626C86D0633359C2502C430C14_gshared)(__this, ___0_input, ___1_leafData, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Raycast_TisRayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m37652A32901B6578541E926BAA1D3DA0849EB8FD (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* ___1_leafProcessor, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E*, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7*, const RuntimeMethod*))BoundingVolumeHierarchy_Raycast_TisRayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m37652A32901B6578541E926BAA1D3DA0849EB8FD_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool RayCompoundLeafProcessor_RayLeaf_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_mC04CF0ECFB37A56382DA85A61541BE4175055596 (RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, int32_t ___1_leafData, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, int32_t, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3*, const RuntimeMethod*))RayCompoundLeafProcessor_RayLeaf_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_mC04CF0ECFB37A56382DA85A61541BE4175055596_gshared)(__this, ___0_input, ___1_leafData, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Raycast_TisRayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m493124B44DDF0B8BBB7BC6AFDC9C067CA2116B41 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* ___1_leafProcessor, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E*, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3*, const RuntimeMethod*))BoundingVolumeHierarchy_Raycast_TisRayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m493124B44DDF0B8BBB7BC6AFDC9C067CA2116B41_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Node_get_Flags_m2BA298142B080473B77567FC7123CD4E2EE04A01_inline (Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void BodyPairWriter_Flush_mF27A3CF0187BB9A2EC4D9113873CE0ACBF0EE104 (BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mF88DF320F1C91C39F204C71F0038825D02F1B2E5_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD133BD033A25B0152A28C5F8806DC74B194E4431(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m55C2C8672AD85DD86CC6DE1F7E61E8A3392CE2F2(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mF88DF320F1C91C39F204C71F0038825D02F1B2E5_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mF88DF320F1C91C39F204C71F0038825D02F1B2E5(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m9F2DC9507CC956D5B13708FEE4D997AD0C2208FF_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m7787A4B338029EF2120ACE509E5067E45CCC9577(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m8570C074BA6252DDE209EA50CDBA0F494ADA34F2(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m9F2DC9507CC956D5B13708FEE4D997AD0C2208FF_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m9F2DC9507CC956D5B13708FEE4D997AD0C2208FF(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8C824A925EB0AD2387F170368625992DD47B5E5F_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_25 = ___2_collector;
+		float L_26;
+		L_26 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_27 = ___2_collector;
+		float L_28;
+		L_28 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m1D199AFBEDB768ADA31237DE3954B1E8E15FF320(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m433A57B407C2FB8F8F50A9776A29B71338E24D5D(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_68 = ___2_collector;
+		float L_69;
+		L_69 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_70 = ___2_collector;
+		float L_71;
+		L_71 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8C824A925EB0AD2387F170368625992DD47B5E5F_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8C824A925EB0AD2387F170368625992DD47B5E5F(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mCBA01736CC3E6623DD16D5538C8017AF2BEA46D1_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_25 = ___2_collector;
+		float L_26;
+		L_26 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_27 = ___2_collector;
+		float L_28;
+		L_28 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m60F182A9061EE57936D1524A396E34897FE9E955(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m5EF1DEAE2BA0EBF307BFE92CB2357B2FDCEAFD94(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_68 = ___2_collector;
+		float L_69;
+		L_69 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_70 = ___2_collector;
+		float L_71;
+		L_71 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mCBA01736CC3E6623DD16D5538C8017AF2BEA46D1_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mCBA01736CC3E6623DD16D5538C8017AF2BEA46D1(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m039902D3AA540CC80DE73E2F63242272AA7F990E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_25 = ___2_collector;
+		float L_26;
+		L_26 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_27 = ___2_collector;
+		float L_28;
+		L_28 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mCD0F210A8FD041248EEF3439DF2106395A8B42BA(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m2A0B7E01FCF853CAA0735B87DD44B97582A602AB(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_68 = ___2_collector;
+		float L_69;
+		L_69 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_70 = ___2_collector;
+		float L_71;
+		L_71 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m039902D3AA540CC80DE73E2F63242272AA7F990E_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m039902D3AA540CC80DE73E2F63242272AA7F990E(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC83934F57FC1772A8EE26CE6FB298E3037D7081C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_0 = ___2_collector;
+		float L_1;
+		L_1 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_25 = ___2_collector;
+		float L_26;
+		L_26 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_27 = ___2_collector;
+		float L_28;
+		L_28 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mDD7970536059BBE90E4B93BCDAF5B3EF8375ED68(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = AllHitsCollector_1_get_EarlyOutOnFirstHit_mE118AC7368F1012CF3E14D5CEEB833635AD20042(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_68 = ___2_collector;
+		float L_69;
+		L_69 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_70 = ___2_collector;
+		float L_71;
+		L_71 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC83934F57FC1772A8EE26CE6FB298E3037D7081C_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC83934F57FC1772A8EE26CE6FB298E3037D7081C(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB6DFC5C7347BAAA287DB40C15749FD9D8DE03689_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_0 = ___2_collector;
+		float L_1;
+		L_1 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_25 = ___2_collector;
+		float L_26;
+		L_26 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_27 = ___2_collector;
+		float L_28;
+		L_28 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m9B917CEEA1948199F2C7C1D926EBBBB4AFEE6B62(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = AnyHitCollector_1_get_EarlyOutOnFirstHit_mCBBE1104D278E4CAA04D9C7AEF522BEE98586701(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_68 = ___2_collector;
+		float L_69;
+		L_69 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_70 = ___2_collector;
+		float L_71;
+		L_71 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB6DFC5C7347BAAA287DB40C15749FD9D8DE03689_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB6DFC5C7347BAAA287DB40C15749FD9D8DE03689(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m0E1EB741F435422E97C3EA73263ED5FC2E527948_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_0 = ___2_collector;
+		float L_1;
+		L_1 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_25 = ___2_collector;
+		float L_26;
+		L_26 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_27 = ___2_collector;
+		float L_28;
+		L_28 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mE5CA41F1569378E1B18D08CC0E4058CA95AC5C0E(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = ClosestHitCollector_1_get_EarlyOutOnFirstHit_mFBA88A44AF24EC6FED94B5C04A92B2E5D52BA472(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_68 = ___2_collector;
+		float L_69;
+		L_69 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_70 = ___2_collector;
+		float L_71;
+		L_71 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m0E1EB741F435422E97C3EA73263ED5FC2E527948_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m0E1EB741F435422E97C3EA73263ED5FC2E527948(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA11FFBD6A9515FFF70DCB730AB5E6104FA60CEDD_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mF7B04BD36E9139135F5C0A3A4DA75335C45A1EC1(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_mE63145247172310B8125BE704537F10093D39CA9(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA11FFBD6A9515FFF70DCB730AB5E6104FA60CEDD_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA11FFBD6A9515FFF70DCB730AB5E6104FA60CEDD(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA0F6DBA33B07553A0DB4ED9B68E61F1D3695BC8E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m3E4F24D428857CCE4E9C89157C3903310BEE03BE(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m2451077ECA1F3C90B1A85AE77E3C841656B407F4(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA0F6DBA33B07553A0DB4ED9B68E61F1D3695BC8E_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA0F6DBA33B07553A0DB4ED9B68E61F1D3695BC8E(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m0BF0C21DA7DE32B8993FF3AEFCB3EE3B35C45FAA_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m9DBFDB478F6E5CB4D9901B473F382A738214AA86(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m2C78F290826B06D71AB81C5EF40ADC057E06E243(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m0BF0C21DA7DE32B8993FF3AEFCB3EE3B35C45FAA_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m0BF0C21DA7DE32B8993FF3AEFCB3EE3B35C45FAA(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m4E3E7C9903E1116097A21FEC86B1AB8F0AB8EAC4_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3E56C15A208924DD14A28E4AAF4FB90E27E9B93B(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3E56C15A208924DD14A28E4AAF4FB90E27E9B93B(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3E56C15A208924DD14A28E4AAF4FB90E27E9B93B(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m53A3BAFF43C233A7E9AEC3F7CAE5ADEF6274B5A2(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m78D5602E36BB46CFCBDB29238CB0BA261CB408AB(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3E56C15A208924DD14A28E4AAF4FB90E27E9B93B(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3E56C15A208924DD14A28E4AAF4FB90E27E9B93B(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m4E3E7C9903E1116097A21FEC86B1AB8F0AB8EAC4_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m4E3E7C9903E1116097A21FEC86B1AB8F0AB8EAC4(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD999F46C4DF17662A2BFCA021FB5963715287625_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m68051BB9601AED78B9DFE48A2637F9A63D9C6DA9(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m55C2C8672AD85DD86CC6DE1F7E61E8A3392CE2F2(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD999F46C4DF17662A2BFCA021FB5963715287625_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_mD999F46C4DF17662A2BFCA021FB5963715287625(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1449584AB24B956196900C6CEF6386DCBE762419_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m4B7CBA574392BBE8B4B055DB9D8378B5445CA904(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m8570C074BA6252DDE209EA50CDBA0F494ADA34F2(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1449584AB24B956196900C6CEF6386DCBE762419_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m1449584AB24B956196900C6CEF6386DCBE762419(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m5DDE2C717ACF397D394FA92F55067DCA0BF0C121_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_25 = ___2_collector;
+		float L_26;
+		L_26 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_27 = ___2_collector;
+		float L_28;
+		L_28 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mA9DF8447D11076F35D116C3C1561555D31F99DF1(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m433A57B407C2FB8F8F50A9776A29B71338E24D5D(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_68 = ___2_collector;
+		float L_69;
+		L_69 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_70 = ___2_collector;
+		float L_71;
+		L_71 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m5DDE2C717ACF397D394FA92F55067DCA0BF0C121_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m5DDE2C717ACF397D394FA92F55067DCA0BF0C121(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m21FE4A5ED669DEC861AEE67F2394FD9928D1E160_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_25 = ___2_collector;
+		float L_26;
+		L_26 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_27 = ___2_collector;
+		float L_28;
+		L_28 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m38C96944F4B8F64E0F059A3E39C2F88B11430421(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m5EF1DEAE2BA0EBF307BFE92CB2357B2FDCEAFD94(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_68 = ___2_collector;
+		float L_69;
+		L_69 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_70 = ___2_collector;
+		float L_71;
+		L_71 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m21FE4A5ED669DEC861AEE67F2394FD9928D1E160_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m21FE4A5ED669DEC861AEE67F2394FD9928D1E160(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m9636326E3E43DCE8F4F405295C407B19BF5A322C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_25 = ___2_collector;
+		float L_26;
+		L_26 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_27 = ___2_collector;
+		float L_28;
+		L_28 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m062EE0DD1CD8E277E3AFBCC9D85467D964269C5E(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m2A0B7E01FCF853CAA0735B87DD44B97582A602AB(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_68 = ___2_collector;
+		float L_69;
+		L_69 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_70 = ___2_collector;
+		float L_71;
+		L_71 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m9636326E3E43DCE8F4F405295C407B19BF5A322C_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m9636326E3E43DCE8F4F405295C407B19BF5A322C(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E46D6A93215B13E40A75715F90A258257A86B8E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_0 = ___2_collector;
+		float L_1;
+		L_1 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_25 = ___2_collector;
+		float L_26;
+		L_26 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_27 = ___2_collector;
+		float L_28;
+		L_28 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mD6EB35E3A319298646EEF250D6AB22400C44140E(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = AllHitsCollector_1_get_EarlyOutOnFirstHit_mE118AC7368F1012CF3E14D5CEEB833635AD20042(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_68 = ___2_collector;
+		float L_69;
+		L_69 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_70 = ___2_collector;
+		float L_71;
+		L_71 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E46D6A93215B13E40A75715F90A258257A86B8E_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E46D6A93215B13E40A75715F90A258257A86B8E(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3271489534A92C048D159FEB613CF6EFC6882FED_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_0 = ___2_collector;
+		float L_1;
+		L_1 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_25 = ___2_collector;
+		float L_26;
+		L_26 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_27 = ___2_collector;
+		float L_28;
+		L_28 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m82F6661ABD6E3037FAC2FABD2DDCB1272A36D9F1(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = AnyHitCollector_1_get_EarlyOutOnFirstHit_mCBBE1104D278E4CAA04D9C7AEF522BEE98586701(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_68 = ___2_collector;
+		float L_69;
+		L_69 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_70 = ___2_collector;
+		float L_71;
+		L_71 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3271489534A92C048D159FEB613CF6EFC6882FED_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3271489534A92C048D159FEB613CF6EFC6882FED(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA04C7DE37D4939B5B8325315411F1584E4C66214_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_0 = ___2_collector;
+		float L_1;
+		L_1 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_25 = ___2_collector;
+		float L_26;
+		L_26 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_27 = ___2_collector;
+		float L_28;
+		L_28 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m53E639F402AF2EDC7BBA114B2DB1EF14B34A93D5(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = ClosestHitCollector_1_get_EarlyOutOnFirstHit_mFBA88A44AF24EC6FED94B5C04A92B2E5D52BA472(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_68 = ___2_collector;
+		float L_69;
+		L_69 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_70 = ___2_collector;
+		float L_71;
+		L_71 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA04C7DE37D4939B5B8325315411F1584E4C66214_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA04C7DE37D4939B5B8325315411F1584E4C66214(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m0E7039B1AA3224F8FE7E04FD846BD18DE30BA5B4_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m35586065C0A67A0362CF91B96F92AA976224133F(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_mE63145247172310B8125BE704537F10093D39CA9(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m0E7039B1AA3224F8FE7E04FD846BD18DE30BA5B4_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m0E7039B1AA3224F8FE7E04FD846BD18DE30BA5B4(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m9C880D748649132365CED159EECD6F4DEA4F571C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB1F117066EC106837D501BB7EAB5043F5FE9E88A(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m2451077ECA1F3C90B1A85AE77E3C841656B407F4(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m9C880D748649132365CED159EECD6F4DEA4F571C_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m9C880D748649132365CED159EECD6F4DEA4F571C(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3AD8A17BE8D0E3B2F0B6DDAED7A2C966640A0F09_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m465C23FE1EFAD3B2AD26835C314FF5C407C805A2(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m2C78F290826B06D71AB81C5EF40ADC057E06E243(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3AD8A17BE8D0E3B2F0B6DDAED7A2C966640A0F09_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3AD8A17BE8D0E3B2F0B6DDAED7A2C966640A0F09(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m11141A2543E68C666FD85BF34514B2E1818DCDE0_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3E56C15A208924DD14A28E4AAF4FB90E27E9B93B(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3E56C15A208924DD14A28E4AAF4FB90E27E9B93B(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3E56C15A208924DD14A28E4AAF4FB90E27E9B93B(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m4C81D94AB7042C11D044A0AB9ADDF6076D529EF5(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m78D5602E36BB46CFCBDB29238CB0BA261CB408AB(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3E56C15A208924DD14A28E4AAF4FB90E27E9B93B(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3E56C15A208924DD14A28E4AAF4FB90E27E9B93B(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m11141A2543E68C666FD85BF34514B2E1818DCDE0_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t1DE64604E4D6B820B707D19E60F1FB4BD4DAC8B5_m11141A2543E68C666FD85BF34514B2E1818DCDE0(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m1E02DFB68AFDC764A206E98F030C30EB73D54701_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m514D89AD80B3A3B5FA3CB552F4402A2437F616AC(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m55C2C8672AD85DD86CC6DE1F7E61E8A3392CE2F2(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m90D8E7A09969BC7C97DF7D7D6BA1C86C9A17C4B5(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m1E02DFB68AFDC764A206E98F030C30EB73D54701_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_tE48369B96F31A1A43E15591093186752DFE7A32F_m1E02DFB68AFDC764A206E98F030C30EB73D54701(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m9E01082B782DCE78397BE4B2A4154E31AD1A4E3A_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_0 = ___2_collector;
+		float L_1;
+		L_1 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_25 = ___2_collector;
+		float L_26;
+		L_26 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m8356677E42AC4807CF9C8B820952C30C61DD8A2B(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = FlippedColliderDistanceQueryCollector_1_get_EarlyOutOnFirstHit_m8570C074BA6252DDE209EA50CDBA0F494ADA34F2(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_68 = ___2_collector;
+		float L_69;
+		L_69 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* L_70 = ___2_collector;
+		float L_71;
+		L_71 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA33EAE17631F6F62642B14AD73BE85549BC466E(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m9E01082B782DCE78397BE4B2A4154E31AD1A4E3A_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_tFBBA13A7BCD0760073C47EE2F40C431B384053B2_m9E01082B782DCE78397BE4B2A4154E31AD1A4E3A(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m423B8B301128A7B6D5B725E426943B4EB73FE14D_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_25 = ___2_collector;
+		float L_26;
+		L_26 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_27 = ___2_collector;
+		float L_28;
+		L_28 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mFF2C0CCD2E628004B6F0C7C7A0BC78CFBF581337(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m433A57B407C2FB8F8F50A9776A29B71338E24D5D(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_68 = ___2_collector;
+		float L_69;
+		L_69 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_70 = ___2_collector;
+		float L_71;
+		L_71 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m423B8B301128A7B6D5B725E426943B4EB73FE14D_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m423B8B301128A7B6D5B725E426943B4EB73FE14D(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m0630B38BDFBA4A8647C6285D85013ABA9C9AB564_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_25 = ___2_collector;
+		float L_26;
+		L_26 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_27 = ___2_collector;
+		float L_28;
+		L_28 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m152B9349AC3A170FA2C643901B85B19665C72251(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m5EF1DEAE2BA0EBF307BFE92CB2357B2FDCEAFD94(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_68 = ___2_collector;
+		float L_69;
+		L_69 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_70 = ___2_collector;
+		float L_71;
+		L_71 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m0630B38BDFBA4A8647C6285D85013ABA9C9AB564_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m0630B38BDFBA4A8647C6285D85013ABA9C9AB564(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mCA73A2A594357B28300E1F0D0AC984B6A3FEC19F_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_25 = ___2_collector;
+		float L_26;
+		L_26 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_27 = ___2_collector;
+		float L_28;
+		L_28 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = ColliderMeshLeafProcessor_1_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m2ED5AFA3365F3E8FCD1481CA943B71A63AECC007(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m2A0B7E01FCF853CAA0735B87DD44B97582A602AB(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_68 = ___2_collector;
+		float L_69;
+		L_69 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_70 = ___2_collector;
+		float L_71;
+		L_71 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mCA73A2A594357B28300E1F0D0AC984B6A3FEC19F_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mCA73A2A594357B28300E1F0D0AC984B6A3FEC19F(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mE44D2D9B93F5E163A6B4C03C9BDB58FD975E81C8_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Il2CppFullySharedGenericStruct* ___1_leafProcessor, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	void* L_1 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_27 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_30 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_66 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 4)));
+	void* L_69 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_74 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_77 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		Il2CppFullySharedGenericStruct* L_0 = ___2_collector;
+		float L_2;
+		L_2 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_1, (void*)L_0);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_3 = ___0_input;
+		float L_4 = L_3.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_2) <= ((float)L_4)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_5 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_6 = (int8_t*) (L_5 ? alloca(L_5) : NULL);
+		memset(L_6, 0, L_5);
+		V_1 = (int32_t*)(L_6);
+		int32_t* L_7 = V_1;
+		V_2 = L_7;
+		int32_t* L_8 = V_2;
+		int32_t* L_9 = L_8;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_9, 4));
+		*((int32_t*)L_9) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_10 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_11 = L_10.___QueryContext;
+		float L_12 = L_11.___InvTargetScale;
+		V_3 = L_12;
+		float L_13 = V_3;
+		float L_14 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_13, L_14));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_16 = L_15.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_17 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_18 = L_17.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_19 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_20 = L_19.___QueryContext;
+		float L_21 = L_20.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_22 = ___0_input;
+		float L_23 = L_22.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24;
+		L_24 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_16, L_18, ((float)il2cpp_codegen_multiply(L_21, L_23)), NULL);
+		V_4 = L_24;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_25 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_25, NULL);
+		Il2CppFullySharedGenericStruct* L_26 = ___2_collector;
+		float L_28;
+		L_28 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_27, (void*)L_26);
+		Il2CppFullySharedGenericStruct* L_29 = ___2_collector;
+		float L_31;
+		L_31 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_30, (void*)L_29);
+		float L_32 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_28, L_31)), L_32)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_33 = V_2;
+		int32_t* L_34 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_33, 4));
+		V_2 = L_34;
+		int32_t L_35 = (*(L_34));
+		V_7 = L_35;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = __this->___m_Nodes;
+		int32_t L_37 = V_7;
+		uint32_t L_38 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_36, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_37), (int32_t)L_38))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41;
+		L_41 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_40, (&V_5), NULL);
+		V_9 = L_41;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_8;
+		NullCheck(L_45);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_46 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_45->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = L_46->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_44, L_47, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_49 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_50 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_51;
+		L_51 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_49, L_50, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52;
+		L_52 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_48, L_51, NULL);
+		V_10 = L_52;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_53 = V_8;
+		NullCheck(L_53);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_54 = L_53->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_55 = V_10;
+		int32_t L_56;
+		L_56 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_54, L_55, NULL);
+		V_12 = L_56;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_57 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_58;
+		L_58 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_57, NULL);
+		V_13 = L_58;
+		bool L_59 = V_13;
+		if (!L_59)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_60 = V_0;
+		Il2CppFullySharedGenericStruct* L_61 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_62 = ___0_input;
+		int32_t L_63 = V_14;
+		int32_t L_64;
+		L_64 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_63, NULL);
+		Il2CppFullySharedGenericStruct* L_65 = ___2_collector;
+		bool L_67;
+		L_67 = ConstrainedFuncInvoker3< bool, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, int32_t, Il2CppFullySharedGenericStruct* >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 4), il2cpp_rgctx_method(method->rgctx_data, 5), L_66, (void*)L_61, L_62, L_64, L_65);
+		V_0 = (bool)((int32_t)((int32_t)L_60|(int32_t)L_67));
+		Il2CppFullySharedGenericStruct* L_68 = ___2_collector;
+		bool L_70;
+		L_70 = ConstrainedFuncInvoker0< bool >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 6), L_69, (void*)L_68);
+		bool L_71 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_70&(int32_t)L_71));
+		bool L_72 = V_15;
+		if (!L_72)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		Il2CppFullySharedGenericStruct* L_73 = ___2_collector;
+		float L_75;
+		L_75 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_74, (void*)L_73);
+		Il2CppFullySharedGenericStruct* L_76 = ___2_collector;
+		float L_78;
+		L_78 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_77, (void*)L_76);
+		float L_79 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_75, L_78)), L_79)), NULL);
+		int32_t L_80 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_80, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_81 = V_14;
+		int32_t L_82 = V_12;
+		V_17 = (bool)((((int32_t)L_81) < ((int32_t)L_82))? 1 : 0);
+		bool L_83 = V_17;
+		if (L_83)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_84 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_85 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_84 = L_85;
+		int32_t* L_86 = V_2;
+		int32_t L_87 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_86, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_87), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_88 = V_2;
+		int32_t* L_89 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_88) <= ((uintptr_t)L_89)))? 1 : 0);
+		bool L_90 = V_18;
+		if (L_90)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_91 = V_0;
+		V_16 = L_91;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_92 = V_16;
+		return L_92;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mE44D2D9B93F5E163A6B4C03C9BDB58FD975E81C8_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Il2CppFullySharedGenericStruct* ___1_leafProcessor, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mE44D2D9B93F5E163A6B4C03C9BDB58FD975E81C8(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_m182784A7D1DABD395F456F385466C944BAF4087E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Il2CppFullySharedGenericStruct* ___1_leafProcessor, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	void* L_1 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_18 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_21 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_57 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 4)));
+	void* L_60 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_69 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_72 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		Il2CppFullySharedGenericStruct* L_0 = ___2_collector;
+		float L_2;
+		L_2 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_1, (void*)L_0);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_3 = ___0_input;
+		float L_4 = L_3.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_2) <= ((float)L_4)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_5 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_6 = (int8_t*) (L_5 ? alloca(L_5) : NULL);
+		memset(L_6, 0, L_5);
+		V_1 = (int32_t*)(L_6);
+		int32_t* L_7 = V_1;
+		V_2 = L_7;
+		int32_t* L_8 = V_2;
+		int32_t* L_9 = L_8;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_9, 4));
+		*((int32_t*)L_9) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_10 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_11 = L_10.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_11, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_12 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_13 = L_12.___QueryContext;
+		float L_14 = L_13.___InvTargetScale;
+		V_4 = L_14;
+		float L_15 = V_4;
+		float L_16 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_15, L_16));
+		Il2CppFullySharedGenericStruct* L_17 = ___2_collector;
+		float L_19;
+		L_19 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_18, (void*)L_17);
+		Il2CppFullySharedGenericStruct* L_20 = ___2_collector;
+		float L_22;
+		L_22 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_21, (void*)L_20);
+		float L_23 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_19, L_22)), L_23)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_24 = V_2;
+		int32_t* L_25 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_24, 4));
+		V_2 = L_25;
+		int32_t L_26 = (*(L_25));
+		V_6 = L_26;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = __this->___m_Nodes;
+		int32_t L_28 = V_6;
+		uint32_t L_29 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_27, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_28), (int32_t)L_29))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32;
+		L_32 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_31, (&V_3), NULL);
+		V_8 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_7;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = L_37->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_35, L_38, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_40 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_42;
+		L_42 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_40, L_41, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43;
+		L_43 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_39, L_42, NULL);
+		V_9 = L_43;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_44 = V_7;
+		NullCheck(L_44);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_45 = L_44->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_46 = V_9;
+		int32_t L_47;
+		L_47 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_45, L_46, NULL);
+		V_11 = L_47;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_48 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_49;
+		L_49 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_48, NULL);
+		V_12 = L_49;
+		bool L_50 = V_12;
+		if (!L_50)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_51 = V_0;
+		Il2CppFullySharedGenericStruct* L_52 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_53 = ___0_input;
+		int32_t L_54 = V_13;
+		int32_t L_55;
+		L_55 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_54, NULL);
+		Il2CppFullySharedGenericStruct* L_56 = ___2_collector;
+		bool L_58;
+		L_58 = ConstrainedFuncInvoker3< bool, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D, int32_t, Il2CppFullySharedGenericStruct* >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 4), il2cpp_rgctx_method(method->rgctx_data, 5), L_57, (void*)L_52, L_53, L_55, L_56);
+		V_0 = (bool)((int32_t)((int32_t)L_51|(int32_t)L_58));
+		Il2CppFullySharedGenericStruct* L_59 = ___2_collector;
+		bool L_61;
+		L_61 = ConstrainedFuncInvoker0< bool >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 6), L_60, (void*)L_59);
+		bool L_62 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_61&(int32_t)L_62));
+		bool L_63 = V_14;
+		if (!L_63)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_64 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_64, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_65 = V_13;
+		int32_t L_66 = V_11;
+		V_16 = (bool)((((int32_t)L_65) < ((int32_t)L_66))? 1 : 0);
+		bool L_67 = V_16;
+		if (L_67)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		Il2CppFullySharedGenericStruct* L_68 = ___2_collector;
+		float L_70;
+		L_70 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_69, (void*)L_68);
+		Il2CppFullySharedGenericStruct* L_71 = ___2_collector;
+		float L_73;
+		L_73 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_72, (void*)L_71);
+		float L_74 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_70, L_73)), L_74)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_75 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_76 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_75 = L_76;
+		int32_t* L_77 = V_2;
+		int32_t L_78 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_77, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_78), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_79 = V_2;
+		int32_t* L_80 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_79) <= ((uintptr_t)L_80)))? 1 : 0);
+		bool L_81 = V_17;
+		if (L_81)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_82 = V_0;
+		V_15 = L_82;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_83 = V_15;
+		return L_83;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_m182784A7D1DABD395F456F385466C944BAF4087E_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, Il2CppFullySharedGenericStruct* ___1_leafProcessor, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_m182784A7D1DABD395F456F385466C944BAF4087E(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m330F97871B672A0456164ACD234642C5C5270096_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_0 = ___2_collector;
+		float L_1;
+		L_1 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_25 = ___2_collector;
+		float L_26;
+		L_26 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_27 = ___2_collector;
+		float L_28;
+		L_28 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = BvhLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E3FA5CDEDD868A89248EDBBFAA24FBB2E68700B(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = AllHitsCollector_1_get_EarlyOutOnFirstHit_mE118AC7368F1012CF3E14D5CEEB833635AD20042(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_68 = ___2_collector;
+		float L_69;
+		L_69 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_70 = ___2_collector;
+		float L_71;
+		L_71 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m330F97871B672A0456164ACD234642C5C5270096_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m330F97871B672A0456164ACD234642C5C5270096(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m51A15B879333839018E07EC4D4FB18E4FEFAB544_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_0 = ___2_collector;
+		float L_1;
+		L_1 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_16 = ___2_collector;
+		float L_17;
+		L_17 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_18 = ___2_collector;
+		float L_19;
+		L_19 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = BvhLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m6D5CBA6F0A9441503C9C64B9F8C9C539DDD8FB74(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = AllHitsCollector_1_get_EarlyOutOnFirstHit_mE118AC7368F1012CF3E14D5CEEB833635AD20042(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_63 = ___2_collector;
+		float L_64;
+		L_64 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_65 = ___2_collector;
+		float L_66;
+		L_66 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m51A15B879333839018E07EC4D4FB18E4FEFAB544_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m51A15B879333839018E07EC4D4FB18E4FEFAB544(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mEECC4C0F9277318CF18E2D4F0F1D222423461BA2_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_0 = ___2_collector;
+		float L_1;
+		L_1 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_25 = ___2_collector;
+		float L_26;
+		L_26 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_27 = ___2_collector;
+		float L_28;
+		L_28 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = BvhLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mA302FC9D90308246758F1D7E92A13F1329FC9244(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = AnyHitCollector_1_get_EarlyOutOnFirstHit_mCBBE1104D278E4CAA04D9C7AEF522BEE98586701(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_68 = ___2_collector;
+		float L_69;
+		L_69 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_70 = ___2_collector;
+		float L_71;
+		L_71 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mEECC4C0F9277318CF18E2D4F0F1D222423461BA2_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mEECC4C0F9277318CF18E2D4F0F1D222423461BA2(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m40C3013FB5FD1C1C2FA1CF3D6D8958491218088C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_0 = ___2_collector;
+		float L_1;
+		L_1 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_16 = ___2_collector;
+		float L_17;
+		L_17 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_18 = ___2_collector;
+		float L_19;
+		L_19 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = BvhLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mE2A04E90A999A0A1D1F75791D96D77FF4B49B432(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = AnyHitCollector_1_get_EarlyOutOnFirstHit_mCBBE1104D278E4CAA04D9C7AEF522BEE98586701(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_63 = ___2_collector;
+		float L_64;
+		L_64 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_65 = ___2_collector;
+		float L_66;
+		L_66 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m40C3013FB5FD1C1C2FA1CF3D6D8958491218088C_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m40C3013FB5FD1C1C2FA1CF3D6D8958491218088C(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mE1D969EF687F7C46474485B72723D80D6FE1B79E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_0 = ___2_collector;
+		float L_1;
+		L_1 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_25 = ___2_collector;
+		float L_26;
+		L_26 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_27 = ___2_collector;
+		float L_28;
+		L_28 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = BvhLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m9E756AD24754337A2F387D8266D9CE1FC086F947(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = ClosestHitCollector_1_get_EarlyOutOnFirstHit_mFBA88A44AF24EC6FED94B5C04A92B2E5D52BA472(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_68 = ___2_collector;
+		float L_69;
+		L_69 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_70 = ___2_collector;
+		float L_71;
+		L_71 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mE1D969EF687F7C46474485B72723D80D6FE1B79E_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mE1D969EF687F7C46474485B72723D80D6FE1B79E(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA6D25CFED52BC34014EFA8FE76C7CCFB35CECCAD_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_0 = ___2_collector;
+		float L_1;
+		L_1 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_16 = ___2_collector;
+		float L_17;
+		L_17 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_18 = ___2_collector;
+		float L_19;
+		L_19 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = BvhLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m3BBFAEB9FDDD799FF6570732E37A9CE00CAA250E(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = ClosestHitCollector_1_get_EarlyOutOnFirstHit_mFBA88A44AF24EC6FED94B5C04A92B2E5D52BA472(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_63 = ___2_collector;
+		float L_64;
+		L_64 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_65 = ___2_collector;
+		float L_66;
+		L_66 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA6D25CFED52BC34014EFA8FE76C7CCFB35CECCAD_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA6D25CFED52BC34014EFA8FE76C7CCFB35CECCAD(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m805678162A79E5E705BB83D56DC199231EE5D23B_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_25 = ___2_collector;
+		float L_26;
+		L_26 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_27 = ___2_collector;
+		float L_28;
+		L_28 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m0F72B051B5EBD86EECD8CDDD6199695595B8C25C(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m433A57B407C2FB8F8F50A9776A29B71338E24D5D(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_68 = ___2_collector;
+		float L_69;
+		L_69 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_70 = ___2_collector;
+		float L_71;
+		L_71 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m805678162A79E5E705BB83D56DC199231EE5D23B_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m805678162A79E5E705BB83D56DC199231EE5D23B(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mAC27DAAB4D403791989EE2F56DCDC56E224519B1_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_16 = ___2_collector;
+		float L_17;
+		L_17 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_18 = ___2_collector;
+		float L_19;
+		L_19 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mA505E4F0FB3A3A041525AA5AB25DF5852AE04EFB(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m433A57B407C2FB8F8F50A9776A29B71338E24D5D(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_63 = ___2_collector;
+		float L_64;
+		L_64 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_65 = ___2_collector;
+		float L_66;
+		L_66 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mAC27DAAB4D403791989EE2F56DCDC56E224519B1_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mAC27DAAB4D403791989EE2F56DCDC56E224519B1(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mA218D8B95E753B7A73442268E45796FB06F36E1C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_25 = ___2_collector;
+		float L_26;
+		L_26 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_27 = ___2_collector;
+		float L_28;
+		L_28 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mB60AB73428369DED096EFA34EB8BEDD641FBEA3C(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m5EF1DEAE2BA0EBF307BFE92CB2357B2FDCEAFD94(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_68 = ___2_collector;
+		float L_69;
+		L_69 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_70 = ___2_collector;
+		float L_71;
+		L_71 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mA218D8B95E753B7A73442268E45796FB06F36E1C_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mA218D8B95E753B7A73442268E45796FB06F36E1C(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m95ECA013FCEED07904B452ACFF890D39ACC3EE6E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_16 = ___2_collector;
+		float L_17;
+		L_17 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_18 = ___2_collector;
+		float L_19;
+		L_19 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mDFFFA42B69784D85F92470DEDA6AEEF4F6686E6C(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m5EF1DEAE2BA0EBF307BFE92CB2357B2FDCEAFD94(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_63 = ___2_collector;
+		float L_64;
+		L_64 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_65 = ___2_collector;
+		float L_66;
+		L_66 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m95ECA013FCEED07904B452ACFF890D39ACC3EE6E_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m95ECA013FCEED07904B452ACFF890D39ACC3EE6E(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mAB424A9D5E03C4836EEF3A32B254C21100249511_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_8 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	{
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_10 = L_9.___QueryContext;
+		float L_11 = L_10.___InvTargetScale;
+		V_3 = L_11;
+		float L_12 = V_3;
+		float L_13 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_14 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_15 = L_14.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_16 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_17 = L_16.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_19 = L_18.___QueryContext;
+		float L_20 = L_19.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_21 = ___0_input;
+		float L_22 = L_21.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_23;
+		L_23 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_15, L_17, ((float)il2cpp_codegen_multiply(L_20, L_22)), NULL);
+		V_4 = L_23;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_24 = V_4;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((uintptr_t)(&V_5)), L_24, NULL);
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_25 = ___2_collector;
+		float L_26;
+		L_26 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_27 = ___2_collector;
+		float L_28;
+		L_28 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_29 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_28)), L_29)), NULL);
+	}
+
+IL_0094:
+	{
+		int32_t* L_30 = V_2;
+		int32_t* L_31 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_30, 4));
+		V_2 = L_31;
+		int32_t L_32 = (*(L_31));
+		V_7 = L_32;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = __this->___m_Nodes;
+		int32_t L_34 = V_7;
+		uint32_t L_35 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_8 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_34), (int32_t)L_35))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_36 = V_8;
+		NullCheck(L_36);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_37 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_36->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38;
+		L_38 = FourTransposedAabbs_DistanceFromAabbSquared_m6CB304E6619BA6A7D2B34F35C9CC14BF2B6138BD(L_37, (&V_5), NULL);
+		V_9 = L_38;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_39 = V_8;
+		NullCheck(L_39);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_40 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_39->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_41 = L_40->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_42 = V_8;
+		NullCheck(L_42);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_43 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_42->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_44 = L_43->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_45;
+		L_45 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_41, L_44, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_46 = V_9;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_47 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48;
+		L_48 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_46, L_47, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_49;
+		L_49 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_45, L_48, NULL);
+		V_10 = L_49;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_50 = V_8;
+		NullCheck(L_50);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_51 = L_50->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_52 = V_10;
+		int32_t L_53;
+		L_53 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_11)), 0, L_51, L_52, NULL);
+		V_12 = L_53;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_54 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_54, NULL);
+		V_13 = L_55;
+		bool L_56 = V_13;
+		if (!L_56)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0172;
+	}
+
+IL_0114:
+	{
+		bool L_57 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_58 = ___1_leafProcessor;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		int32_t L_60 = V_14;
+		int32_t L_61;
+		L_61 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_11), L_60, NULL);
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_62 = ___2_collector;
+		bool L_63;
+		L_63 = BvhLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_m0D3732C9D48D9E691D1FAC9382870294CBE7C27F(L_58, L_59, L_61, L_62, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_57|(int32_t)L_63));
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_64 = ___2_collector;
+		bool L_65;
+		L_65 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m2A0B7E01FCF853CAA0735B87DD44B97582A602AB(L_64, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_66 = V_0;
+		V_15 = (bool)((int32_t)((int32_t)L_65&(int32_t)L_66));
+		bool L_67 = V_15;
+		if (!L_67)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		V_16 = (bool)1;
+		goto IL_01a6;
+	}
+
+IL_0149:
+	{
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_68 = ___2_collector;
+		float L_69;
+		L_69 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* L_70 = ___2_collector;
+		float L_71;
+		L_71 = QueryInteractionCollector_2_get_MaxFraction_m3E3583E8709970E9217D84F6F8F4BFA85651067A(L_70, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_72 = V_3;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_69, L_71)), L_72)), NULL);
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_12;
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_75))? 1 : 0);
+		bool L_76 = V_17;
+		if (L_76)
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		goto IL_0193;
+	}
+
+IL_0181:
+	{
+		int32_t* L_77 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_11;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = V_12;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_80), 4))));
+	}
+
+IL_0193:
+	{
+		int32_t* L_81 = V_2;
+		int32_t* L_82 = V_1;
+		V_18 = (bool)((!(((uintptr_t)L_81) <= ((uintptr_t)L_82)))? 1 : 0);
+		bool L_83 = V_18;
+		if (L_83)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		bool L_84 = V_0;
+		V_16 = L_84;
+		goto IL_01a6;
+	}
+
+IL_01a6:
+	{
+		bool L_85 = V_16;
+		return L_85;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mAB424A9D5E03C4836EEF3A32B254C21100249511_AdjustorThunk (RuntimeObject* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, QueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisQueryInteractionCollector_2_t9525F0CD5E4ABF00D41CA07827510F6A9BE02F32_mAB424A9D5E03C4836EEF3A32B254C21100249511(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mE2DA5AC7FE34857975276BB92626EFF177F84CE0_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_0 = ___2_collector;
+		float L_1;
+		L_1 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_16 = ___2_collector;
+		float L_17;
+		L_17 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_18 = ___2_collector;
+		float L_19;
+		L_19 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = ConvexCompoundLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m09448E7CA7DCBF14C4EA994338667DF079CA9BF9(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = AllHitsCollector_1_get_EarlyOutOnFirstHit_mE118AC7368F1012CF3E14D5CEEB833635AD20042(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_63 = ___2_collector;
+		float L_64;
+		L_64 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_65 = ___2_collector;
+		float L_66;
+		L_66 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mE2DA5AC7FE34857975276BB92626EFF177F84CE0_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mE2DA5AC7FE34857975276BB92626EFF177F84CE0(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mDD122A0AD2DB05D70AE0903EBA6AD07BDD6BE0CD_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_0 = ___2_collector;
+		float L_1;
+		L_1 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_16 = ___2_collector;
+		float L_17;
+		L_17 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_18 = ___2_collector;
+		float L_19;
+		L_19 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = ConvexCompoundLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3B26B78FD92C413D80421CDBBAA79300B9D4F49B(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = AnyHitCollector_1_get_EarlyOutOnFirstHit_mCBBE1104D278E4CAA04D9C7AEF522BEE98586701(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_63 = ___2_collector;
+		float L_64;
+		L_64 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_65 = ___2_collector;
+		float L_66;
+		L_66 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mDD122A0AD2DB05D70AE0903EBA6AD07BDD6BE0CD_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mDD122A0AD2DB05D70AE0903EBA6AD07BDD6BE0CD(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m2238AFB75554D2D0251E95D4430C91E6E63F79D2_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_0 = ___2_collector;
+		float L_1;
+		L_1 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_16 = ___2_collector;
+		float L_17;
+		L_17 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_18 = ___2_collector;
+		float L_19;
+		L_19 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = ConvexCompoundLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m43C99E328F9BBC8DC638C444B85A45F6627E48D7(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = ClosestHitCollector_1_get_EarlyOutOnFirstHit_mFBA88A44AF24EC6FED94B5C04A92B2E5D52BA472(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_63 = ___2_collector;
+		float L_64;
+		L_64 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_65 = ___2_collector;
+		float L_66;
+		L_66 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m2238AFB75554D2D0251E95D4430C91E6E63F79D2_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m2238AFB75554D2D0251E95D4430C91E6E63F79D2(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8DAD77BA41332EB366C7FE9948D6FC5130C0CC36_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_16 = ___2_collector;
+		float L_17;
+		L_17 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_18 = ___2_collector;
+		float L_19;
+		L_19 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = ConvexCompoundLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m183F65188D1B326563C72ADDB62762CCED1A6D13(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m433A57B407C2FB8F8F50A9776A29B71338E24D5D(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_63 = ___2_collector;
+		float L_64;
+		L_64 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_65 = ___2_collector;
+		float L_66;
+		L_66 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8DAD77BA41332EB366C7FE9948D6FC5130C0CC36_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m8DAD77BA41332EB366C7FE9948D6FC5130C0CC36(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m758F2D281C28F6428D91F3B5632A67E720803E0C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_16 = ___2_collector;
+		float L_17;
+		L_17 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_18 = ___2_collector;
+		float L_19;
+		L_19 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = ConvexCompoundLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_mCC667F3083E8B6C3BB40EF37CDFDA138D9C3D4E9(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m5EF1DEAE2BA0EBF307BFE92CB2357B2FDCEAFD94(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_63 = ___2_collector;
+		float L_64;
+		L_64 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_65 = ___2_collector;
+		float L_66;
+		L_66 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m758F2D281C28F6428D91F3B5632A67E720803E0C_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisConvexCompoundLeafProcessor_tF29C0922FF4E2BC2ADDB0FBCEA97AA57738F2917_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m758F2D281C28F6428D91F3B5632A67E720803E0C(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m477013BC0CDD5D28430FA4D819D18A79E226205C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_0 = ___2_collector;
+		float L_1;
+		L_1 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_16 = ___2_collector;
+		float L_17;
+		L_17 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_18 = ___2_collector;
+		float L_19;
+		L_19 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = ConvexMeshLeafProcessor_DistanceLeaf_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mB48BCA35011279B5F5AE9A973C8A18DE98F4364C(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = AllHitsCollector_1_get_EarlyOutOnFirstHit_mE118AC7368F1012CF3E14D5CEEB833635AD20042(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_63 = ___2_collector;
+		float L_64;
+		L_64 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_65 = ___2_collector;
+		float L_66;
+		L_66 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m477013BC0CDD5D28430FA4D819D18A79E226205C_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m477013BC0CDD5D28430FA4D819D18A79E226205C(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m4E0DDD6CF33345EAB9B7568D70417B7A54F60527_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_0 = ___2_collector;
+		float L_1;
+		L_1 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_16 = ___2_collector;
+		float L_17;
+		L_17 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_18 = ___2_collector;
+		float L_19;
+		L_19 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = ConvexMeshLeafProcessor_DistanceLeaf_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m0DC14311297EE71A317C342EC3F1657C8B70ED11(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = AnyHitCollector_1_get_EarlyOutOnFirstHit_mCBBE1104D278E4CAA04D9C7AEF522BEE98586701(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_63 = ___2_collector;
+		float L_64;
+		L_64 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_65 = ___2_collector;
+		float L_66;
+		L_66 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m4E0DDD6CF33345EAB9B7568D70417B7A54F60527_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m4E0DDD6CF33345EAB9B7568D70417B7A54F60527(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m6C8795A0B978E49165276290516DB00A6FB5871D_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_0 = ___2_collector;
+		float L_1;
+		L_1 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_16 = ___2_collector;
+		float L_17;
+		L_17 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_18 = ___2_collector;
+		float L_19;
+		L_19 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = ConvexMeshLeafProcessor_DistanceLeaf_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m1304979D55CA378945282465EDA7CDAE7087260D(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = ClosestHitCollector_1_get_EarlyOutOnFirstHit_mFBA88A44AF24EC6FED94B5C04A92B2E5D52BA472(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_63 = ___2_collector;
+		float L_64;
+		L_64 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_65 = ___2_collector;
+		float L_66;
+		L_66 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m6C8795A0B978E49165276290516DB00A6FB5871D_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m6C8795A0B978E49165276290516DB00A6FB5871D(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m346EF414103FF5C26E0CEEA11181B3D1F4833913_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_16 = ___2_collector;
+		float L_17;
+		L_17 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_18 = ___2_collector;
+		float L_19;
+		L_19 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = ConvexMeshLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_mD92D6BCC0AF0EDE2D3501DB7B5B3376D32EAF498(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m433A57B407C2FB8F8F50A9776A29B71338E24D5D(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_63 = ___2_collector;
+		float L_64;
+		L_64 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* L_65 = ___2_collector;
+		float L_66;
+		L_66 = QueryInteractionCollector_2_get_MaxFraction_m11E905136808F283028F2885178BE4A37D0D67C3(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m346EF414103FF5C26E0CEEA11181B3D1F4833913_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, QueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisQueryInteractionCollector_2_t1FF7D8DB8EEF0BAA30FAF682AF8147F45C630A77_m346EF414103FF5C26E0CEEA11181B3D1F4833913(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m9286F529B62BB4599503DAE9086C7DDB53454C9F_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	FourTransposedPoints_t9DCD315CB2D3A58682847235189F73A4537C2792 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_7 = NULL;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_0 = ___2_collector;
+		float L_1;
+		L_1 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_0, il2cpp_rgctx_method(method->rgctx_data, 2));
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_2 = ___0_input;
+		float L_3 = L_2.___MaxDistance;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = (bool)0;
+		uintptr_t L_4 = ((uintptr_t)((int32_t)2048));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_1 = (int32_t*)(L_5);
+		int32_t* L_6 = V_1;
+		V_2 = L_6;
+		int32_t* L_7 = V_2;
+		int32_t* L_8 = L_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_8, 4));
+		*((int32_t*)L_8) = (int32_t)1;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_9 = ___0_input;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___Position;
+		FourTransposedPoints__ctor_m55544956234A591958171199BA650A887C71E759((&V_3), L_10, NULL);
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		V_4 = L_13;
+		float L_14 = V_4;
+		float L_15 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_16 = ___2_collector;
+		float L_17;
+		L_17 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_16, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_18 = ___2_collector;
+		float L_19;
+		L_19 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_20 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), NULL);
+	}
+
+IL_0076:
+	{
+		int32_t* L_21 = V_2;
+		int32_t* L_22 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_21, 4));
+		V_2 = L_22;
+		int32_t L_23 = (*(L_22));
+		V_6 = L_23;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = __this->___m_Nodes;
+		int32_t L_25 = V_6;
+		uint32_t L_26 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_7 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_24, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), (int32_t)L_26))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = V_7;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_29;
+		L_29 = FourTransposedAabbs_DistanceFromPointSquared_mB6EF385FADA3B5674BD3B42134F4094A7F2ADA18(L_28, (&V_3), NULL);
+		V_8 = L_29;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_30 = V_7;
+		NullCheck(L_30);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_31 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_30->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_32 = L_31->___Lx;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_33 = V_7;
+		NullCheck(L_33);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_34 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_33->___Bounds);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35 = L_34->___Hx;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_36;
+		L_36 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_32, L_35, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37 = V_8;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_38 = V_5;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_39;
+		L_39 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_37, L_38, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_36, L_39, NULL);
+		V_9 = L_40;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_41 = V_7;
+		NullCheck(L_41);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42 = L_41->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = V_9;
+		int32_t L_44;
+		L_44 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_10)), 0, L_42, L_43, NULL);
+		V_11 = L_44;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_45, NULL);
+		V_12 = L_46;
+		bool L_47 = V_12;
+		if (!L_47)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0132;
+	}
+
+IL_00f6:
+	{
+		bool L_48 = V_0;
+		ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* L_49 = ___1_leafProcessor;
+		PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D L_50 = ___0_input;
+		int32_t L_51 = V_13;
+		int32_t L_52;
+		L_52 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_10), L_51, NULL);
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_53 = ___2_collector;
+		bool L_54;
+		L_54 = ConvexMeshLeafProcessor_DistanceLeaf_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m33CB7760D72B991173469390DEA5738A5453BD4F(L_49, L_50, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_48|(int32_t)L_54));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_55 = ___2_collector;
+		bool L_56;
+		L_56 = QueryInteractionCollector_2_get_EarlyOutOnFirstHit_m5EF1DEAE2BA0EBF307BFE92CB2357B2FDCEAFD94(L_55, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_57 = V_0;
+		V_14 = (bool)((int32_t)((int32_t)L_56&(int32_t)L_57));
+		bool L_58 = V_14;
+		if (!L_58)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		V_15 = (bool)1;
+		goto IL_0189;
+	}
+
+IL_012b:
+	{
+		int32_t L_59 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_13;
+		int32_t L_61 = V_11;
+		V_16 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_16;
+		if (L_62)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_63 = ___2_collector;
+		float L_64;
+		L_64 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_63, il2cpp_rgctx_method(method->rgctx_data, 2));
+		QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* L_65 = ___2_collector;
+		float L_66;
+		L_66 = QueryInteractionCollector_2_get_MaxFraction_mA82FBA208417418D5E228B3244EA1AEE5B642158(L_65, il2cpp_rgctx_method(method->rgctx_data, 2));
+		float L_67 = V_4;
+		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&V_5), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_64, L_66)), L_67)), NULL);
+		goto IL_0176;
+	}
+
+IL_0164:
+	{
+		int32_t* L_68 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = V_10;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_68 = L_69;
+		int32_t* L_70 = V_2;
+		int32_t L_71 = V_11;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_71), 4))));
+	}
+
+IL_0176:
+	{
+		int32_t* L_72 = V_2;
+		int32_t* L_73 = V_1;
+		V_17 = (bool)((!(((uintptr_t)L_72) <= ((uintptr_t)L_73)))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_75 = V_0;
+		V_15 = L_75;
+		goto IL_0189;
+	}
+
+IL_0189:
+	{
+		bool L_76 = V_15;
+		return L_76;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m9286F529B62BB4599503DAE9086C7DDB53454C9F_AdjustorThunk (RuntimeObject* __this, PointDistanceInput_tD5FDEC9979F59AC71F891134378F6F6DAAAA552D ___0_input, ConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769* ___1_leafProcessor, QueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Distance_TisConvexMeshLeafProcessor_tA04077A4B7F45414D432D1A0EE7DE4E05413E769_TisQueryInteractionCollector_2_t139532C5CA5345C626E40413C6EE5295C8D8110E_m9286F529B62BB4599503DAE9086C7DDB53454C9F(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoundingVolumeHierarchy_ProcessAA_TisIl2CppFullySharedGenericStruct_m1BFF2C65F6FB7A343B362E6B737D597B9F9CD241_gshared (Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* ___0_node, int4_tBA77D4945786DE82C3A487B33955EA1004996052* ___1_compressedData, int32_t** ___2_stack, int32_t** ___3_stackA, int32_t** ___4_stackB, Il2CppFullySharedGenericStruct* ___5_pairWriter, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	void* L_69 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* V_2 = NULL;
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* V_3 = NULL;
+	int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	bool V_5 = false;
+	int32_t V_6 = 0;
+	bool V_7 = false;
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	bool V_11 = false;
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_0 = ___0_node;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_1 = L_0->___Data;
+		V_0 = L_1;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_2 = ___0_node;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_3 = L_2->___Bounds;
+		V_1 = L_3;
+		uint32_t L_4 = sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2);
+		if ((uintptr_t)((uintptr_t)3) * (uintptr_t)L_4 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_5 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)3), (int32_t)L_4));
+		int8_t* L_6 = (int8_t*) (L_5 ? alloca(L_5) : NULL);
+		memset(L_6, 0, L_5);
+		V_2 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(L_6);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_7 = V_2;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_8;
+		L_8 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8((&V_1), 0, NULL);
+		*(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)L_7 = L_8;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_9 = V_2;
+		uint32_t L_10 = sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_11;
+		L_11 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8((&V_1), 1, NULL);
+		*(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)il2cpp_codegen_add((intptr_t)L_9, (int32_t)L_10)) = L_11;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_12 = V_2;
+		uint32_t L_13 = sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_14;
+		L_14 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8((&V_1), 2, NULL);
+		*(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)il2cpp_codegen_add((intptr_t)L_12, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_13)))) = L_14;
+		uint32_t L_15 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		if ((uintptr_t)((uintptr_t)3) * (uintptr_t)L_15 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_16 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)3), (int32_t)L_15));
+		int8_t* L_17 = (int8_t*) (L_16 ? alloca(L_16) : NULL);
+		memset(L_17, 0, L_16);
+		V_3 = (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)(L_17);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_18 = V_3;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline((&L_19), (bool)0, (bool)1, (bool)1, (bool)1, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)L_18 = L_19;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_20 = V_3;
+		uint32_t L_21 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_22;
+		memset((&L_22), 0, sizeof(L_22));
+		bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline((&L_22), (bool)0, (bool)0, (bool)1, (bool)1, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_20, (int32_t)L_21)) = L_22;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_23 = V_3;
+		uint32_t L_24 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline((&L_25), (bool)0, (bool)0, (bool)0, (bool)1, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_23, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_24)))) = L_25;
+		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_26 = ((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_StaticFields*)il2cpp_codegen_static_fields_for(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_il2cpp_TypeInfo_var))->___zero;
+		V_4 = L_26;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_27 = ___1_compressedData;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_28 = V_0;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_29 = V_2;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_30;
+		L_30 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)L_29, (&V_1), NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_31 = V_3;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_32 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)L_31);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_33;
+		L_33 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_30, L_32, NULL);
+		int32_t L_34;
+		L_34 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)L_27, 0, L_28, L_33, NULL);
+		int3_set_Item_m319CD04A9CFB29D68C18A1E53AB6F8869637745E((&V_4), 0, L_34, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_35 = ___1_compressedData;
+		uint32_t L_36 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_37 = V_0;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_38 = V_2;
+		uint32_t L_39 = sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)il2cpp_codegen_add((intptr_t)L_38, (int32_t)L_39)), (&V_1), NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_41 = V_3;
+		uint32_t L_42 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_41, (int32_t)L_42)));
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_44;
+		L_44 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_40, L_43, NULL);
+		int32_t L_45;
+		L_45 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_35, (int32_t)L_36)), 0, L_37, L_44, NULL);
+		int3_set_Item_m319CD04A9CFB29D68C18A1E53AB6F8869637745E((&V_4), 1, L_45, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_46 = ___1_compressedData;
+		uint32_t L_47 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_48 = V_0;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_49 = V_2;
+		uint32_t L_50 = sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_51;
+		L_51 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)il2cpp_codegen_add((intptr_t)L_49, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_50)))), (&V_1), NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_52 = V_3;
+		uint32_t L_53 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_54 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_52, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_53)))));
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_55;
+		L_55 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_51, L_54, NULL);
+		int32_t L_56;
+		L_56 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_46, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_47)))), 0, L_48, L_55, NULL);
+		int3_set_Item_m319CD04A9CFB29D68C18A1E53AB6F8869637745E((&V_4), 2, L_56, NULL);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_57 = ___0_node;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_58;
+		L_58 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline(L_57, NULL);
+		V_5 = L_58;
+		bool L_59 = V_5;
+		if (!L_59)
+		{
+			goto IL_01a2;
+		}
+	}
+	{
+		V_6 = 0;
+		goto IL_0191;
+	}
+
+IL_0158:
+	{
+		Il2CppFullySharedGenericStruct* L_60 = ___5_pairWriter;
+		int32_t L_61 = V_6;
+		int32_t L_62;
+		L_62 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_0), L_61, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_63 = ___1_compressedData;
+		int32_t L_64 = V_6;
+		uint32_t L_65 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_66 = (*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_63, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_64), (int32_t)L_65)))));
+		int32_t L_67 = V_6;
+		int32_t L_68;
+		L_68 = int3_get_Item_mAA1998D8ED9F62D701938F2F665599B0CE949672((&V_4), L_67, NULL);
+		ConstrainedActionInvoker3< int32_t, int4_tBA77D4945786DE82C3A487B33955EA1004996052, int32_t >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_69, (void*)L_60, L_62, L_66, L_68);
+		int32_t L_70 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_70, 1));
+	}
+
+IL_0191:
+	{
+		int32_t L_71 = V_6;
+		V_7 = (bool)((((int32_t)L_71) < ((int32_t)3))? 1 : 0);
+		bool L_72 = V_7;
+		if (L_72)
+		{
+			goto IL_0158;
+		}
+	}
+	{
+		goto IL_0233;
+	}
+
+IL_01a2:
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_73 = V_0;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_74 = ___0_node;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_75;
+		L_75 = Node_get_AreInternalsValid_mDEF4E6A974591EE363BAFE7132CA65A7D1696E12(L_74, NULL);
+		int32_t L_76;
+		L_76 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_8)), 0, L_73, L_75, NULL);
+		V_9 = L_76;
+		int32_t** L_77 = ___2_stack;
+		intptr_t L_78 = *((intptr_t*)L_77);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_79 = V_8;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_78 = L_79;
+		int32_t** L_80 = ___2_stack;
+		int32_t** L_81 = ___2_stack;
+		intptr_t L_82 = *((intptr_t*)L_81);
+		int32_t L_83 = V_9;
+		*((intptr_t*)L_80) = (intptr_t)((intptr_t)il2cpp_codegen_add(L_82, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_83), 4))));
+		V_10 = 0;
+		goto IL_0227;
+	}
+
+IL_01cd:
+	{
+		int32_t** L_84 = ___3_stackA;
+		intptr_t L_85 = *((intptr_t*)L_84);
+		int32_t L_86 = V_10;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_0), L_86, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_88;
+		memset((&L_88), 0, sizeof(L_88));
+		int4__ctor_m48F9FB97F5956250E7BE7C6EB19B046CFBD37FE5_inline((&L_88), L_87, NULL);
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_85 = L_88;
+		int32_t** L_89 = ___4_stackB;
+		intptr_t L_90 = *((intptr_t*)L_89);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_91 = ___1_compressedData;
+		int32_t L_92 = V_10;
+		uint32_t L_93 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_94 = (*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_92), (int32_t)L_93)))));
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_90 = L_94;
+		int32_t** L_95 = ___3_stackA;
+		int32_t** L_96 = ___3_stackA;
+		intptr_t L_97 = *((intptr_t*)L_96);
+		int32_t L_98 = V_10;
+		int32_t L_99;
+		L_99 = int3_get_Item_mAA1998D8ED9F62D701938F2F665599B0CE949672((&V_4), L_98, NULL);
+		*((intptr_t*)L_95) = (intptr_t)((intptr_t)il2cpp_codegen_add(L_97, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_99), 4))));
+		int32_t** L_100 = ___4_stackB;
+		int32_t** L_101 = ___4_stackB;
+		intptr_t L_102 = *((intptr_t*)L_101);
+		int32_t L_103 = V_10;
+		int32_t L_104;
+		L_104 = int3_get_Item_mAA1998D8ED9F62D701938F2F665599B0CE949672((&V_4), L_103, NULL);
+		*((intptr_t*)L_100) = (intptr_t)((intptr_t)il2cpp_codegen_add(L_102, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_104), 4))));
+		int32_t L_105 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_105, 1));
+	}
+
+IL_0227:
+	{
+		int32_t L_106 = V_10;
+		V_11 = (bool)((((int32_t)L_106) < ((int32_t)3))? 1 : 0);
+		bool L_107 = V_11;
+		if (L_107)
+		{
+			goto IL_01cd;
+		}
+	}
+	{
+	}
+
+IL_0233:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoundingVolumeHierarchy_ProcessAA_TisBodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446_mC2353721C9CC44230B7BB344BA657B1BC9454572_gshared (Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* ___0_node, int4_tBA77D4945786DE82C3A487B33955EA1004996052* ___1_compressedData, int32_t** ___2_stack, int32_t** ___3_stackA, int32_t** ___4_stackB, BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446* ___5_pairWriter, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* V_2 = NULL;
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* V_3 = NULL;
+	int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	bool V_5 = false;
+	int32_t V_6 = 0;
+	bool V_7 = false;
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	bool V_11 = false;
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_0 = ___0_node;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_1 = L_0->___Data;
+		V_0 = L_1;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_2 = ___0_node;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_3 = L_2->___Bounds;
+		V_1 = L_3;
+		uint32_t L_4 = sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2);
+		if ((uintptr_t)((uintptr_t)3) * (uintptr_t)L_4 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_5 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)3), (int32_t)L_4));
+		int8_t* L_6 = (int8_t*) (L_5 ? alloca(L_5) : NULL);
+		memset(L_6, 0, L_5);
+		V_2 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(L_6);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_7 = V_2;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_8;
+		L_8 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8((&V_1), 0, NULL);
+		*(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)L_7 = L_8;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_9 = V_2;
+		uint32_t L_10 = sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_11;
+		L_11 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8((&V_1), 1, NULL);
+		*(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)il2cpp_codegen_add((intptr_t)L_9, (int32_t)L_10)) = L_11;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_12 = V_2;
+		uint32_t L_13 = sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_14;
+		L_14 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8((&V_1), 2, NULL);
+		*(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)il2cpp_codegen_add((intptr_t)L_12, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_13)))) = L_14;
+		uint32_t L_15 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		if ((uintptr_t)((uintptr_t)3) * (uintptr_t)L_15 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_16 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)3), (int32_t)L_15));
+		int8_t* L_17 = (int8_t*) (L_16 ? alloca(L_16) : NULL);
+		memset(L_17, 0, L_16);
+		V_3 = (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)(L_17);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_18 = V_3;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline((&L_19), (bool)0, (bool)1, (bool)1, (bool)1, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)L_18 = L_19;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_20 = V_3;
+		uint32_t L_21 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_22;
+		memset((&L_22), 0, sizeof(L_22));
+		bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline((&L_22), (bool)0, (bool)0, (bool)1, (bool)1, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_20, (int32_t)L_21)) = L_22;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_23 = V_3;
+		uint32_t L_24 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline((&L_25), (bool)0, (bool)0, (bool)0, (bool)1, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_23, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_24)))) = L_25;
+		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_26 = ((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_StaticFields*)il2cpp_codegen_static_fields_for(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_il2cpp_TypeInfo_var))->___zero;
+		V_4 = L_26;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_27 = ___1_compressedData;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_28 = V_0;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_29 = V_2;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_30;
+		L_30 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)L_29, (&V_1), NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_31 = V_3;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_32 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)L_31);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_33;
+		L_33 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_30, L_32, NULL);
+		int32_t L_34;
+		L_34 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)L_27, 0, L_28, L_33, NULL);
+		int3_set_Item_m319CD04A9CFB29D68C18A1E53AB6F8869637745E((&V_4), 0, L_34, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_35 = ___1_compressedData;
+		uint32_t L_36 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_37 = V_0;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_38 = V_2;
+		uint32_t L_39 = sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_40;
+		L_40 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)il2cpp_codegen_add((intptr_t)L_38, (int32_t)L_39)), (&V_1), NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_41 = V_3;
+		uint32_t L_42 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_43 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_41, (int32_t)L_42)));
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_44;
+		L_44 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_40, L_43, NULL);
+		int32_t L_45;
+		L_45 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_35, (int32_t)L_36)), 0, L_37, L_44, NULL);
+		int3_set_Item_m319CD04A9CFB29D68C18A1E53AB6F8869637745E((&V_4), 1, L_45, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_46 = ___1_compressedData;
+		uint32_t L_47 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_48 = V_0;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_49 = V_2;
+		uint32_t L_50 = sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_51;
+		L_51 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)((FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)il2cpp_codegen_add((intptr_t)L_49, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_50)))), (&V_1), NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_52 = V_3;
+		uint32_t L_53 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_54 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_52, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_53)))));
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_55;
+		L_55 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_51, L_54, NULL);
+		int32_t L_56;
+		L_56 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_46, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_47)))), 0, L_48, L_55, NULL);
+		int3_set_Item_m319CD04A9CFB29D68C18A1E53AB6F8869637745E((&V_4), 2, L_56, NULL);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_57 = ___0_node;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_58;
+		L_58 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline(L_57, NULL);
+		V_5 = L_58;
+		bool L_59 = V_5;
+		if (!L_59)
+		{
+			goto IL_01a2;
+		}
+	}
+	{
+		V_6 = 0;
+		goto IL_0191;
+	}
+
+IL_0158:
+	{
+		BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446* L_60 = ___5_pairWriter;
+		int32_t L_61 = V_6;
+		int32_t L_62;
+		L_62 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_0), L_61, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_63 = ___1_compressedData;
+		int32_t L_64 = V_6;
+		uint32_t L_65 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_66 = (*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_63, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_64), (int32_t)L_65)))));
+		int32_t L_67 = V_6;
+		int32_t L_68;
+		L_68 = int3_get_Item_mAA1998D8ED9F62D701938F2F665599B0CE949672((&V_4), L_67, NULL);
+		BodyPairWriter_AddPairs_mC3C4AD3E2559C8E567E6D790F21DC5B44C22F431_inline(L_60, L_62, L_66, L_68, il2cpp_rgctx_method(method->rgctx_data, 2));
+		int32_t L_69 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_69, 1));
+	}
+
+IL_0191:
+	{
+		int32_t L_70 = V_6;
+		V_7 = (bool)((((int32_t)L_70) < ((int32_t)3))? 1 : 0);
+		bool L_71 = V_7;
+		if (L_71)
+		{
+			goto IL_0158;
+		}
+	}
+	{
+		goto IL_0233;
+	}
+
+IL_01a2:
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_72 = V_0;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_73 = ___0_node;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_74;
+		L_74 = Node_get_AreInternalsValid_mDEF4E6A974591EE363BAFE7132CA65A7D1696E12(L_73, NULL);
+		int32_t L_75;
+		L_75 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_8)), 0, L_72, L_74, NULL);
+		V_9 = L_75;
+		int32_t** L_76 = ___2_stack;
+		intptr_t L_77 = *((intptr_t*)L_76);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_78 = V_8;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_77 = L_78;
+		int32_t** L_79 = ___2_stack;
+		int32_t** L_80 = ___2_stack;
+		intptr_t L_81 = *((intptr_t*)L_80);
+		int32_t L_82 = V_9;
+		*((intptr_t*)L_79) = (intptr_t)((intptr_t)il2cpp_codegen_add(L_81, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_82), 4))));
+		V_10 = 0;
+		goto IL_0227;
+	}
+
+IL_01cd:
+	{
+		int32_t** L_83 = ___3_stackA;
+		intptr_t L_84 = *((intptr_t*)L_83);
+		int32_t L_85 = V_10;
+		int32_t L_86;
+		L_86 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_0), L_85, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_87;
+		memset((&L_87), 0, sizeof(L_87));
+		int4__ctor_m48F9FB97F5956250E7BE7C6EB19B046CFBD37FE5_inline((&L_87), L_86, NULL);
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_84 = L_87;
+		int32_t** L_88 = ___4_stackB;
+		intptr_t L_89 = *((intptr_t*)L_88);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_90 = ___1_compressedData;
+		int32_t L_91 = V_10;
+		uint32_t L_92 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_93 = (*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_90, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_91), (int32_t)L_92)))));
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_89 = L_93;
+		int32_t** L_94 = ___3_stackA;
+		int32_t** L_95 = ___3_stackA;
+		intptr_t L_96 = *((intptr_t*)L_95);
+		int32_t L_97 = V_10;
+		int32_t L_98;
+		L_98 = int3_get_Item_mAA1998D8ED9F62D701938F2F665599B0CE949672((&V_4), L_97, NULL);
+		*((intptr_t*)L_94) = (intptr_t)((intptr_t)il2cpp_codegen_add(L_96, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_98), 4))));
+		int32_t** L_99 = ___4_stackB;
+		int32_t** L_100 = ___4_stackB;
+		intptr_t L_101 = *((intptr_t*)L_100);
+		int32_t L_102 = V_10;
+		int32_t L_103;
+		L_103 = int3_get_Item_mAA1998D8ED9F62D701938F2F665599B0CE949672((&V_4), L_102, NULL);
+		*((intptr_t*)L_99) = (intptr_t)((intptr_t)il2cpp_codegen_add(L_101, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_103), 4))));
+		int32_t L_104 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_104, 1));
+	}
+
+IL_0227:
+	{
+		int32_t L_105 = V_10;
+		V_11 = (bool)((((int32_t)L_105) < ((int32_t)3))? 1 : 0);
+		bool L_106 = V_11;
+		if (L_106)
+		{
+			goto IL_01cd;
+		}
+	}
+	{
+	}
+
+IL_0233:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoundingVolumeHierarchy_ProcessAB_TisIl2CppFullySharedGenericStruct_mE8695CFD5670A95C44E6FE717D1817DD0F01CE17_gshared (Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* ___0_nodeA, Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* ___1_nodeB, Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* ___2_treeA, Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* ___3_treeB, int4_tBA77D4945786DE82C3A487B33955EA1004996052* ___4_compressedData, int32_t** ___5_stackA, int32_t** ___6_stackB, Il2CppFullySharedGenericStruct* ___7_pairWriter, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&int4_tBA77D4945786DE82C3A487B33955EA1004996052_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	void* L_90 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_167 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_169 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	bool V_0 = false;
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* V_1 = NULL;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_5 = NULL;
+	bool V_6 = false;
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	bool V_9 = false;
+	int32_t V_10 = 0;
+	bool V_11 = false;
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t* V_14 = NULL;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_17 = NULL;
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_18;
+	memset((&V_18), 0, sizeof(V_18));
+	int32_t V_19 = 0;
+	bool V_20 = false;
+	bool V_21 = false;
+	bool V_22 = false;
+	bool V_23 = false;
+	int32_t G_B3_0 = 0;
+	int32_t G_B8_0 = 0;
+	int32_t G_B16_0 = 0;
+	{
+		V_0 = (bool)0;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_0 = ___0_nodeA;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Node_get_IsInternal_mC1D2E844649E12DE5EA0A2ACFA8A90344C1E3F3D_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_2 = ___1_nodeB;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_2, NULL);
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_0014;
+	}
+
+IL_0013:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0014:
+	{
+		V_4 = (bool)G_B3_0;
+		bool L_4 = V_4;
+		if (!L_4)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_5 = ___0_nodeA;
+		V_5 = L_5;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_6 = ___1_nodeB;
+		___0_nodeA = L_6;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_7 = V_5;
+		___1_nodeB = L_7;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_8 = ___2_treeA;
+		___3_treeB = L_8;
+		V_0 = (bool)1;
+	}
+
+IL_002b:
+	{
+		uint32_t L_9 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_9 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_10 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_9));
+		int8_t* L_11 = (int8_t*) (L_10 ? alloca(L_10) : NULL);
+		memset(L_11, 0, L_10);
+		V_1 = (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)(L_11);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_12 = ___0_nodeA;
+		NullCheck(L_12);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_13 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_12->___Bounds);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_14;
+		L_14 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8(L_13, 0, NULL);
+		V_2 = L_14;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_15 = V_1;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_16 = ___1_nodeB;
+		NullCheck(L_16);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_17 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_16->___Bounds);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_18;
+		L_18 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((&V_2), L_17, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)L_15 = L_18;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_19 = ___0_nodeA;
+		NullCheck(L_19);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_20 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_19->___Bounds);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_21;
+		L_21 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8(L_20, 1, NULL);
+		V_2 = L_21;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_22 = V_1;
+		uint32_t L_23 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = ___1_nodeB;
+		NullCheck(L_24);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_25 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_24->___Bounds);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_26;
+		L_26 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((&V_2), L_25, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_22, (int32_t)L_23)) = L_26;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = ___0_nodeA;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_29;
+		L_29 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8(L_28, 2, NULL);
+		V_2 = L_29;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_30 = V_1;
+		uint32_t L_31 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_32 = ___1_nodeB;
+		NullCheck(L_32);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_33 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_32->___Bounds);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_34;
+		L_34 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((&V_2), L_33, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_30, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_31)))) = L_34;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_35 = ___0_nodeA;
+		NullCheck(L_35);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_36 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_35->___Bounds);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_37;
+		L_37 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8(L_36, 3, NULL);
+		V_2 = L_37;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_38 = V_1;
+		uint32_t L_39 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_40 = ___1_nodeB;
+		NullCheck(L_40);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_41 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_40->___Bounds);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_42;
+		L_42 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((&V_2), L_41, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_38, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_39)))) = L_42;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_43 = ((int4_tBA77D4945786DE82C3A487B33955EA1004996052_StaticFields*)il2cpp_codegen_static_fields_for(int4_tBA77D4945786DE82C3A487B33955EA1004996052_il2cpp_TypeInfo_var))->___zero;
+		V_3 = L_43;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_44 = ___4_compressedData;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = ___1_nodeB;
+		NullCheck(L_45);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_46 = L_45->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_47 = V_1;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)L_47);
+		int32_t L_49;
+		L_49 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)L_44), 0, L_46, L_48, NULL);
+		int4_set_Item_mD047433367F427614706033903727B2AFC119537((&V_3), 0, L_49, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_50 = ___4_compressedData;
+		uint32_t L_51 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_52 = ___1_nodeB;
+		NullCheck(L_52);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_53 = L_52->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_54 = V_1;
+		uint32_t L_55 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_56 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_54, (int32_t)L_55)));
+		int32_t L_57;
+		L_57 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_50, (int32_t)L_51))), 0, L_53, L_56, NULL);
+		int4_set_Item_mD047433367F427614706033903727B2AFC119537((&V_3), 1, L_57, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_58 = ___4_compressedData;
+		uint32_t L_59 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_60 = ___1_nodeB;
+		NullCheck(L_60);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_61 = L_60->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_62 = V_1;
+		uint32_t L_63 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_64 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_62, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_63)))));
+		int32_t L_65;
+		L_65 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_58, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_59))))), 0, L_61, L_64, NULL);
+		int4_set_Item_mD047433367F427614706033903727B2AFC119537((&V_3), 2, L_65, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_66 = ___4_compressedData;
+		uint32_t L_67 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_68 = ___1_nodeB;
+		NullCheck(L_68);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = L_68->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_70 = V_1;
+		uint32_t L_71 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_72 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_71)))));
+		int32_t L_73;
+		L_73 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_66, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_67))))), 0, L_69, L_72, NULL);
+		int4_set_Item_mD047433367F427614706033903727B2AFC119537((&V_3), 3, L_73, NULL);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_74 = ___0_nodeA;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_75;
+		L_75 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_74, NULL);
+		if (!L_75)
+		{
+			goto IL_0196;
+		}
+	}
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_76 = ___1_nodeB;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_77;
+		L_77 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_76, NULL);
+		G_B8_0 = ((int32_t)(L_77));
+		goto IL_0197;
+	}
+
+IL_0196:
+	{
+		G_B8_0 = 0;
+	}
+
+IL_0197:
+	{
+		V_6 = (bool)G_B8_0;
+		bool L_78 = V_6;
+		if (!L_78)
+		{
+			goto IL_01f2;
+		}
+	}
+	{
+		V_7 = 0;
+		goto IL_01e1;
+	}
+
+IL_01a3:
+	{
+		Il2CppFullySharedGenericStruct* L_79 = ___7_pairWriter;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_80 = ___0_nodeA;
+		NullCheck(L_80);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_81 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_80->___Data);
+		int32_t L_82 = V_7;
+		int32_t L_83;
+		L_83 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284(L_81, L_82, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_84 = ___4_compressedData;
+		int32_t L_85 = V_7;
+		uint32_t L_86 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_87 = (*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_84, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_85), (int32_t)L_86)))));
+		int32_t L_88 = V_7;
+		int32_t L_89;
+		L_89 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_3), L_88, NULL);
+		ConstrainedActionInvoker3< int32_t, int4_tBA77D4945786DE82C3A487B33955EA1004996052, int32_t >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_90, (void*)L_79, L_83, L_87, L_89);
+		int32_t L_91 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_91, 1));
+	}
+
+IL_01e1:
+	{
+		int32_t L_92 = V_7;
+		V_8 = (bool)((((int32_t)L_92) < ((int32_t)4))? 1 : 0);
+		bool L_93 = V_8;
+		if (L_93)
+		{
+			goto IL_01a3;
+		}
+	}
+	{
+		goto IL_03a7;
+	}
+
+IL_01f2:
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_94 = ___0_nodeA;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_95;
+		L_95 = Node_get_IsInternal_mC1D2E844649E12DE5EA0A2ACFA8A90344C1E3F3D_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_94, NULL);
+		if (!L_95)
+		{
+			goto IL_0202;
+		}
+	}
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_96 = ___1_nodeB;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_97;
+		L_97 = Node_get_IsInternal_mC1D2E844649E12DE5EA0A2ACFA8A90344C1E3F3D_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_96, NULL);
+		G_B16_0 = ((int32_t)(L_97));
+		goto IL_0203;
+	}
+
+IL_0202:
+	{
+		G_B16_0 = 0;
+	}
+
+IL_0203:
+	{
+		V_9 = (bool)G_B16_0;
+		bool L_98 = V_9;
+		if (!L_98)
+		{
+			goto IL_0282;
+		}
+	}
+	{
+		V_10 = 0;
+		goto IL_0271;
+	}
+
+IL_020f:
+	{
+		int32_t** L_99 = ___5_stackA;
+		intptr_t L_100 = *((intptr_t*)L_99);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_101 = ___0_nodeA;
+		NullCheck(L_101);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_102 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_101->___Data);
+		int32_t L_103 = V_10;
+		int32_t L_104;
+		L_104 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284(L_102, L_103, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_105;
+		memset((&L_105), 0, sizeof(L_105));
+		int4__ctor_m48F9FB97F5956250E7BE7C6EB19B046CFBD37FE5_inline((&L_105), L_104, NULL);
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_100 = L_105;
+		int32_t** L_106 = ___6_stackB;
+		intptr_t L_107 = *((intptr_t*)L_106);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_108 = ___4_compressedData;
+		int32_t L_109 = V_10;
+		uint32_t L_110 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_111 = (*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_108, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_109), (int32_t)L_110)))));
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_107 = L_111;
+		int32_t** L_112 = ___5_stackA;
+		int32_t** L_113 = ___5_stackA;
+		intptr_t L_114 = *((intptr_t*)L_113);
+		int32_t L_115 = V_10;
+		int32_t L_116;
+		L_116 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_3), L_115, NULL);
+		*((intptr_t*)L_112) = (intptr_t)((intptr_t)il2cpp_codegen_add(L_114, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_116), 4))));
+		int32_t** L_117 = ___6_stackB;
+		int32_t** L_118 = ___6_stackB;
+		intptr_t L_119 = *((intptr_t*)L_118);
+		int32_t L_120 = V_10;
+		int32_t L_121;
+		L_121 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_3), L_120, NULL);
+		*((intptr_t*)L_117) = (intptr_t)((intptr_t)il2cpp_codegen_add(L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_121), 4))));
+		int32_t L_122 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_122, 1));
+	}
+
+IL_0271:
+	{
+		int32_t L_123 = V_10;
+		V_11 = (bool)((((int32_t)L_123) < ((int32_t)4))? 1 : 0);
+		bool L_124 = V_11;
+		if (L_124)
+		{
+			goto IL_020f;
+		}
+	}
+	{
+		goto IL_03a7;
+	}
+
+IL_0282:
+	{
+		V_12 = 0;
+		goto IL_0398;
+	}
+
+IL_028b:
+	{
+		int32_t L_125 = V_12;
+		int32_t L_126;
+		L_126 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_3), L_125, NULL);
+		V_13 = (bool)((((int32_t)L_126) > ((int32_t)0))? 1 : 0);
+		bool L_127 = V_13;
+		if (!L_127)
+		{
+			goto IL_0391;
+		}
+	}
+	{
+		int32_t** L_128 = ___5_stackA;
+		intptr_t L_129 = *((intptr_t*)L_128);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_130 = ___4_compressedData;
+		int32_t L_131 = V_12;
+		uint32_t L_132 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_133 = (*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_130, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_131), (int32_t)L_132)))));
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_129 = L_133;
+		int32_t** L_134 = ___5_stackA;
+		intptr_t L_135 = *((intptr_t*)L_134);
+		int32_t L_136 = V_12;
+		int32_t L_137;
+		L_137 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_3), L_136, NULL);
+		V_14 = (int32_t*)((intptr_t)il2cpp_codegen_add(L_135, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_137), 4))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_138 = ___0_nodeA;
+		NullCheck(L_138);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_139 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_138->___Bounds);
+		int32_t L_140 = V_12;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_141;
+		L_141 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8(L_139, L_140, NULL);
+		V_15 = L_141;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_142 = ___0_nodeA;
+		NullCheck(L_142);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_143 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_142->___Data);
+		int32_t L_144 = V_12;
+		int32_t L_145;
+		L_145 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284(L_143, L_144, NULL);
+		int4__ctor_m48F9FB97F5956250E7BE7C6EB19B046CFBD37FE5_inline((&V_16), L_145, NULL);
+	}
+
+IL_02f1:
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_146 = ___3_treeB;
+		int32_t* L_147 = V_14;
+		int32_t* L_148 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_147, 4));
+		V_14 = L_148;
+		int32_t L_149 = (*(L_148));
+		uint32_t L_150 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_17 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_146, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_149), (int32_t)L_150))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_151 = V_17;
+		NullCheck(L_151);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_152 = L_151->___Data;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_153 = V_17;
+		NullCheck(L_153);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_154 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_153->___Bounds);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_155;
+		L_155 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((&V_15), L_154, NULL);
+		int32_t L_156;
+		L_156 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_18)), 0, L_152, L_155, NULL);
+		V_19 = L_156;
+		int32_t L_157 = V_19;
+		V_20 = (bool)((((int32_t)L_157) > ((int32_t)0))? 1 : 0);
+		bool L_158 = V_20;
+		if (!L_158)
+		{
+			goto IL_037c;
+		}
+	}
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_159 = V_17;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_160;
+		L_160 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_159, NULL);
+		V_21 = L_160;
+		bool L_161 = V_21;
+		if (!L_161)
+		{
+			goto IL_0366;
+		}
+	}
+	{
+		Il2CppFullySharedGenericStruct* L_162 = ___7_pairWriter;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_163 = V_16;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_164 = V_18;
+		int32_t L_165 = V_19;
+		bool L_166 = V_0;
+		ConstrainedActionInvoker4< int4_tBA77D4945786DE82C3A487B33955EA1004996052, int4_tBA77D4945786DE82C3A487B33955EA1004996052, int32_t, bool >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 3), L_167, (void*)L_162, L_163, L_164, L_165, L_166);
+		Il2CppFullySharedGenericStruct* L_168 = ___7_pairWriter;
+		ConstrainedActionInvoker0::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 4), L_169, (void*)L_168);
+		goto IL_037b;
+	}
+
+IL_0366:
+	{
+		int32_t* L_170 = V_14;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_171 = V_18;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_170 = L_171;
+		int32_t* L_172 = V_14;
+		int32_t L_173 = V_19;
+		V_14 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_172, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_173), 4))));
+	}
+
+IL_037b:
+	{
+	}
+
+IL_037c:
+	{
+		int32_t* L_174 = V_14;
+		int32_t** L_175 = ___5_stackA;
+		intptr_t L_176 = *((intptr_t*)L_175);
+		V_22 = (bool)((((int32_t)((((intptr_t)L_174) == ((intptr_t)L_176))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_177 = V_22;
+		if (L_177)
+		{
+			goto IL_02f1;
+		}
+	}
+	{
+	}
+
+IL_0391:
+	{
+		int32_t L_178 = V_12;
+		V_12 = ((int32_t)il2cpp_codegen_add(L_178, 1));
+	}
+
+IL_0398:
+	{
+		int32_t L_179 = V_12;
+		V_23 = (bool)((((int32_t)L_179) < ((int32_t)4))? 1 : 0);
+		bool L_180 = V_23;
+		if (L_180)
+		{
+			goto IL_028b;
+		}
+	}
+	{
+	}
+
+IL_03a7:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoundingVolumeHierarchy_ProcessAB_TisBodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446_m8D0BC42BCFD1E65843C072EFFD014184FE4B6D95_gshared (Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* ___0_nodeA, Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* ___1_nodeB, Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* ___2_treeA, Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* ___3_treeB, int4_tBA77D4945786DE82C3A487B33955EA1004996052* ___4_compressedData, int32_t** ___5_stackA, int32_t** ___6_stackB, BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446* ___7_pairWriter, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&int4_tBA77D4945786DE82C3A487B33955EA1004996052_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* V_1 = NULL;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_5 = NULL;
+	bool V_6 = false;
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	bool V_9 = false;
+	int32_t V_10 = 0;
+	bool V_11 = false;
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	int32_t* V_14 = NULL;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_17 = NULL;
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_18;
+	memset((&V_18), 0, sizeof(V_18));
+	int32_t V_19 = 0;
+	bool V_20 = false;
+	bool V_21 = false;
+	bool V_22 = false;
+	bool V_23 = false;
+	int32_t G_B3_0 = 0;
+	int32_t G_B8_0 = 0;
+	int32_t G_B16_0 = 0;
+	{
+		V_0 = (bool)0;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_0 = ___0_nodeA;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Node_get_IsInternal_mC1D2E844649E12DE5EA0A2ACFA8A90344C1E3F3D_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_2 = ___1_nodeB;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_2, NULL);
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_0014;
+	}
+
+IL_0013:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0014:
+	{
+		V_4 = (bool)G_B3_0;
+		bool L_4 = V_4;
+		if (!L_4)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_5 = ___0_nodeA;
+		V_5 = L_5;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_6 = ___1_nodeB;
+		___0_nodeA = L_6;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_7 = V_5;
+		___1_nodeB = L_7;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_8 = ___2_treeA;
+		___3_treeB = L_8;
+		V_0 = (bool)1;
+	}
+
+IL_002b:
+	{
+		uint32_t L_9 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_9 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_10 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_9));
+		int8_t* L_11 = (int8_t*) (L_10 ? alloca(L_10) : NULL);
+		memset(L_11, 0, L_10);
+		V_1 = (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)(L_11);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_12 = ___0_nodeA;
+		NullCheck(L_12);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_13 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_12->___Bounds);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_14;
+		L_14 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8(L_13, 0, NULL);
+		V_2 = L_14;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_15 = V_1;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_16 = ___1_nodeB;
+		NullCheck(L_16);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_17 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_16->___Bounds);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_18;
+		L_18 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((&V_2), L_17, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)L_15 = L_18;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_19 = ___0_nodeA;
+		NullCheck(L_19);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_20 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_19->___Bounds);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_21;
+		L_21 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8(L_20, 1, NULL);
+		V_2 = L_21;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_22 = V_1;
+		uint32_t L_23 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_24 = ___1_nodeB;
+		NullCheck(L_24);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_25 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_24->___Bounds);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_26;
+		L_26 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((&V_2), L_25, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_22, (int32_t)L_23)) = L_26;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_27 = ___0_nodeA;
+		NullCheck(L_27);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_28 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_27->___Bounds);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_29;
+		L_29 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8(L_28, 2, NULL);
+		V_2 = L_29;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_30 = V_1;
+		uint32_t L_31 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_32 = ___1_nodeB;
+		NullCheck(L_32);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_33 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_32->___Bounds);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_34;
+		L_34 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((&V_2), L_33, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_30, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_31)))) = L_34;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_35 = ___0_nodeA;
+		NullCheck(L_35);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_36 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_35->___Bounds);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_37;
+		L_37 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8(L_36, 3, NULL);
+		V_2 = L_37;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_38 = V_1;
+		uint32_t L_39 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_40 = ___1_nodeB;
+		NullCheck(L_40);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_41 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_40->___Bounds);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_42;
+		L_42 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((&V_2), L_41, NULL);
+		*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_38, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_39)))) = L_42;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_43 = ((int4_tBA77D4945786DE82C3A487B33955EA1004996052_StaticFields*)il2cpp_codegen_static_fields_for(int4_tBA77D4945786DE82C3A487B33955EA1004996052_il2cpp_TypeInfo_var))->___zero;
+		V_3 = L_43;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_44 = ___4_compressedData;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_45 = ___1_nodeB;
+		NullCheck(L_45);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_46 = L_45->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_47 = V_1;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_48 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)L_47);
+		int32_t L_49;
+		L_49 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)L_44), 0, L_46, L_48, NULL);
+		int4_set_Item_mD047433367F427614706033903727B2AFC119537((&V_3), 0, L_49, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_50 = ___4_compressedData;
+		uint32_t L_51 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_52 = ___1_nodeB;
+		NullCheck(L_52);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_53 = L_52->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_54 = V_1;
+		uint32_t L_55 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_56 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_54, (int32_t)L_55)));
+		int32_t L_57;
+		L_57 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_50, (int32_t)L_51))), 0, L_53, L_56, NULL);
+		int4_set_Item_mD047433367F427614706033903727B2AFC119537((&V_3), 1, L_57, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_58 = ___4_compressedData;
+		uint32_t L_59 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_60 = ___1_nodeB;
+		NullCheck(L_60);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_61 = L_60->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_62 = V_1;
+		uint32_t L_63 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_64 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_62, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_63)))));
+		int32_t L_65;
+		L_65 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_58, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_59))))), 0, L_61, L_64, NULL);
+		int4_set_Item_mD047433367F427614706033903727B2AFC119537((&V_3), 2, L_65, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_66 = ___4_compressedData;
+		uint32_t L_67 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_68 = ___1_nodeB;
+		NullCheck(L_68);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_69 = L_68->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* L_70 = V_1;
+		uint32_t L_71 = sizeof(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_72 = (*(bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)((bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619*)il2cpp_codegen_add((intptr_t)L_70, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_71)))));
+		int32_t L_73;
+		L_73 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_66, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_67))))), 0, L_69, L_72, NULL);
+		int4_set_Item_mD047433367F427614706033903727B2AFC119537((&V_3), 3, L_73, NULL);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_74 = ___0_nodeA;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_75;
+		L_75 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_74, NULL);
+		if (!L_75)
+		{
+			goto IL_0196;
+		}
+	}
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_76 = ___1_nodeB;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_77;
+		L_77 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_76, NULL);
+		G_B8_0 = ((int32_t)(L_77));
+		goto IL_0197;
+	}
+
+IL_0196:
+	{
+		G_B8_0 = 0;
+	}
+
+IL_0197:
+	{
+		V_6 = (bool)G_B8_0;
+		bool L_78 = V_6;
+		if (!L_78)
+		{
+			goto IL_01f2;
+		}
+	}
+	{
+		V_7 = 0;
+		goto IL_01e1;
+	}
+
+IL_01a3:
+	{
+		BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446* L_79 = ___7_pairWriter;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_80 = ___0_nodeA;
+		NullCheck(L_80);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_81 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_80->___Data);
+		int32_t L_82 = V_7;
+		int32_t L_83;
+		L_83 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284(L_81, L_82, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_84 = ___4_compressedData;
+		int32_t L_85 = V_7;
+		uint32_t L_86 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_87 = (*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_84, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_85), (int32_t)L_86)))));
+		int32_t L_88 = V_7;
+		int32_t L_89;
+		L_89 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_3), L_88, NULL);
+		BodyPairWriter_AddPairs_mC3C4AD3E2559C8E567E6D790F21DC5B44C22F431_inline(L_79, L_83, L_87, L_89, il2cpp_rgctx_method(method->rgctx_data, 2));
+		int32_t L_90 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_90, 1));
+	}
+
+IL_01e1:
+	{
+		int32_t L_91 = V_7;
+		V_8 = (bool)((((int32_t)L_91) < ((int32_t)4))? 1 : 0);
+		bool L_92 = V_8;
+		if (L_92)
+		{
+			goto IL_01a3;
+		}
+	}
+	{
+		goto IL_03a7;
+	}
+
+IL_01f2:
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_93 = ___0_nodeA;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_94;
+		L_94 = Node_get_IsInternal_mC1D2E844649E12DE5EA0A2ACFA8A90344C1E3F3D_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_93, NULL);
+		if (!L_94)
+		{
+			goto IL_0202;
+		}
+	}
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_95 = ___1_nodeB;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_96;
+		L_96 = Node_get_IsInternal_mC1D2E844649E12DE5EA0A2ACFA8A90344C1E3F3D_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_95, NULL);
+		G_B16_0 = ((int32_t)(L_96));
+		goto IL_0203;
+	}
+
+IL_0202:
+	{
+		G_B16_0 = 0;
+	}
+
+IL_0203:
+	{
+		V_9 = (bool)G_B16_0;
+		bool L_97 = V_9;
+		if (!L_97)
+		{
+			goto IL_0282;
+		}
+	}
+	{
+		V_10 = 0;
+		goto IL_0271;
+	}
+
+IL_020f:
+	{
+		int32_t** L_98 = ___5_stackA;
+		intptr_t L_99 = *((intptr_t*)L_98);
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_100 = ___0_nodeA;
+		NullCheck(L_100);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_101 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_100->___Data);
+		int32_t L_102 = V_10;
+		int32_t L_103;
+		L_103 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284(L_101, L_102, NULL);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_104;
+		memset((&L_104), 0, sizeof(L_104));
+		int4__ctor_m48F9FB97F5956250E7BE7C6EB19B046CFBD37FE5_inline((&L_104), L_103, NULL);
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_99 = L_104;
+		int32_t** L_105 = ___6_stackB;
+		intptr_t L_106 = *((intptr_t*)L_105);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_107 = ___4_compressedData;
+		int32_t L_108 = V_10;
+		uint32_t L_109 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_110 = (*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_107, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_108), (int32_t)L_109)))));
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_106 = L_110;
+		int32_t** L_111 = ___5_stackA;
+		int32_t** L_112 = ___5_stackA;
+		intptr_t L_113 = *((intptr_t*)L_112);
+		int32_t L_114 = V_10;
+		int32_t L_115;
+		L_115 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_3), L_114, NULL);
+		*((intptr_t*)L_111) = (intptr_t)((intptr_t)il2cpp_codegen_add(L_113, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_115), 4))));
+		int32_t** L_116 = ___6_stackB;
+		int32_t** L_117 = ___6_stackB;
+		intptr_t L_118 = *((intptr_t*)L_117);
+		int32_t L_119 = V_10;
+		int32_t L_120;
+		L_120 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_3), L_119, NULL);
+		*((intptr_t*)L_116) = (intptr_t)((intptr_t)il2cpp_codegen_add(L_118, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_120), 4))));
+		int32_t L_121 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_121, 1));
+	}
+
+IL_0271:
+	{
+		int32_t L_122 = V_10;
+		V_11 = (bool)((((int32_t)L_122) < ((int32_t)4))? 1 : 0);
+		bool L_123 = V_11;
+		if (L_123)
+		{
+			goto IL_020f;
+		}
+	}
+	{
+		goto IL_03a7;
+	}
+
+IL_0282:
+	{
+		V_12 = 0;
+		goto IL_0398;
+	}
+
+IL_028b:
+	{
+		int32_t L_124 = V_12;
+		int32_t L_125;
+		L_125 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_3), L_124, NULL);
+		V_13 = (bool)((((int32_t)L_125) > ((int32_t)0))? 1 : 0);
+		bool L_126 = V_13;
+		if (!L_126)
+		{
+			goto IL_0391;
+		}
+	}
+	{
+		int32_t** L_127 = ___5_stackA;
+		intptr_t L_128 = *((intptr_t*)L_127);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_129 = ___4_compressedData;
+		int32_t L_130 = V_12;
+		uint32_t L_131 = sizeof(int4_tBA77D4945786DE82C3A487B33955EA1004996052);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_132 = (*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int4_tBA77D4945786DE82C3A487B33955EA1004996052*)il2cpp_codegen_add((intptr_t)L_129, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_130), (int32_t)L_131)))));
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_128 = L_132;
+		int32_t** L_133 = ___5_stackA;
+		intptr_t L_134 = *((intptr_t*)L_133);
+		int32_t L_135 = V_12;
+		int32_t L_136;
+		L_136 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_3), L_135, NULL);
+		V_14 = (int32_t*)((intptr_t)il2cpp_codegen_add(L_134, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_136), 4))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_137 = ___0_nodeA;
+		NullCheck(L_137);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_138 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_137->___Bounds);
+		int32_t L_139 = V_12;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_140;
+		L_140 = FourTransposedAabbs_GetAabbT_m1A2DA362A1AB15D94624580AF46AA78BB89345C8(L_138, L_139, NULL);
+		V_15 = L_140;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_141 = ___0_nodeA;
+		NullCheck(L_141);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_142 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_141->___Data);
+		int32_t L_143 = V_12;
+		int32_t L_144;
+		L_144 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284(L_142, L_143, NULL);
+		int4__ctor_m48F9FB97F5956250E7BE7C6EB19B046CFBD37FE5_inline((&V_16), L_144, NULL);
+	}
+
+IL_02f1:
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_145 = ___3_treeB;
+		int32_t* L_146 = V_14;
+		int32_t* L_147 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_146, 4));
+		V_14 = L_147;
+		int32_t L_148 = (*(L_147));
+		uint32_t L_149 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_17 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_145, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_148), (int32_t)L_149))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_150 = V_17;
+		NullCheck(L_150);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_151 = L_150->___Data;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_152 = V_17;
+		NullCheck(L_152);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_153 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_152->___Bounds);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_154;
+		L_154 = FourTransposedAabbs_Overlap1Vs4_m5BFB62F265B65FDF9567BF225527613DC3AB8199((&V_15), L_153, NULL);
+		int32_t L_155;
+		L_155 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_18)), 0, L_151, L_154, NULL);
+		V_19 = L_155;
+		int32_t L_156 = V_19;
+		V_20 = (bool)((((int32_t)L_156) > ((int32_t)0))? 1 : 0);
+		bool L_157 = V_20;
+		if (!L_157)
+		{
+			goto IL_037c;
+		}
+	}
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_158 = V_17;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_159;
+		L_159 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_158, NULL);
+		V_21 = L_159;
+		bool L_160 = V_21;
+		if (!L_160)
+		{
+			goto IL_0366;
+		}
+	}
+	{
+		BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446* L_161 = ___7_pairWriter;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_162 = V_16;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_163 = V_18;
+		int32_t L_164 = V_19;
+		bool L_165 = V_0;
+		BodyPairWriter_AddPairs_m089CA5DD589958E40D70D09584429C1D0C617EFA_inline(L_161, L_162, L_163, L_164, L_165, il2cpp_rgctx_method(method->rgctx_data, 3));
+		BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446* L_166 = ___7_pairWriter;
+		BodyPairWriter_FlushIfNeeded_m9B6D142FEC2243F9BDBD693663A3E7069BC3562E_inline(L_166, il2cpp_rgctx_method(method->rgctx_data, 4));
+		goto IL_037b;
+	}
+
+IL_0366:
+	{
+		int32_t* L_167 = V_14;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_168 = V_18;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_167 = L_168;
+		int32_t* L_169 = V_14;
+		int32_t L_170 = V_19;
+		V_14 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_169, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_170), 4))));
+	}
+
+IL_037b:
+	{
+	}
+
+IL_037c:
+	{
+		int32_t* L_171 = V_14;
+		int32_t** L_172 = ___5_stackA;
+		intptr_t L_173 = *((intptr_t*)L_172);
+		V_22 = (bool)((((int32_t)((((intptr_t)L_171) == ((intptr_t)L_173))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_174 = V_22;
+		if (L_174)
+		{
+			goto IL_02f1;
+		}
+	}
+	{
+	}
+
+IL_0391:
+	{
+		int32_t L_175 = V_12;
+		V_12 = ((int32_t)il2cpp_codegen_add(L_175, 1));
+	}
+
+IL_0398:
+	{
+		int32_t L_176 = V_12;
+		V_23 = (bool)((((int32_t)L_176) < ((int32_t)4))? 1 : 0);
+		bool L_177 = V_23;
+		if (L_177)
+		{
+			goto IL_028b;
+		}
+	}
+	{
+	}
+
+IL_03a7:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Raycast_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mB00405C4385D9A314BF81B745E12D1101B1ADB5A_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Il2CppFullySharedGenericStruct* ___1_leafProcessor, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	void* L_15 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_31 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 4)));
+	void* L_34 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_3 = NULL;
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	{
+		V_0 = (bool)0;
+		uintptr_t L_0 = ((uintptr_t)((int32_t)1024));
+		int8_t* L_1 = (int8_t*) (L_0 ? alloca(L_0) : NULL);
+		memset(L_1, 0, L_0);
+		V_1 = (int32_t*)(L_1);
+		int32_t* L_2 = V_1;
+		V_2 = L_2;
+		int32_t* L_3 = V_2;
+		int32_t* L_4 = L_3;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_4, 4));
+		*((int32_t*)L_4) = (int32_t)1;
+	}
+
+IL_0015:
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_5 = __this->___m_Nodes;
+		int32_t* L_6 = V_2;
+		int32_t* L_7 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_6, 4));
+		V_2 = L_7;
+		int32_t L_8 = (*(L_7));
+		uint32_t L_9 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_3 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_5, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_8), (int32_t)L_9))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_10 = V_3;
+		NullCheck(L_10);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_11 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_10->___Bounds);
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_12 = ___0_input;
+		Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 L_13 = L_12.___Ray;
+		Il2CppFullySharedGenericStruct* L_14 = ___2_collector;
+		float L_16;
+		L_16 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_15, (void*)L_14);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_17;
+		L_17 = FourTransposedAabbs_Raycast_m3B953A66192B9DB1024079133E58047816EC7684(L_11, L_13, L_16, (&V_5), NULL);
+		V_4 = L_17;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_18 = V_3;
+		NullCheck(L_18);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_19 = L_18->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_20 = V_4;
+		int32_t L_21;
+		L_21 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_6)), 0, L_19, L_20, NULL);
+		V_7 = L_21;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_22 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_23;
+		L_23 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_22, NULL);
+		V_8 = L_23;
+		bool L_24 = V_8;
+		if (!L_24)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		V_9 = 0;
+		goto IL_00ae;
+	}
+
+IL_0072:
+	{
+		bool L_25 = V_0;
+		Il2CppFullySharedGenericStruct* L_26 = ___1_leafProcessor;
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_27 = ___0_input;
+		int32_t L_28 = V_9;
+		int32_t L_29;
+		L_29 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_6), L_28, NULL);
+		Il2CppFullySharedGenericStruct* L_30 = ___2_collector;
+		bool L_32;
+		L_32 = ConstrainedFuncInvoker3< bool, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5, int32_t, Il2CppFullySharedGenericStruct* >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 4), il2cpp_rgctx_method(method->rgctx_data, 5), L_31, (void*)L_26, L_27, L_29, L_30);
+		V_0 = (bool)((int32_t)((int32_t)L_25|(int32_t)L_32));
+		Il2CppFullySharedGenericStruct* L_33 = ___2_collector;
+		bool L_35;
+		L_35 = ConstrainedFuncInvoker0< bool >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 6), L_34, (void*)L_33);
+		bool L_36 = V_0;
+		V_10 = (bool)((int32_t)((int32_t)L_35&(int32_t)L_36));
+		bool L_37 = V_10;
+		if (!L_37)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		V_11 = (bool)1;
+		goto IL_00e2;
+	}
+
+IL_00a7:
+	{
+		int32_t L_38 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_38, 1));
+	}
+
+IL_00ae:
+	{
+		int32_t L_39 = V_9;
+		int32_t L_40 = V_7;
+		V_12 = (bool)((((int32_t)L_39) < ((int32_t)L_40))? 1 : 0);
+		bool L_41 = V_12;
+		if (L_41)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		goto IL_00cf;
+	}
+
+IL_00bd:
+	{
+		int32_t* L_42 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_43 = V_6;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_42 = L_43;
+		int32_t* L_44 = V_2;
+		int32_t L_45 = V_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_44, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_45), 4))));
+	}
+
+IL_00cf:
+	{
+		int32_t* L_46 = V_2;
+		int32_t* L_47 = V_1;
+		V_13 = (bool)((!(((uintptr_t)L_46) <= ((uintptr_t)L_47)))? 1 : 0);
+		bool L_48 = V_13;
+		if (L_48)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		bool L_49 = V_0;
+		V_11 = L_49;
+		goto IL_00e2;
+	}
+
+IL_00e2:
+	{
+		bool L_50 = V_11;
+		return L_50;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Raycast_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mB00405C4385D9A314BF81B745E12D1101B1ADB5A_AdjustorThunk (RuntimeObject* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, Il2CppFullySharedGenericStruct* ___1_leafProcessor, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Raycast_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mB00405C4385D9A314BF81B745E12D1101B1ADB5A(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m7724DBE63AD18FCB113CEB53C22D2BD1234191A5_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_3 = NULL;
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	{
+		V_0 = (bool)0;
+		uintptr_t L_0 = ((uintptr_t)((int32_t)1024));
+		int8_t* L_1 = (int8_t*) (L_0 ? alloca(L_0) : NULL);
+		memset(L_1, 0, L_0);
+		V_1 = (int32_t*)(L_1);
+		int32_t* L_2 = V_1;
+		V_2 = L_2;
+		int32_t* L_3 = V_2;
+		int32_t* L_4 = L_3;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_4, 4));
+		*((int32_t*)L_4) = (int32_t)1;
+	}
+
+IL_0015:
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_5 = __this->___m_Nodes;
+		int32_t* L_6 = V_2;
+		int32_t* L_7 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_6, 4));
+		V_2 = L_7;
+		int32_t L_8 = (*(L_7));
+		uint32_t L_9 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_3 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_5, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_8), (int32_t)L_9))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_10 = V_3;
+		NullCheck(L_10);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_11 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_10->___Bounds);
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_12 = ___0_input;
+		Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 L_13 = L_12.___Ray;
+		AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* L_14 = ___2_collector;
+		float L_15;
+		L_15 = AllHitsCollector_1_get_MaxFraction_m2FBAFEDF3EE34124C2BBCA0D8EB4ADA2DE7FB651_inline(L_14, il2cpp_rgctx_method(method->rgctx_data, 2));
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_16;
+		L_16 = FourTransposedAabbs_Raycast_m3B953A66192B9DB1024079133E58047816EC7684(L_11, L_13, L_15, (&V_5), NULL);
+		V_4 = L_16;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_17 = V_3;
+		NullCheck(L_17);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_18 = L_17->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_19 = V_4;
+		int32_t L_20;
+		L_20 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_6)), 0, L_18, L_19, NULL);
+		V_7 = L_20;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_21 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_22;
+		L_22 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_21, NULL);
+		V_8 = L_22;
+		bool L_23 = V_8;
+		if (!L_23)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		V_9 = 0;
+		goto IL_00ae;
+	}
+
+IL_0072:
+	{
+		bool L_24 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_25 = ___1_leafProcessor;
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_26 = ___0_input;
+		int32_t L_27 = V_9;
+		int32_t L_28;
+		L_28 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_6), L_27, NULL);
+		AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* L_29 = ___2_collector;
+		bool L_30;
+		L_30 = BvhLeafProcessor_RayLeaf_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m13799C33BF1DC4248B6F62F44CF07451E1ACCE50(L_25, L_26, L_28, L_29, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_24|(int32_t)L_30));
+		AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* L_31 = ___2_collector;
+		bool L_32;
+		L_32 = AllHitsCollector_1_get_EarlyOutOnFirstHit_m8119BFFC6C56991CEEAFCA8297B1C5E7F0544D1A(L_31, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_33 = V_0;
+		V_10 = (bool)((int32_t)((int32_t)L_32&(int32_t)L_33));
+		bool L_34 = V_10;
+		if (!L_34)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		V_11 = (bool)1;
+		goto IL_00e2;
+	}
+
+IL_00a7:
+	{
+		int32_t L_35 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00ae:
+	{
+		int32_t L_36 = V_9;
+		int32_t L_37 = V_7;
+		V_12 = (bool)((((int32_t)L_36) < ((int32_t)L_37))? 1 : 0);
+		bool L_38 = V_12;
+		if (L_38)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		goto IL_00cf;
+	}
+
+IL_00bd:
+	{
+		int32_t* L_39 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_40 = V_6;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_39 = L_40;
+		int32_t* L_41 = V_2;
+		int32_t L_42 = V_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_41, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_42), 4))));
+	}
+
+IL_00cf:
+	{
+		int32_t* L_43 = V_2;
+		int32_t* L_44 = V_1;
+		V_13 = (bool)((!(((uintptr_t)L_43) <= ((uintptr_t)L_44)))? 1 : 0);
+		bool L_45 = V_13;
+		if (L_45)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		bool L_46 = V_0;
+		V_11 = L_46;
+		goto IL_00e2;
+	}
+
+IL_00e2:
+	{
+		bool L_47 = V_11;
+		return L_47;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m7724DBE63AD18FCB113CEB53C22D2BD1234191A5_AdjustorThunk (RuntimeObject* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m7724DBE63AD18FCB113CEB53C22D2BD1234191A5(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m28BF4F4C457C74D2AB28E1B60FF18BA5B224AE3D_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_3 = NULL;
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	{
+		V_0 = (bool)0;
+		uintptr_t L_0 = ((uintptr_t)((int32_t)1024));
+		int8_t* L_1 = (int8_t*) (L_0 ? alloca(L_0) : NULL);
+		memset(L_1, 0, L_0);
+		V_1 = (int32_t*)(L_1);
+		int32_t* L_2 = V_1;
+		V_2 = L_2;
+		int32_t* L_3 = V_2;
+		int32_t* L_4 = L_3;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_4, 4));
+		*((int32_t*)L_4) = (int32_t)1;
+	}
+
+IL_0015:
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_5 = __this->___m_Nodes;
+		int32_t* L_6 = V_2;
+		int32_t* L_7 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_6, 4));
+		V_2 = L_7;
+		int32_t L_8 = (*(L_7));
+		uint32_t L_9 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_3 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_5, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_8), (int32_t)L_9))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_10 = V_3;
+		NullCheck(L_10);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_11 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_10->___Bounds);
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_12 = ___0_input;
+		Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 L_13 = L_12.___Ray;
+		AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* L_14 = ___2_collector;
+		float L_15;
+		L_15 = AnyHitCollector_1_get_MaxFraction_mD44814005A33CD3DFB8CD378A1F51620954AD0E9_inline(L_14, il2cpp_rgctx_method(method->rgctx_data, 2));
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_16;
+		L_16 = FourTransposedAabbs_Raycast_m3B953A66192B9DB1024079133E58047816EC7684(L_11, L_13, L_15, (&V_5), NULL);
+		V_4 = L_16;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_17 = V_3;
+		NullCheck(L_17);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_18 = L_17->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_19 = V_4;
+		int32_t L_20;
+		L_20 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_6)), 0, L_18, L_19, NULL);
+		V_7 = L_20;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_21 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_22;
+		L_22 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_21, NULL);
+		V_8 = L_22;
+		bool L_23 = V_8;
+		if (!L_23)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		V_9 = 0;
+		goto IL_00ae;
+	}
+
+IL_0072:
+	{
+		bool L_24 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_25 = ___1_leafProcessor;
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_26 = ___0_input;
+		int32_t L_27 = V_9;
+		int32_t L_28;
+		L_28 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_6), L_27, NULL);
+		AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* L_29 = ___2_collector;
+		bool L_30;
+		L_30 = BvhLeafProcessor_RayLeaf_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m096364BD7317CC078E25B3760161A42A6AD4A96B(L_25, L_26, L_28, L_29, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_24|(int32_t)L_30));
+		AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* L_31 = ___2_collector;
+		bool L_32;
+		L_32 = AnyHitCollector_1_get_EarlyOutOnFirstHit_m88C708CFCD5D01ADF220D6247074B81FC94F3F33(L_31, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_33 = V_0;
+		V_10 = (bool)((int32_t)((int32_t)L_32&(int32_t)L_33));
+		bool L_34 = V_10;
+		if (!L_34)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		V_11 = (bool)1;
+		goto IL_00e2;
+	}
+
+IL_00a7:
+	{
+		int32_t L_35 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00ae:
+	{
+		int32_t L_36 = V_9;
+		int32_t L_37 = V_7;
+		V_12 = (bool)((((int32_t)L_36) < ((int32_t)L_37))? 1 : 0);
+		bool L_38 = V_12;
+		if (L_38)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		goto IL_00cf;
+	}
+
+IL_00bd:
+	{
+		int32_t* L_39 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_40 = V_6;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_39 = L_40;
+		int32_t* L_41 = V_2;
+		int32_t L_42 = V_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_41, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_42), 4))));
+	}
+
+IL_00cf:
+	{
+		int32_t* L_43 = V_2;
+		int32_t* L_44 = V_1;
+		V_13 = (bool)((!(((uintptr_t)L_43) <= ((uintptr_t)L_44)))? 1 : 0);
+		bool L_45 = V_13;
+		if (L_45)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		bool L_46 = V_0;
+		V_11 = L_46;
+		goto IL_00e2;
+	}
+
+IL_00e2:
+	{
+		bool L_47 = V_11;
+		return L_47;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m28BF4F4C457C74D2AB28E1B60FF18BA5B224AE3D_AdjustorThunk (RuntimeObject* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m28BF4F4C457C74D2AB28E1B60FF18BA5B224AE3D(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m7FE1B745007C526BA2D8DDC6065EC8DB83E7F399_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_3 = NULL;
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	{
+		V_0 = (bool)0;
+		uintptr_t L_0 = ((uintptr_t)((int32_t)1024));
+		int8_t* L_1 = (int8_t*) (L_0 ? alloca(L_0) : NULL);
+		memset(L_1, 0, L_0);
+		V_1 = (int32_t*)(L_1);
+		int32_t* L_2 = V_1;
+		V_2 = L_2;
+		int32_t* L_3 = V_2;
+		int32_t* L_4 = L_3;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_4, 4));
+		*((int32_t*)L_4) = (int32_t)1;
+	}
+
+IL_0015:
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_5 = __this->___m_Nodes;
+		int32_t* L_6 = V_2;
+		int32_t* L_7 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_6, 4));
+		V_2 = L_7;
+		int32_t L_8 = (*(L_7));
+		uint32_t L_9 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_3 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_5, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_8), (int32_t)L_9))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_10 = V_3;
+		NullCheck(L_10);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_11 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_10->___Bounds);
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_12 = ___0_input;
+		Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 L_13 = L_12.___Ray;
+		ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* L_14 = ___2_collector;
+		float L_15;
+		L_15 = ClosestHitCollector_1_get_MaxFraction_m7623F138A458334F43D57B424BC984705C2D835D_inline(L_14, il2cpp_rgctx_method(method->rgctx_data, 2));
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_16;
+		L_16 = FourTransposedAabbs_Raycast_m3B953A66192B9DB1024079133E58047816EC7684(L_11, L_13, L_15, (&V_5), NULL);
+		V_4 = L_16;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_17 = V_3;
+		NullCheck(L_17);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_18 = L_17->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_19 = V_4;
+		int32_t L_20;
+		L_20 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_6)), 0, L_18, L_19, NULL);
+		V_7 = L_20;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_21 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_22;
+		L_22 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_21, NULL);
+		V_8 = L_22;
+		bool L_23 = V_8;
+		if (!L_23)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		V_9 = 0;
+		goto IL_00ae;
+	}
+
+IL_0072:
+	{
+		bool L_24 = V_0;
+		BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* L_25 = ___1_leafProcessor;
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_26 = ___0_input;
+		int32_t L_27 = V_9;
+		int32_t L_28;
+		L_28 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_6), L_27, NULL);
+		ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* L_29 = ___2_collector;
+		bool L_30;
+		L_30 = BvhLeafProcessor_RayLeaf_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m3CE07E5569458957D9C0C6E523191CA21408278F(L_25, L_26, L_28, L_29, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_24|(int32_t)L_30));
+		ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* L_31 = ___2_collector;
+		bool L_32;
+		L_32 = ClosestHitCollector_1_get_EarlyOutOnFirstHit_mB8A78FC6230B97E2B2007F7FE2EC03171D1C59C7(L_31, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_33 = V_0;
+		V_10 = (bool)((int32_t)((int32_t)L_32&(int32_t)L_33));
+		bool L_34 = V_10;
+		if (!L_34)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		V_11 = (bool)1;
+		goto IL_00e2;
+	}
+
+IL_00a7:
+	{
+		int32_t L_35 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00ae:
+	{
+		int32_t L_36 = V_9;
+		int32_t L_37 = V_7;
+		V_12 = (bool)((((int32_t)L_36) < ((int32_t)L_37))? 1 : 0);
+		bool L_38 = V_12;
+		if (L_38)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		goto IL_00cf;
+	}
+
+IL_00bd:
+	{
+		int32_t* L_39 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_40 = V_6;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_39 = L_40;
+		int32_t* L_41 = V_2;
+		int32_t L_42 = V_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_41, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_42), 4))));
+	}
+
+IL_00cf:
+	{
+		int32_t* L_43 = V_2;
+		int32_t* L_44 = V_1;
+		V_13 = (bool)((!(((uintptr_t)L_43) <= ((uintptr_t)L_44)))? 1 : 0);
+		bool L_45 = V_13;
+		if (L_45)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		bool L_46 = V_0;
+		V_11 = L_46;
+		goto IL_00e2;
+	}
+
+IL_00e2:
+	{
+		bool L_47 = V_11;
+		return L_47;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m7FE1B745007C526BA2D8DDC6065EC8DB83E7F399_AdjustorThunk (RuntimeObject* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, BvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B* ___1_leafProcessor, ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Raycast_TisBvhLeafProcessor_t3F47CA749944FBB619605B39DF19A88DE05C651B_TisClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE_m7FE1B745007C526BA2D8DDC6065EC8DB83E7F399(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Raycast_TisRayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m37652A32901B6578541E926BAA1D3DA0849EB8FD_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* ___1_leafProcessor, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_3 = NULL;
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	{
+		V_0 = (bool)0;
+		uintptr_t L_0 = ((uintptr_t)((int32_t)1024));
+		int8_t* L_1 = (int8_t*) (L_0 ? alloca(L_0) : NULL);
+		memset(L_1, 0, L_0);
+		V_1 = (int32_t*)(L_1);
+		int32_t* L_2 = V_1;
+		V_2 = L_2;
+		int32_t* L_3 = V_2;
+		int32_t* L_4 = L_3;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_4, 4));
+		*((int32_t*)L_4) = (int32_t)1;
+	}
+
+IL_0015:
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_5 = __this->___m_Nodes;
+		int32_t* L_6 = V_2;
+		int32_t* L_7 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_6, 4));
+		V_2 = L_7;
+		int32_t L_8 = (*(L_7));
+		uint32_t L_9 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_3 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_5, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_8), (int32_t)L_9))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_10 = V_3;
+		NullCheck(L_10);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_11 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_10->___Bounds);
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_12 = ___0_input;
+		Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 L_13 = L_12.___Ray;
+		AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* L_14 = ___2_collector;
+		float L_15;
+		L_15 = AllHitsCollector_1_get_MaxFraction_m2FBAFEDF3EE34124C2BBCA0D8EB4ADA2DE7FB651_inline(L_14, il2cpp_rgctx_method(method->rgctx_data, 2));
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_16;
+		L_16 = FourTransposedAabbs_Raycast_m3B953A66192B9DB1024079133E58047816EC7684(L_11, L_13, L_15, (&V_5), NULL);
+		V_4 = L_16;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_17 = V_3;
+		NullCheck(L_17);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_18 = L_17->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_19 = V_4;
+		int32_t L_20;
+		L_20 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_6)), 0, L_18, L_19, NULL);
+		V_7 = L_20;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_21 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_22;
+		L_22 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_21, NULL);
+		V_8 = L_22;
+		bool L_23 = V_8;
+		if (!L_23)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		V_9 = 0;
+		goto IL_00ae;
+	}
+
+IL_0072:
+	{
+		bool L_24 = V_0;
+		RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* L_25 = ___1_leafProcessor;
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_26 = ___0_input;
+		int32_t L_27 = V_9;
+		int32_t L_28;
+		L_28 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_6), L_27, NULL);
+		AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* L_29 = ___2_collector;
+		bool L_30;
+		L_30 = RayCompoundLeafProcessor_RayLeaf_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_mDEDC632FC4AF6B626C86D0633359C2502C430C14(L_25, L_26, L_28, L_29, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_24|(int32_t)L_30));
+		AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* L_31 = ___2_collector;
+		bool L_32;
+		L_32 = AllHitsCollector_1_get_EarlyOutOnFirstHit_m8119BFFC6C56991CEEAFCA8297B1C5E7F0544D1A(L_31, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_33 = V_0;
+		V_10 = (bool)((int32_t)((int32_t)L_32&(int32_t)L_33));
+		bool L_34 = V_10;
+		if (!L_34)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		V_11 = (bool)1;
+		goto IL_00e2;
+	}
+
+IL_00a7:
+	{
+		int32_t L_35 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00ae:
+	{
+		int32_t L_36 = V_9;
+		int32_t L_37 = V_7;
+		V_12 = (bool)((((int32_t)L_36) < ((int32_t)L_37))? 1 : 0);
+		bool L_38 = V_12;
+		if (L_38)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		goto IL_00cf;
+	}
+
+IL_00bd:
+	{
+		int32_t* L_39 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_40 = V_6;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_39 = L_40;
+		int32_t* L_41 = V_2;
+		int32_t L_42 = V_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_41, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_42), 4))));
+	}
+
+IL_00cf:
+	{
+		int32_t* L_43 = V_2;
+		int32_t* L_44 = V_1;
+		V_13 = (bool)((!(((uintptr_t)L_43) <= ((uintptr_t)L_44)))? 1 : 0);
+		bool L_45 = V_13;
+		if (L_45)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		bool L_46 = V_0;
+		V_11 = L_46;
+		goto IL_00e2;
+	}
+
+IL_00e2:
+	{
+		bool L_47 = V_11;
+		return L_47;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Raycast_TisRayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m37652A32901B6578541E926BAA1D3DA0849EB8FD_AdjustorThunk (RuntimeObject* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* ___1_leafProcessor, AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Raycast_TisRayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E_TisAllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7_m37652A32901B6578541E926BAA1D3DA0849EB8FD(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Raycast_TisRayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m493124B44DDF0B8BBB7BC6AFDC9C067CA2116B41_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* ___1_leafProcessor, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* V_3 = NULL;
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	{
+		V_0 = (bool)0;
+		uintptr_t L_0 = ((uintptr_t)((int32_t)1024));
+		int8_t* L_1 = (int8_t*) (L_0 ? alloca(L_0) : NULL);
+		memset(L_1, 0, L_0);
+		V_1 = (int32_t*)(L_1);
+		int32_t* L_2 = V_1;
+		V_2 = L_2;
+		int32_t* L_3 = V_2;
+		int32_t* L_4 = L_3;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_4, 4));
+		*((int32_t*)L_4) = (int32_t)1;
+	}
+
+IL_0015:
+	{
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_5 = __this->___m_Nodes;
+		int32_t* L_6 = V_2;
+		int32_t* L_7 = ((int32_t*)il2cpp_codegen_subtract((intptr_t)L_6, 4));
+		V_2 = L_7;
+		int32_t L_8 = (*(L_7));
+		uint32_t L_9 = sizeof(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD);
+		V_3 = ((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)il2cpp_codegen_add((intptr_t)L_5, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_8), (int32_t)L_9))));
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_10 = V_3;
+		NullCheck(L_10);
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* L_11 = (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2*)(&L_10->___Bounds);
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_12 = ___0_input;
+		Ray_t124E07778F6E7DD39B2622ED0CA11FCDAE655FA7 L_13 = L_12.___Ray;
+		AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* L_14 = ___2_collector;
+		float L_15;
+		L_15 = AnyHitCollector_1_get_MaxFraction_mD44814005A33CD3DFB8CD378A1F51620954AD0E9_inline(L_14, il2cpp_rgctx_method(method->rgctx_data, 2));
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_16;
+		L_16 = FourTransposedAabbs_Raycast_m3B953A66192B9DB1024079133E58047816EC7684(L_11, L_13, L_15, (&V_5), NULL);
+		V_4 = L_16;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_17 = V_3;
+		NullCheck(L_17);
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_18 = L_17->___Data;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_19 = V_4;
+		int32_t L_20;
+		L_20 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_6)), 0, L_18, L_19, NULL);
+		V_7 = L_20;
+		Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* L_21 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		bool L_22;
+		L_22 = Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline((Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD*)L_21, NULL);
+		V_8 = L_22;
+		bool L_23 = V_8;
+		if (!L_23)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		V_9 = 0;
+		goto IL_00ae;
+	}
+
+IL_0072:
+	{
+		bool L_24 = V_0;
+		RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* L_25 = ___1_leafProcessor;
+		RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 L_26 = ___0_input;
+		int32_t L_27 = V_9;
+		int32_t L_28;
+		L_28 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_6), L_27, NULL);
+		AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* L_29 = ___2_collector;
+		bool L_30;
+		L_30 = RayCompoundLeafProcessor_RayLeaf_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_mC04CF0ECFB37A56382DA85A61541BE4175055596(L_25, L_26, L_28, L_29, il2cpp_rgctx_method(method->rgctx_data, 5));
+		V_0 = (bool)((int32_t)((int32_t)L_24|(int32_t)L_30));
+		AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* L_31 = ___2_collector;
+		bool L_32;
+		L_32 = AnyHitCollector_1_get_EarlyOutOnFirstHit_m88C708CFCD5D01ADF220D6247074B81FC94F3F33(L_31, il2cpp_rgctx_method(method->rgctx_data, 6));
+		bool L_33 = V_0;
+		V_10 = (bool)((int32_t)((int32_t)L_32&(int32_t)L_33));
+		bool L_34 = V_10;
+		if (!L_34)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		V_11 = (bool)1;
+		goto IL_00e2;
+	}
+
+IL_00a7:
+	{
+		int32_t L_35 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00ae:
+	{
+		int32_t L_36 = V_9;
+		int32_t L_37 = V_7;
+		V_12 = (bool)((((int32_t)L_36) < ((int32_t)L_37))? 1 : 0);
+		bool L_38 = V_12;
+		if (L_38)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		goto IL_00cf;
+	}
+
+IL_00bd:
+	{
+		int32_t* L_39 = V_2;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_40 = V_6;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)L_39 = L_40;
+		int32_t* L_41 = V_2;
+		int32_t L_42 = V_7;
+		V_2 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_41, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_42), 4))));
+	}
+
+IL_00cf:
+	{
+		int32_t* L_43 = V_2;
+		int32_t* L_44 = V_1;
+		V_13 = (bool)((!(((uintptr_t)L_43) <= ((uintptr_t)L_44)))? 1 : 0);
+		bool L_45 = V_13;
+		if (L_45)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		bool L_46 = V_0;
+		V_11 = L_46;
+		goto IL_00e2;
+	}
+
+IL_00e2:
+	{
+		bool L_47 = V_11;
+		return L_47;
+	}
+}
+IL2CPP_EXTERN_C  bool BoundingVolumeHierarchy_Raycast_TisRayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m493124B44DDF0B8BBB7BC6AFDC9C067CA2116B41_AdjustorThunk (RuntimeObject* __this, RaycastInput_t426A511B4EDA9D75285EE84289669C39FF6DE6D5 ___0_input, RayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E* ___1_leafProcessor, AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* ___2_collector, const RuntimeMethod* method)
+{
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = BoundingVolumeHierarchy_Raycast_TisRayCompoundLeafProcessor_t6FA78948FAA04D2F043F248037ED57084192C32E_TisAnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3_m493124B44DDF0B8BBB7BC6AFDC9C067CA2116B41(_thisAdjusted, ___0_input, ___1_leafProcessor, ___2_collector, method);
+	return _returnValue;
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___0_v, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_v;
+		__this->___x = L_0;
+		float L_1 = ___0_v;
+		__this->___y = L_1;
+		float L_2 = ___0_v;
+		__this->___z = L_2;
+		float L_3 = ___0_v;
+		__this->___w = L_3;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) 
+{
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___0_lhs;
+		float L_5 = L_4.___y;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___1_rhs;
+		float L_7 = L_6.___y;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8 = ___0_lhs;
+		float L_9 = L_8.___z;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12 = ___0_lhs;
+		float L_13 = L_12.___w;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14 = ___1_rhs;
+		float L_15 = L_14.___w;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline((&L_16), (bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), (bool)((((int32_t)((!(((float)L_5) <= ((float)L_7)))? 1 : 0)) == ((int32_t)0))? 1 : 0), (bool)((((int32_t)((!(((float)L_9) <= ((float)L_11)))? 1 : 0)) == ((int32_t)0))? 1 : 0), (bool)((((int32_t)((!(((float)L_13) <= ((float)L_15)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		V_0 = L_16;
+		goto IL_004d;
+	}
+
+IL_004d:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_17 = V_0;
+		return L_17;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___0_lhs, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___1_rhs, const RuntimeMethod* method) 
+{
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_0 = ___0_lhs;
+		bool L_1 = L_0.___x;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_2 = ___1_rhs;
+		bool L_3 = L_2.___x;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_4 = ___0_lhs;
+		bool L_5 = L_4.___y;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_6 = ___1_rhs;
+		bool L_7 = L_6.___y;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_8 = ___0_lhs;
+		bool L_9 = L_8.___z;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_10 = ___1_rhs;
+		bool L_11 = L_10.___z;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_12 = ___0_lhs;
+		bool L_13 = L_12.___w;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_14 = ___1_rhs;
+		bool L_15 = L_14.___w;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline((&L_16), (bool)((int32_t)((int32_t)L_1&(int32_t)L_3)), (bool)((int32_t)((int32_t)L_5&(int32_t)L_7)), (bool)((int32_t)((int32_t)L_9&(int32_t)L_11)), (bool)((int32_t)((int32_t)L_13&(int32_t)L_15)), NULL);
+		V_0 = L_16;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_17 = V_0;
+		return L_17;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline (int32_t* ___0_output, int32_t ___1_index, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___2_val, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___3_mask, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	int32_t V_4 = 0;
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_0 = ___3_mask;
+		bool L_1 = L_0.___x;
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		int32_t* L_3 = ___0_output;
+		int32_t L_4 = ___1_index;
+		int32_t L_5 = L_4;
+		___1_index = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_6 = ___2_val;
+		int32_t L_7 = L_6.___x;
+		*((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_3, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_5), 4))))) = (int32_t)L_7;
+	}
+
+IL_001d:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_8 = ___3_mask;
+		bool L_9 = L_8.___y;
+		V_1 = L_9;
+		bool L_10 = V_1;
+		if (!L_10)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		int32_t* L_11 = ___0_output;
+		int32_t L_12 = ___1_index;
+		int32_t L_13 = L_12;
+		___1_index = ((int32_t)il2cpp_codegen_add(L_13, 1));
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_14 = ___2_val;
+		int32_t L_15 = L_14.___y;
+		*((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_11, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_13), 4))))) = (int32_t)L_15;
+	}
+
+IL_0039:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_16 = ___3_mask;
+		bool L_17 = L_16.___z;
+		V_2 = L_17;
+		bool L_18 = V_2;
+		if (!L_18)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		int32_t* L_19 = ___0_output;
+		int32_t L_20 = ___1_index;
+		int32_t L_21 = L_20;
+		___1_index = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_22 = ___2_val;
+		int32_t L_23 = L_22.___z;
+		*((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_19, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_21), 4))))) = (int32_t)L_23;
+	}
+
+IL_0055:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_24 = ___3_mask;
+		bool L_25 = L_24.___w;
+		V_3 = L_25;
+		bool L_26 = V_3;
+		if (!L_26)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		int32_t* L_27 = ___0_output;
+		int32_t L_28 = ___1_index;
+		int32_t L_29 = L_28;
+		___1_index = ((int32_t)il2cpp_codegen_add(L_29, 1));
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_30 = ___2_val;
+		int32_t L_31 = L_30.___w;
+		*((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_27, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_29), 4))))) = (int32_t)L_31;
+	}
+
+IL_0071:
+	{
+		int32_t L_32 = ___1_index;
+		V_4 = L_32;
+		goto IL_0076;
+	}
+
+IL_0076:
+	{
+		int32_t L_33 = V_4;
+		return L_33;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Node_get_IsLeaf_m099781B092BFB952D02735626FED6A28C03FA799_inline (Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		uint8_t L_0;
+		L_0 = Node_get_Flags_m2BA298142B080473B77567FC7123CD4E2EE04A01_inline(__this, NULL);
+		return (bool)((!(((uint32_t)L_0) <= ((uint32_t)0)))? 1 : 0);
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* __this, bool ___0_x, bool ___1_y, bool ___2_z, bool ___3_w, const RuntimeMethod* method) 
+{
+	{
+		bool L_0 = ___0_x;
+		__this->___x = L_0;
+		bool L_1 = ___1_y;
+		__this->___y = L_1;
+		bool L_2 = ___2_z;
+		__this->___z = L_2;
+		bool L_3 = ___3_w;
+		__this->___w = L_3;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void int4__ctor_m48F9FB97F5956250E7BE7C6EB19B046CFBD37FE5_inline (int4_tBA77D4945786DE82C3A487B33955EA1004996052* __this, int32_t ___0_v, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_v;
+		__this->___x = L_0;
+		int32_t L_1 = ___0_v;
+		__this->___y = L_1;
+		int32_t L_2 = ___0_v;
+		__this->___z = L_2;
+		int32_t L_3 = ___0_v;
+		__this->___w = L_3;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BodyPairWriter_AddPairs_mC3C4AD3E2559C8E567E6D790F21DC5B44C22F431_inline (BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446* __this, int32_t ___0_pairLeft, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___1_pairsRight, int32_t ___2_countR, const RuntimeMethod* method) 
+{
+	int32_t* V_0 = NULL;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	int32_t* V_3 = NULL;
+	{
+		U3Cm_PairsLeftU3Ee__FixedBuffer_tE8DEA62B5C8F8095510C91F30B2ADE9D5670C4BE* L_0 = (U3Cm_PairsLeftU3Ee__FixedBuffer_tE8DEA62B5C8F8095510C91F30B2ADE9D5670C4BE*)(&__this->___m_PairsLeft);
+		int32_t* L_1 = (int32_t*)(&L_0->___FixedElementField);
+		V_1 = L_1;
+		int32_t* L_2 = V_1;
+		V_0 = (int32_t*)((uintptr_t)L_2);
+		int32_t* L_3 = V_0;
+		int32_t L_4 = __this->___m_Count;
+		int32_t L_5 = ___0_pairLeft;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		int4__ctor_m48F9FB97F5956250E7BE7C6EB19B046CFBD37FE5_inline((&L_6), L_5, NULL);
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int32_t*)il2cpp_codegen_add((intptr_t)L_3, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_4), 4)))) = L_6;
+		V_1 = (int32_t*)((uintptr_t)0);
+		U3Cm_PairsRightU3Ee__FixedBuffer_t98991BD2A37CC20B3E09AB228344EC6F4BCEA409* L_7 = (U3Cm_PairsRightU3Ee__FixedBuffer_t98991BD2A37CC20B3E09AB228344EC6F4BCEA409*)(&__this->___m_PairsRight);
+		int32_t* L_8 = (int32_t*)(&L_7->___FixedElementField);
+		V_3 = L_8;
+		int32_t* L_9 = V_3;
+		V_2 = (int32_t*)((uintptr_t)L_9);
+		int32_t* L_10 = V_2;
+		int32_t L_11 = __this->___m_Count;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_12 = ___1_pairsRight;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int32_t*)il2cpp_codegen_add((intptr_t)L_10, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_11), 4)))) = L_12;
+		V_3 = (int32_t*)((uintptr_t)0);
+		int32_t L_13 = __this->___m_Count;
+		int32_t L_14 = ___2_countR;
+		__this->___m_Count = ((int32_t)il2cpp_codegen_add(L_13, L_14));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Node_get_IsInternal_mC1D2E844649E12DE5EA0A2ACFA8A90344C1E3F3D_inline (Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD_il2cpp_TypeInfo_var);
+		uint8_t L_0;
+		L_0 = Node_get_Flags_m2BA298142B080473B77567FC7123CD4E2EE04A01_inline(__this, NULL);
+		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BodyPairWriter_AddPairs_m089CA5DD589958E40D70D09584429C1D0C617EFA_inline (BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446* __this, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___0_pairsLeft, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___1_pairsRight, int32_t ___2_count, bool ___3_swapped, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	int32_t* V_3 = NULL;
+	int32_t* V_4 = NULL;
+	int32_t* V_5 = NULL;
+	int32_t* V_6 = NULL;
+	int32_t* V_7 = NULL;
+	int32_t* V_8 = NULL;
+	{
+		bool L_0 = ___3_swapped;
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		U3Cm_PairsRightU3Ee__FixedBuffer_t98991BD2A37CC20B3E09AB228344EC6F4BCEA409* L_2 = (U3Cm_PairsRightU3Ee__FixedBuffer_t98991BD2A37CC20B3E09AB228344EC6F4BCEA409*)(&__this->___m_PairsRight);
+		int32_t* L_3 = (int32_t*)(&L_2->___FixedElementField);
+		V_2 = L_3;
+		int32_t* L_4 = V_2;
+		V_1 = (int32_t*)((uintptr_t)L_4);
+		int32_t* L_5 = V_1;
+		int32_t L_6 = __this->___m_Count;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_7 = ___0_pairsLeft;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int32_t*)il2cpp_codegen_add((intptr_t)L_5, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_6), 4)))) = L_7;
+		V_2 = (int32_t*)((uintptr_t)0);
+		U3Cm_PairsLeftU3Ee__FixedBuffer_tE8DEA62B5C8F8095510C91F30B2ADE9D5670C4BE* L_8 = (U3Cm_PairsLeftU3Ee__FixedBuffer_tE8DEA62B5C8F8095510C91F30B2ADE9D5670C4BE*)(&__this->___m_PairsLeft);
+		int32_t* L_9 = (int32_t*)(&L_8->___FixedElementField);
+		V_4 = L_9;
+		int32_t* L_10 = V_4;
+		V_3 = (int32_t*)((uintptr_t)L_10);
+		int32_t* L_11 = V_3;
+		int32_t L_12 = __this->___m_Count;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_13 = ___1_pairsRight;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int32_t*)il2cpp_codegen_add((intptr_t)L_11, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_12), 4)))) = L_13;
+		V_4 = (int32_t*)((uintptr_t)0);
+		goto IL_00ae;
+	}
+
+IL_0058:
+	{
+		U3Cm_PairsLeftU3Ee__FixedBuffer_tE8DEA62B5C8F8095510C91F30B2ADE9D5670C4BE* L_14 = (U3Cm_PairsLeftU3Ee__FixedBuffer_tE8DEA62B5C8F8095510C91F30B2ADE9D5670C4BE*)(&__this->___m_PairsLeft);
+		int32_t* L_15 = (int32_t*)(&L_14->___FixedElementField);
+		V_6 = L_15;
+		int32_t* L_16 = V_6;
+		V_5 = (int32_t*)((uintptr_t)L_16);
+		int32_t* L_17 = V_5;
+		int32_t L_18 = __this->___m_Count;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_19 = ___0_pairsLeft;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int32_t*)il2cpp_codegen_add((intptr_t)L_17, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_18), 4)))) = L_19;
+		V_6 = (int32_t*)((uintptr_t)0);
+		U3Cm_PairsRightU3Ee__FixedBuffer_t98991BD2A37CC20B3E09AB228344EC6F4BCEA409* L_20 = (U3Cm_PairsRightU3Ee__FixedBuffer_t98991BD2A37CC20B3E09AB228344EC6F4BCEA409*)(&__this->___m_PairsRight);
+		int32_t* L_21 = (int32_t*)(&L_20->___FixedElementField);
+		V_8 = L_21;
+		int32_t* L_22 = V_8;
+		V_7 = (int32_t*)((uintptr_t)L_22);
+		int32_t* L_23 = V_7;
+		int32_t L_24 = __this->___m_Count;
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_25 = ___1_pairsRight;
+		*(int4_tBA77D4945786DE82C3A487B33955EA1004996052*)((int32_t*)il2cpp_codegen_add((intptr_t)L_23, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_24), 4)))) = L_25;
+		V_8 = (int32_t*)((uintptr_t)0);
+	}
+
+IL_00ae:
+	{
+		int32_t L_26 = __this->___m_Count;
+		int32_t L_27 = ___2_count;
+		__this->___m_Count = ((int32_t)il2cpp_codegen_add(L_26, L_27));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BodyPairWriter_FlushIfNeeded_m9B6D142FEC2243F9BDBD693663A3E7069BC3562E_inline (BodyPairWriter_t55B633959F5B9F2EE643AFBFD16D3CABA165D446* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		int32_t L_0 = __this->___m_Count;
+		V_0 = (bool)((((int32_t)((((int32_t)L_0) < ((int32_t)((int32_t)192)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		BodyPairWriter_Flush_mF27A3CF0187BB9A2EC4D9113873CE0ACBF0EE104(__this, NULL);
+	}
+
+IL_001e:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_gshared_inline (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___U3CMaxFractionU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_gshared_inline (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___U3CMaxFractionU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_gshared_inline (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___U3CMaxFractionU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AllHitsCollector_1_get_MaxFraction_m2FBAFEDF3EE34124C2BBCA0D8EB4ADA2DE7FB651_gshared_inline (AllHitsCollector_1_tC872636EBF2DE906F2D4A5722CC7E9D07F45A3C7* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___U3CMaxFractionU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AnyHitCollector_1_get_MaxFraction_mD44814005A33CD3DFB8CD378A1F51620954AD0E9_gshared_inline (AnyHitCollector_1_tA9C9E72F1FFBF12283487D1180A0D0855612CAB3* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___U3CMaxFractionU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ClosestHitCollector_1_get_MaxFraction_m7623F138A458334F43D57B424BC984705C2D835D_gshared_inline (ClosestHitCollector_1_t82275FFABACD21928C217C44F9E750BEDF8BA4EE* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___U3CMaxFractionU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Node_get_Flags_m2BA298142B080473B77567FC7123CD4E2EE04A01_inline (Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* __this, const RuntimeMethod* method) 
+{
+	{
+		uint32_t L_0 = __this->___m_NodeData;
+		return (uint8_t)((int32_t)(uint8_t)L_0);
+	}
+}

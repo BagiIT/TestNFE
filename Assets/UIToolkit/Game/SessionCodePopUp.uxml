@@ -1,0 +1,17 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/GameUIStyle.uss?fileID=7433441132597879392&amp;guid=0db2e0309ecb979449fbac6e0eb78559&amp;type=3#GameUIStyle" />
+    <engine:VisualElement name="Canvas" picking-mode="Ignore" class="canvas canvas-transparent-background" style="flex-grow: 1;">
+        <engine:VisualElement name="Container" picking-mode="Ignore" class="container" style="flex-grow: 0;">
+            <engine:VisualElement name="UIWrapper" picking-mode="Ignore" style="flex-grow: 1;">
+                <engine:VisualElement name="ConnectionPanel" picking-mode="Ignore" style="flex-grow: 1;">
+                    <engine:VisualElement name="SessionContainer" picking-mode="Ignore" style="flex-grow: 1;">
+                        <engine:Label text="Join Code" name="SessionCodeLable" picking-mode="Ignore" />
+                        <engine:TextField name="SessionField" value="_" tabindex="8" />
+                        <engine:Button text="Join Existing Game" name="JoinButton" tabindex="9" />
+                    </engine:VisualElement>
+                    <engine:Button text="Cancle" name="CancleButton" tabindex="11" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

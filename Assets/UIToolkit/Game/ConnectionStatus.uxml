@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/GameUIStyle.uss?fileID=7433441132597879392&amp;guid=0db2e0309ecb979449fbac6e0eb78559&amp;type=3#GameUIStyle" />
+    <engine:VisualElement name="Canvas" picking-mode="Ignore" class="canvas canvas-transparent-background canvas-justify-bottom" style="flex-grow: 1;">
+        <engine:VisualElement name="Container" picking-mode="Ignore" class="container container-in-game" style="flex-grow: 0;">
+            <engine:VisualElement name="UIWrapper" picking-mode="Ignore" style="flex-grow: 0;">
+                <engine:VisualElement name="UILayour" picking-mode="Ignore" style="flex-grow: 0;">
+                    <engine:Label text="Connecting..." name="ConnectionStatus" picking-mode="Ignore" class="text-size-xsmall" />
+                </engine:VisualElement>
+                <engine:Button text="Cancle&#10;" name="CancleButton" class="text-size-xsmall" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
